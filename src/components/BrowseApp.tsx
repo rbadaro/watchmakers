@@ -114,7 +114,11 @@ function MakerCard({ item }: { item: QueryItem }) {
       {(m.location || m.country) !== '' && (
         <p class="mt-1 text-sm text-ink-dim">{m.location !== '' ? m.location : m.country}</p>
       )}
-      <p class="mt-1 text-sm text-ink numerals">{m.priceText ?? 'Price on request'}</p>
+      {/* Some fallback price texts are long provenance notes (Tier S canon
+          makers); clamp to one line, full text on hover via title. */}
+      <p class="mt-1 text-sm text-ink numerals line-clamp-1" title={m.priceText ?? undefined}>
+        {m.priceText ?? 'Price on request'}
+      </p>
       {m.bodyExcerpt !== '' && (
         <p class="mt-2 text-sm leading-relaxed text-ink-dim line-clamp-2">{m.bodyExcerpt}</p>
       )}
