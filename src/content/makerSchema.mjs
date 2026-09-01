@@ -19,7 +19,7 @@ export function makeMakerSchema(z) {
     z.date().transform((d) => d.toISOString().slice(0, 10)),
   ]);
 
-  const currency = z.enum(['USD', 'CHF', 'EUR', 'GBP', 'JPY', 'AUD']);
+  const currency = z.enum(['USD', 'CHF', 'EUR', 'GBP', 'JPY', 'AUD', 'HKD']);
 
   const priceVariant = z
     .object({
@@ -73,8 +73,10 @@ export function makeMakerSchema(z) {
       })
       .optional(),
     status: z.enum(['active', 'dormant', 'retired']),
-    location: z.string().min(1),
-    country: z.string().min(1),
+    // Optional: the source document leaves location unscored/undocumented for
+    // some established Tier S canon brands (Ming, Ressence, Czapek, ...).
+    location: z.string().min(1).optional(),
+    country: z.string().min(1).optional(),
     founded: z.number().int().min(1800).max(2100).optional(),
     lineage: z.array(z.string().min(1)).optional(),
     movement_making: z

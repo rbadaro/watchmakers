@@ -7,9 +7,10 @@
     "CHF": 1.094,
     "JPY": 216.2,
     "AUD": 1.892,
-    "GBP": 1.0
+    "GBP": 1.0,
+    "HKD": 10.62
   },
   "approximate": true,
-  "source": "Barchart major crossrates table (crawled ~20h before retrieval) corroborated by live same-day figures: GBP/USD 1.35427 (Finnhub 31 Aug 2026), sterling $1.35575 and EUR/USD 1.1623 (Reuters, 1 Sep 2026), AUD/USD 0.7167 (Finnhub 31 Aug 2026); crosses consistent to <0.2%. Indicative mid-market rates for sorting/banding only, not for display.",
+  "source": "Barchart major crossrates table (crawled ~20h before retrieval) corroborated by live same-day figures: GBP/USD 1.35427 (Finnhub 31 Aug 2026), sterling $1.35575 and EUR/USD 1.1623 (Reuters, 1 Sep 2026), AUD/USD 0.7167 (Finnhub 31 Aug 2026); crosses consistent to <0.2%. Indicative mid-market rates for sorting/banding only, not for display. HKD derived from the same session via Yahoo USDHKD=X 7.8391 (9-day-old crawl) x GBPUSD 1.3546 = 10.62.",
   "note": "Used only to derive priceFromGBP for sorting and price-band filters. Display always uses the original currency amount. Refresh when the cross rates drift by more than a few percent."
 }
