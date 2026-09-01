@@ -345,7 +345,7 @@ renders; once remote exists, push to main deploys to Pages (live URL 200).
 - [x] Base layout with settled chrome (title left, Tiers + About right;
       footer with build date, maker count, GitHub link)
 - [x] Empty index page rendering through the layout
-- [ ] `astro.config.mjs` site/base set for Pages (project-pages base path)
+- [x] `astro.config.mjs` site/base set for Pages (project-pages base path)
 - [ ] `.github/workflows/ci.yml` (check + build) and `deploy.yml` (build +
       Pages deploy on main), deploy deferred until remote exists
 - [ ] README stub with setup commands

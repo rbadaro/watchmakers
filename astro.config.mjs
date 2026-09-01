@@ -5,6 +5,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://rbadaro.github.io',
+  base: '/watchmakers',
   integrations: [preact({ compat: true })],
   vite: {
     plugins: [tailwindcss()],
