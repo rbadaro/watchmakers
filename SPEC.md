@@ -121,7 +121,7 @@ instagram: bradleytaylor.ca       # optional, bare handle without @
 price:                            # optional FALLBACK summary, only when models unknown
   text: "USD 60,000 to 90,000"
   amount: 60000
-  currency: USD                   # enum: USD | CHF | EUR | GBP | JPY | AUD
+  currency: USD                   # enum: USD | CHF | EUR | GBP | JPY | AUD | HKD
 models:                           # the watch/series collection
   - name: Ardea
     calibre: Cal. 475RS, hand-wound   # optional
@@ -353,19 +353,19 @@ renders; once remote exists, push to main deploys to Pages (live URL 200).
 **M2 Data layer** — acceptance: `pnpm build` green with all makers; validator
 green; gap report matches the documented known gaps.
 
-- [ ] `src/content/config.ts`: Zod schema v2 exactly per section 4
-- [ ] `scripts/validate.mjs`: parse every YAML, slug/name uniqueness, URL
+- [x] `src/content/config.ts`: Zod schema v2 exactly per section 4
+- [x] `scripts/validate.mjs`: parse every YAML, slug/name uniqueness, URL
       format, enum checks, gap report (missing website/IG) as warning
-- [ ] `scripts/new-maker.mjs`: scaffolds a valid YAML skeleton
-- [ ] `data/fx-gbp.json`: dated FX snapshot for GBP normalization
-- [ ] `lib/prices.ts`: derive `priceFromGBP` and display "from" line
-- [ ] `scripts/seed-from-doc.mjs`: import from `~/workspace/watchdoc-research`
+- [x] `scripts/new-maker.mjs`: scaffolds a valid YAML skeleton
+- [x] `data/fx-gbp.json`: dated FX snapshot for GBP normalization
+- [x] `lib/prices.ts`: derive `priceFromGBP` and display "from" line
+- [x] `scripts/seed-from-doc.mjs`: import from `~/workspace/watchdoc-research`
       (agent1-8.json, copy_tierc.json, copy_tierd.json, browser_results.json);
       dedupe Romain Gauthier and Andreas Strehler to one record each; strip
       "Estimated price:" / "Website:" / "Instagram:" prefixes; body verbatim;
       added dates per spec
-- [ ] Run seed; hand-check 5 random files including one sparse record
-- [ ] Regenerate any maker-level price text into `models` where parseable,
+- [x] Run seed; hand-check 5 random files including one sparse record
+- [x] Regenerate any maker-level price text into `models` where parseable,
       `price` fallback where not
 
 **M3 Browse** — acceptance: query params round-trip; result count correct
