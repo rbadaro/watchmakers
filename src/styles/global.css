@@ -158,3 +158,60 @@
 .markdown-body pre {
   @apply overflow-x-auto rounded-card border border-hairline p-3 my-4 text-sm;
 }
+
+/*
+ * Models table (detail page). Desktop: a normal table. Below the md
+ * breakpoint each row collapses into a stacked label/value card with the
+ * column header replayed from the cell's data-label attribute.
+ */
+.responsive-table thead th {
+  @apply text-left text-xs font-medium uppercase tracking-wide text-ink-faint px-4 pb-2 pt-4;
+}
+
+.responsive-table td {
+  @apply px-4 py-3 align-top text-sm border-t border-hairline;
+}
+
+@media (max-width: 767.98px) {
+  .responsive-table thead {
+    display: none;
+  }
+
+  .responsive-table,
+  .responsive-table tbody,
+  .responsive-table tr,
+  .responsive-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .responsive-table tr {
+    border-top: 1px solid var(--color-hairline);
+    padding-block: 0.75rem;
+  }
+
+  .responsive-table tr:first-child {
+    border-top: 0;
+  }
+
+  .responsive-table td {
+    border: 0;
+    padding: 0.125rem 1rem;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-ink-faint);
+    margin-bottom: 0.125rem;
+  }
+}
+
+/* Sticky header offset for in-page anchors (About rubric) */
+[id] {
+  scroll-margin-top: 5rem;
+}

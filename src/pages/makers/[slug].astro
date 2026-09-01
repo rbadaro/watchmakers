@@ -1,0 +1,362 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { marked } from 'marked';
+import Base from '../../layouts/Base.astro';
+import FactRow from '../../components/FactRow.astro';
+import TierBadge from '../../components/TierBadge.astro';
+import { listMakers } from '../../lib/makers';
+import type { MakerEntry } from '../../lib/makers';
+import {
+  MODEL_STATUS_LABELS,
+  MOVEMENT_LABELS,
+  ORDERING_LABELS,
+  STATUS_LABELS,
+  formatScore,
+  firstSentence,
+  pricesLabel,
+  productionLabel,
+  yearsLabel,
+} from '../../lib/format';
+export const getStaticPaths = (async () => {
+  const makers = await listMakers();
+  return makers.map((entry) => {
+    // Prev/next are strictly within the maker's own tier, over the settled
+    // order (tier S..E then name A..Z).
+    const sameTier = makers.filter((m) => m.data.tier === entry.data.tier);
+    const idx = sameTier.findIndex((m) => m.data.slug === entry.data.slug);
+    return {
+      params: { slug: entry.data.slug },
+      props: {
+        entry,
+        prev: idx > 0 ? sameTier[idx - 1] : null,
+        next: idx < sameTier.length - 1 ? sameTier[idx + 1] : null,
+      },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+const { entry, prev, next } = Astro.props as {
+  entry: MakerEntry;
+  prev: MakerEntry | null;
+  next: MakerEntry | null;
+};
+const m = entry.data;
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const aboutAm = `${base}about/#am-scale`;
+
+const bodyHtml = marked.parse(m.body, { async: false }) as string;
+const pageDescription = firstSentence(m.body);
+
+const locationLine = [m.location, m.country && m.country !== m.location ? m.country : null]
+  .filter(Boolean)
+  .join(', ');
+const productionPerYear =
+  m.production_per_year == null
+    ? null
+    : Array.isArray(m.production_per_year)
+      ? `${m.production_per_year[0]}-${m.production_per_year[1]} watches/year (est.)`
+      : `~${m.production_per_year} watches/year (est.)`;
+const ordering =
+  m.ordering == null
+    ? null
+    : [ORDERING_LABELS[m.ordering.status] ?? m.ordering.status, m.ordering.note ?? null]
+        .filter(Boolean)
+        .join(' · ');
+
+const MODEL_PILL: Record<string, string> = {
+  current: 'bg-tier-c-bg text-tier-c-text',
+  sold_out: 'bg-tier-d-bg text-tier-d-text',
+  discontinued: 'bg-tier-e-bg text-tier-e-text',
+};
+
+// The shared schema factory lives in an untyped .mjs file, so entry data
+// reaches templates as `any`; annotate the nested shapes used below.
+interface AwardShape {
+  year?: number;
+  name: string;
+  result?: string;
+  models?: string[];
+}
+
+interface ModelShape {
+  name: string;
+  calibre?: string;
+  years?: { introduced?: number; until?: number };
+  production?: { series_total?: number; per_year?: number; note?: string };
+  status?: 'current' | 'sold_out' | 'discontinued';
+  prices?: { text?: string; amount?: number; currency?: string }[];
+}
+
+function modelStatusClass(status: string | undefined): string {
+  return MODEL_PILL[status ?? 'current'] ?? MODEL_PILL.current;
+}
+
+function outletName(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return url;
+  }
+}
+---
+
+<Base title={m.name} description={pageDescription}>
+  <article class="content-wrap py-10">
+    {/* Back link: restores the browsing context (grid filters, scroll) via
+        document.referrer when we came from our own index or tiers board. */}
+    <a
+      id="back-link"
+      href={base}
+      class="text-sm text-ink-dim hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-sm"
+    >
+      ← All makers
+    </a>
+
+    <header class="mt-4 flex flex-wrap items-baseline gap-x-3 gap-y-2">
+      <h1 class="text-3xl font-semibold tracking-tight text-ink">{m.name}</h1>
+      <p class="text-sm text-ink-faint">
+        {m.aliases && m.aliases.length > 0 ? m.aliases.join(' · ') : null}
+      </p>
+    </header>
+
+    <div class="mt-6 grid grid-cols-1 gap-8 lg:grid-cols-[1fr_20rem]">
+      <div class="markdown-body min-w-0" set:html={bodyHtml} />
+
+      <aside class="lg:order-last">
+        <div
+          class="rounded-card-lg border border-hairline bg-surface p-5 shadow-card"
+          aria-label={`Facts about ${m.name}`}
+        >
+          <dl>
+            <FactRow label="Tier">
+              <TierBadge tier={m.tier} />
+              {m.tier_note && <span class="ml-2 text-xs text-ink-dim">{m.tier_note}</span>}
+            </FactRow>
+            {(m.scores?.A != null || m.scores?.M != null) && (
+              <FactRow label="Scores">
+                <span class="inline-flex flex-wrap gap-x-3 gap-y-1">
+                  {m.scores?.A != null && (
+                    <a
+                      href={aboutAm}
+                      class="numerals text-accent hover:underline"
+                      title="Movement authorship"
+                    >
+                      A {formatScore(m.scores.A)}
+                    </a>
+                  )}
+                  {m.scores?.M != null && (
+                    <a
+                      href={aboutAm}
+                      class="numerals text-accent hover:underline"
+                      title="Physical manufacture"
+                    >
+                      M {formatScore(m.scores.M)}
+                    </a>
+                  )}
+                </span>
+              </FactRow>
+            )}
+            <FactRow label="Status">{STATUS_LABELS[m.status] ?? m.status}</FactRow>
+            {locationLine !== '' && <FactRow label="Location">{locationLine}</FactRow>}
+            {m.founded != null && <FactRow label="Founded">{m.founded}</FactRow>}
+            {m.movement_making && (
+              <FactRow label="Movement making">{MOVEMENT_LABELS[m.movement_making]}</FactRow>
+            )}
+            {productionPerYear != null && (
+              <FactRow label="Production">
+                <span class="numerals">{productionPerYear}</span>
+              </FactRow>
+            )}
+            {ordering != null && <FactRow label="Ordering">{ordering}</FactRow>}
+            {m.lineage && m.lineage.length > 0 && (
+              <FactRow label="Lineage">
+                <ul class="list-none space-y-1">
+                  {m.lineage.map((item: string) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              </FactRow>
+            )}
+            {(m.website || m.instagram) && (
+              <FactRow label="Links">
+                <ul class="list-none space-y-1">
+                  {m.website && (
+                    <li>
+                      <a
+                        href={m.website}
+                        rel="noopener"
+                        class="text-accent hover:underline break-all"
+                      >
+                        {m.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+                      </a>
+                    </li>
+                  )}
+                  {m.instagram && (
+                    <li>
+                      <a
+                        href={`https://www.instagram.com/${m.instagram}/`}
+                        rel="noopener"
+                        class="text-accent hover:underline break-all"
+                      >
+                        @{m.instagram}
+                      </a>
+                    </li>
+                  )}
+                </ul>
+              </FactRow>
+            )}
+            {m.awards && m.awards.length > 0 && (
+              <FactRow label="Awards">
+                <ul class="list-none space-y-1.5">
+                  {m.awards.map((award: AwardShape) => (
+                    <li>
+                      {award.year != null && <span class="numerals">{award.year} · </span>}
+                      {award.name}
+                      {award.result && <span class="text-ink-dim"> ({award.result})</span>}
+                    </li>
+                  ))}
+                </ul>
+              </FactRow>
+            )}
+            <FactRow label="Record">
+              <span class="text-xs text-ink-faint">
+                <span class="block">Added <time datetime={m.added}>{m.added}</time></span>
+                <span class="block">Updated <time datetime={m.updated}>{m.updated}</time></span>
+                {m.last_verified && (
+                  <span class="block">
+                    Links checked <time datetime={m.last_verified}>{m.last_verified}</time>
+                  </span>
+                )}
+              </span>
+            </FactRow>
+          </dl>
+        </div>
+      </aside>
+    </div>
+
+    {
+      m.models && m.models.length > 0 ? (
+        <section class="mt-10" aria-label="Watches by this maker">
+          <h2 class="text-lg font-semibold tracking-tight text-ink">Models</h2>
+          <div class="mt-3 overflow-x-auto rounded-card border border-hairline bg-surface shadow-card">
+            <table class="responsive-table w-full">
+              <thead>
+                <tr>
+                  <th scope="col">Model</th>
+                  <th scope="col">Calibre</th>
+                  <th scope="col">Years</th>
+                  <th scope="col">Production</th>
+                  <th scope="col">Prices</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {m.models.map((model: ModelShape) => {
+                  const quiet = model.status !== 'current';
+                  const whereVisible = (
+                    <span
+                      class={`inline-flex rounded-full px-2.5 py-0.5 text-xs font-medium ${modelStatusClass(model.status)}`}
+                    >
+                      {MODEL_STATUS_LABELS[model.status ?? 'current']}
+                    </span>
+                  );
+                  return (
+                    <tr class={quiet ? 'text-ink-faint' : 'text-ink'}>
+                      <td data-label="Model" class="font-medium">
+                        {model.name}
+                      </td>
+                      <td data-label="Calibre">{model.calibre ?? '\u2014'}</td>
+                      <td data-label="Years" class="numerals whitespace-nowrap">
+                        {yearsLabel(model.years) || '\u2014'}
+                      </td>
+                      <td data-label="Production">{productionLabel(model.production) || '\u2014'}</td>
+                      <td data-label="Prices" class="numerals">
+                        {pricesLabel(model.prices) || 'not published'}
+                      </td>
+                      <td data-label="Status">{whereVisible}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ) : (
+        m.price?.text && (
+          <section class="mt-10" aria-label="Pricing">
+            <h2 class="text-lg font-semibold tracking-tight text-ink">Pricing</h2>
+            <p class="mt-2 text-sm text-ink-faint">{m.price.text}</p>
+          </section>
+        )
+      )
+    }
+
+    {
+      m.sources && m.sources.length > 0 && (
+        <section class="mt-10 border-t border-hairline pt-4" aria-label="Sources">
+          <h2 class="text-xs font-medium uppercase tracking-wide text-ink-faint">Sources</h2>
+          <ul class="mt-2 space-y-1 text-xs text-ink-faint">
+            {m.sources.map((url: string) => (
+              <li>
+                <a href={url} rel="noopener" class="text-ink-dim hover:text-accent break-all">
+                  {outletName(url)}
+                </a>
+                {m.last_verified && <span class="numerals">, {m.last_verified}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <nav
+      class="mt-12 flex items-center justify-between gap-4 border-t border-hairline pt-6 text-sm"
+      aria-label="More makers in this tier"
+    >
+      {
+        prev ? (
+          <a
+            href={`${base}makers/${prev.data.slug}/`}
+            class="text-ink-dim hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-sm"
+          >
+            &larr; {prev.data.name} (Tier {prev.data.tier})
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        next ? (
+          <a
+            href={`${base}makers/${next.data.slug}/`}
+            class="text-ink-dim hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-sm"
+          >
+            {next.data.name} (Tier {next.data.tier}) &rarr;
+          </a>
+        ) : (
+          <span />
+        )
+      }
+    </nav>
+  </article>
+
+  <script is:inline>
+    (function () {
+      var link = document.getElementById('back-link');
+      if (!link || !document.referrer) return;
+      var ref;
+      try {
+        ref = new URL(document.referrer);
+      } catch {
+        return;
+      }
+      if (ref.origin !== window.location.origin) return;
+      var path = ref.pathname;
+      var basePath = window.location.pathname.split('/').slice(0, 2).join('/') + '/';
+      if (path === basePath || path === basePath + 'tiers/' || path === basePath.slice(0, -1)) {
+        link.setAttribute('href', document.referrer);
+      }
+    })();
+  </script>
+</Base>
