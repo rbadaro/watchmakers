@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/*
+ * Movement Map theme tokens (SPEC section 5)
+ * Light, Apple-like. No dark palette is designed or shipped.
+ */
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Surfaces */
+  --color-page: #f5f5f7;
+  --color-surface: #ffffff;
+  --color-hairline: rgba(0, 0, 0, 0.06);
+
+  /* Ink */
+  --color-ink: #1d1d1f;
+  --color-ink-dim: #6e6e73;
+  --color-ink-faint: #86868b;
+
+  /* The single accent, interactive affordances only */
+  --color-accent: #0066cc;
+
+  /* Tier badge chips: pastel background, 600-level text */
+  --color-tier-s-bg: #f7f2e5;
+  --color-tier-s-text: #8a6d1d;
+  --color-tier-a-bg: #f2ecfa;
+  --color-tier-a-text: #6e3dc4;
+  --color-tier-b-bg: #e8f1fb;
+  --color-tier-b-text: #1d5fb8;
+  --color-tier-c-bg: #e9f6ec;
+  --color-tier-c-text: #2d7a3c;
+  --color-tier-d-bg: #fdf0e0;
+  --color-tier-d-text: #a05c10;
+  --color-tier-e-bg: #eef0f3;
+  --color-tier-e-text: #5b6470;
+
+  /* Card geometry */
+  --radius-card: 1rem;
+  --radius-card-lg: 1.125rem;
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.06);
+
+  /* Layout */
+  --breakpoint-wide: 75rem; /* 1200px content cap */
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+
+  body {
+    @apply bg-page text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: -0.02em;
+  }
+
+  /* Short ease transitions only, motion always opt-out-able */
+  a,
+  button,
+  input,
+  select {
+    transition:
+      color 160ms ease,
+      background-color 160ms ease,
+      border-color 160ms ease,
+      box-shadow 160ms ease;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
+  }
+}
+
+@utility numerals {
+  font-variant-numeric: tabular-nums;
+}
+
+@utility content-wrap {
+  width: 100%;
+  max-width: 75rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}

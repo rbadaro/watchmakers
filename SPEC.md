@@ -339,7 +339,7 @@ as the repo answers in section 11 arrive. Commit conventions: `feat:`, `fix:`,
 renders; once remote exists, push to main deploys to Pages (live URL 200).
 
 - [x] `pnpm create astro` minimal template, TypeScript strict
-- [ ] Tailwind v4 via `@tailwindcss/vite`; light theme tokens in global.css
+- [x] Tailwind v4 via `@tailwindcss/vite`; light theme tokens in global.css
       (Apple palette from section 5, no dark palette)
 - [ ] `pnpm add @astrojs/preact preact fuse.js` + astro check wired into scripts
 - [ ] Base layout with settled chrome (title left, Tiers + About right;
