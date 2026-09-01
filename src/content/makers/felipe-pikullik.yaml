@@ -1,0 +1,40 @@
+slug: felipe-pikullik
+name: Felipe Pikullik
+type: individual
+people:
+  - Felipe Pikullik
+tier: C
+scores:
+  A: 5
+  M: 4
+status: active
+location: Berlin
+country: Germany
+movement_making: partial
+website: https://felipe-pikullik.de/
+instagram: felipepikullik_official
+price:
+  text: Mondphase 1 Meteorite EUR 32,000 excl. tax (original Mondphase 1 EUR 24,000, sold out)
+models:
+  - name: Mondphase 1 Meteorite
+    prices:
+      - amount: 32000
+        currency: EUR
+    status: current
+  - name: original Mondphase 1
+    prices:
+      - amount: 24000
+        currency: EUR
+    status: sold_out
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Felipe Pikullik
+body: |-
+  Pikullik's positioning changed materially in 2025–26.
+
+  Earlier watches often centred on extreme finishing of existing movement architectures. The FPMP2 and especially the newer FPA1 move him decisively toward proprietary manufacture.
+
+  The current work includes a handmade balance, although specialist regulating components remain externally sourced.
+
+  Important collector distinction: current FPA1 watches are relatively accessible and not tightly numerically limited. That makes Pikullik less of an allocation hunt and more of an unusually compelling value proposition.

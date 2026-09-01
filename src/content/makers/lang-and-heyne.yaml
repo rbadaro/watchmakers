@@ -1,0 +1,57 @@
+slug: lang-and-heyne
+name: Lang & Heyne
+type: brand
+tier: S
+scores:
+  A: 4.5
+  M:
+    - 4.5
+    - 5
+status: active
+location: Germany
+country: Germany
+movement_making: partial
+website: https://www.lang-und-heyne.de
+instagram: langheyne
+price:
+  text: 'Georg: EUR 38,900 (steel) to EUR 52,900 (platinum); Friedrich III Manufaktur Edition (limited to 5): EUR 50,000 excl. VAT; Anton tourbillon: EUR 103,900 (rose gold) to EUR 114,900 (platinum); Anton Manufaktur Edition: EUR 160,000 excl. tax'
+models:
+  - name: Georg
+    prices:
+      - text: (steel) to
+        amount: 38900
+        currency: EUR
+      - text: platinum
+        amount: 52900
+        currency: EUR
+    status: current
+  - name: Friedrich III Manufaktur Edition
+    production:
+      series_total: 5
+    prices:
+      - amount: 50000
+        currency: EUR
+    status: current
+  - name: Anton tourbillon
+    prices:
+      - text: (rose gold) to
+        amount: 103900
+        currency: EUR
+      - text: platinum
+        amount: 114900
+        currency: EUR
+    status: current
+  - name: Anton Manufaktur Edition
+    prices:
+      - amount: 160000
+        currency: EUR
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Lang & Heyne
+body: |-
+  Saxon construction, gorgeous three-quarter bridges, screwed chatons and extremely traditional finishing.
+
+  Founder Marco Lang is no longer the central figure, so today this is a manufacture proposition rather than collecting one individual's work.
+  Watchmaking quality: excellent.

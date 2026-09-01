@@ -1,0 +1,42 @@
+slug: vincent-calabrese
+name: Vincent Calabrese
+type: individual
+people:
+  - Vincent Calabrese
+tier: A
+scores:
+  A: 5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://www.vincent-calabrese.com/en/
+instagram: calabrese.vincent
+price:
+  text: Avvent'Ora CHF 3,000 quartz / CHF 9,800 automatic; Kronos CHF 8,800
+models:
+  - name: Avvent'Ora
+    prices:
+      - text: quartz /
+        amount: 3000
+        currency: CHF
+      - text: automatic
+        amount: 9800
+        currency: CHF
+    status: current
+  - name: Kronos
+    prices:
+      - amount: 8800
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Vincent Calabrese
+body: |-
+  One of the foundational figures of modern independent watchmaking and a co-founder of the AHCI.
+
+  His long career includes the Spatiale concept and numerous unconventional movement constructions.
+
+  Why he matters: historically more important than his current auction or social-media profile would suggest.

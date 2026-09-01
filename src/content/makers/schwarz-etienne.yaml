@@ -1,0 +1,41 @@
+slug: schwarz-etienne
+name: Schwarz Etienne
+type: brand
+tier: S
+scores:
+  A: 4.5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://www.schwarz-etienne.ch
+instagram: schwarzetienne
+price:
+  text: '1902 Petite Seconde: CHF 18,000 excl. tax; 1902 Reserve de Marche: CHF 19,500 excl. tax; 1902 GMT: CHF 19,850 excl. tax; Geometry, Roswell and La Chaux-de-Fonds tourbillon lines: on request'
+models:
+  - name: 1902 Petite Seconde
+    prices:
+      - amount: 18000
+        currency: CHF
+    status: current
+  - name: 1902 Reserve de Marche
+    prices:
+      - amount: 19500
+        currency: CHF
+    status: current
+  - name: 1902 GMT
+    prices:
+      - amount: 19850
+        currency: CHF
+    status: current
+  - name: Geometry, Roswell and La Chaux-de-Fonds tourbillon lines
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Schwarz Etienne
+body: |-
+  Another sleeper manufacture.
+
+  Schwarz Etienne has deep internal calibre capability and group access to regulating-component production. It also plays an important role supplying movement technology to other independent brands, which can obscure how much capability exists inside the company itself.

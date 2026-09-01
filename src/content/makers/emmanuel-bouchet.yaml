@@ -1,0 +1,32 @@
+slug: emmanuel-bouchet
+name: Emmanuel Bouchet
+type: individual
+people:
+  - Emmanuel Bouchet
+tier: A
+scores:
+  A: 5
+  M: 4.5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://www.emmanuelbouchet.com
+instagram: bouchettimepieces
+price:
+  text: Complication One Contrast CHF 127,000
+models:
+  - name: Complication One Contrast
+    prices:
+      - amount: 127000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Emmanuel Bouchet
+body: |-
+  Bouchet's Complication One established a strong mechanical identity around an unconventional visible escapement and regulating architecture.
+
+  His workshop has pursued unusually deep movement creation.
+  Caveat: commercial visibility has been intermittent, so this is more 'forgotten master' than emerging star.

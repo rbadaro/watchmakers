@@ -1,0 +1,35 @@
+slug: lin-yong-hua
+name: Lin Yong Hua
+type: individual
+people:
+  - Lin Yong Hua
+tier: D
+scores:
+  A: 3
+  M: 4
+status: active
+location: Shenzhen, China
+country: China
+movement_making: partial
+price:
+  text: approx. USD 10,000 to USD 80,000 depending on construction
+models:
+  - name: approx
+    prices:
+      - text: to
+        amount: 10000
+        currency: USD
+      - text: depending on construction
+        amount: 80000
+        currency: USD
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-31'
+updated: '2026-08-31'
+doc_heading: Lin Yong Hua
+body: |-
+  Lin Yong Hua is a self-taught watchmaker in Shenzhen, one of the founding figures of the modern Chinese independent scene and an AHCI member. His watches are deliberately whimsical: the No.3 wandering-hours watch, the Dragonfly Man automaton-style piece, and the No.1 turntable watch all demonstrate that he builds the displays he imagines rather than choosing from a supplier catalogue.
+
+  The manufacture claim is deep for a largely self-taught operation: he makes nearly every component himself, cases included, leaving out only springs and jewels as is standard among purists. Some constructions use Unitas 6498 components inside, while others are closer to full own constructions with his own complications. Pricing ranges widely because the constructions range widely, roughly USD 10,000 for simpler pieces up to USD 80,000 for the most complex.
+
+  Why Tier D and A3 / M4: the physical manufacture is exceptional for a one-man mainland Chinese atelier and has been for years, but authorship sits at 3 because the movement architectures remain partly Unitas-derived and the complications, while charming, are mechanism displays rather than new regulating science. He has also been available for years, which in this thesis counts as maturity rather than discovery. The path toward C is a signature calibre with an own escapement or display module adopted broadly.

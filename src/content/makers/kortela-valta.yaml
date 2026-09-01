@@ -1,0 +1,41 @@
+slug: kortela-valta
+name: Kortela Valta
+type: individual
+people:
+  - Kortela Valta
+tier: D
+scores:
+  A: 3
+  M: 2
+status: active
+location: Porvoo, Finland
+country: Finland
+movement_making: finished_ebauche
+website: https://www.kortelavalta.com/
+instagram: kortelavalta
+price:
+  text: 'Toka (series of 12): EUR 25,500; Eka (8 pieces, 2024): sold out, launch price not published'
+models:
+  - name: Toka
+    production:
+      series_total: 12
+    prices:
+      - amount: 25500
+        currency: EUR
+    status: current
+  - name: Eka
+    years:
+      introduced: 2024
+    production:
+      series_total: 8
+    status: sold_out
+last_verified: '2026-08-31'
+added: '2026-08-31'
+updated: '2026-08-31'
+doc_heading: Kortela Valta
+body: |-
+  Kortela Valta is a two-man workshop in Porvoo. Roope Kortela and Rene Valta met at the Finnish School of Watchmaking in 2021, built their final-year school watch together and launched the brand straight out of their studies, the youngest branch yet on the Finnish line that runs from Voutilainen through Sarpaneva and Koivukoski.
+
+  The Eka (2024, eight pieces) and the Toka (2026, twelve pieces, with a champlevé Grand Feu enamel dial milled in-house from sterling silver) are extensive transformations of the vintage Omega calibre 266 gear train. The compelling detail is the balance: made in-house, free-sprung, with platinum escape weights and a hand-shaped Breguet overcoil fitted to a Carl Haas hairspring. Bridges are the duo's own designs in German silver, machined in Finland, and the dial, hands, crown and movement screws are all made at the bench. The hand finishing is well above anything near the price point.
+
+  Why Tier D and A3 / M2: the main plate, wheels and escapement remain Omega originals, so the movement is theirs by transformation rather than by architecture. That is the same launch position Atelier de Chronométrie used before becoming a collector staple, and the duo openly states that a fully in-house Finnish movement is the goal. Nothing in their bench work suggests they will not get there. Collector thesis: early entry into the next Finnish generation with strong value even before a proprietary calibre exists; the scores move the day that movement lands.

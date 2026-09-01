@@ -1,0 +1,37 @@
+slug: charles-frodsham
+name: Charles Frodsham
+type: brand
+aliases:
+  - Frodsham
+  - Charles Frodsham & Co
+tier: A
+scores:
+  A: 5
+  M: 5
+status: active
+location: London
+country: United Kingdom
+movement_making: full_inhouse
+website: https://frodsham.com/
+instagram: charlesfrodsham
+price:
+  text: 'Double Impulse Chronometer: on request (est. just under GBP 90,000)'
+models:
+  - name: 'Double Impulse Chronometer: on request (est. just under'
+    prices:
+      - text: )
+        amount: 90000
+        currency: GBP
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Charles Frodsham
+body: |-
+  One of the most intellectually satisfying modern independent watches is the Double Impulse Chronometer.
+
+  Its escapement derives from the Daniels and Derek Pratt exploration of double direct impulse and was engineered specifically for the wristwatch.
+
+  The movement displays extraordinarily high manufacturing and finishing integration.
+  Why important: serious continuation of British chronometer and escapement development rather than nostalgic branding.
+  Collector position: established, extremely scarce and difficult.

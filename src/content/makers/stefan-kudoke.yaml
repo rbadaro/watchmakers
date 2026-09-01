@@ -1,0 +1,68 @@
+slug: stefan-kudoke
+name: Stefan Kudoke
+type: individual
+people:
+  - Stefan Kudoke
+aliases:
+  - Kudoke
+  - Kudoke Watches
+tier: B
+scores:
+  A: 4
+  M: 3.5
+status: active
+location: Germany
+country: Germany
+movement_making: partial
+website: https://www.kudoke.eu/en/startpage/
+instagram: kudoke_watches
+price:
+  text: 'KUDOKE 3: EUR 9,350 excl. VAT (special editions like Sky Blue EUR 11,500); KUDOKE 2: approx. EUR 10,701 excl. VAT base (Tremblage EUR 14,451); KUDOKE 1: approx. EUR 8,641 base (Tremblage EUR 12,391); Kudoke Infinity: EUR 14,170; KUDOKE 5: EUR 17,900 excl. VAT.'
+models:
+  - name: KUDOKE 3
+    prices:
+      - amount: 9350
+        currency: EUR
+      - text: )
+        amount: 11500
+        currency: EUR
+    status: current
+  - name: 'KUDOKE 2:'
+    prices:
+      - text: base
+        amount: 10701
+        currency: EUR
+      - text: )
+        amount: 14451
+        currency: EUR
+    status: current
+  - name: 'KUDOKE 1:'
+    prices:
+      - text: base
+        amount: 8641
+        currency: EUR
+      - text: )
+        amount: 12391
+        currency: EUR
+    status: current
+  - name: Kudoke Infinity
+    prices:
+      - amount: 14170
+        currency: EUR
+    status: current
+  - name: KUDOKE 5
+    prices:
+      - amount: 17900
+        currency: EUR
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Stefan Kudoke
+body: |-
+  Kudoke bridges traditional German finishing and genuinely proprietary movement work.
+
+  The Kaliber 1 family is his own design but uses specialist and shared components and historical design influences, hence the lower manufacture score.
+
+  Why attractive: exceptional value for genuinely artisanal German watchmaking.
+  Best thesis: buy for merit and value, not scarcity speculation.

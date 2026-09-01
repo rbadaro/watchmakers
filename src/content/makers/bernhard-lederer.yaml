@@ -1,0 +1,39 @@
+slug: bernhard-lederer
+name: Bernhard Lederer
+type: individual
+people:
+  - Bernhard Lederer
+tier: B
+scores:
+  A: 5
+  M: 4.5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://ledererwatches.com/
+instagram: lederertimepieces
+price:
+  text: 'Central Impulse Chronometer CIC 39: CHF 136,800 excl. tax; CIC 44 in steel or pink gold: CHF 138,600 excl. tax.'
+models:
+  - name: Central Impulse Chronometer CIC 39
+    prices:
+      - amount: 136800
+        currency: CHF
+    status: current
+  - name: CIC 44 in steel or pink gold
+    prices:
+      - amount: 138600
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Bernhard Lederer
+body: |-
+  The Central Impulse Chronometer is one of the most technically compelling modern wristwatches.
+
+  It uses two independent gear trains, twin 10-second remontoires and a central direct-impulse escapement. The architecture was developed over many years.
+
+  This sits intellectually much closer to Daniels or Strehler than to ordinary high-end Swiss-lever watchmaking.
+  Why undervalued: Lederer's name is far less fashionable than the mechanics deserve.

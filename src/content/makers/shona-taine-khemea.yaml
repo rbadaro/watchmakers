@@ -1,0 +1,37 @@
+slug: shona-taine-khemea
+name: Shona Taine / Khemea
+type: brand
+people:
+  - Shona Taine
+aliases:
+  - Khemea
+tier: D
+scores:
+  A: 3.5
+  M: 3
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+price:
+  text: 'Arkhea Édition Souscription: GBP 86,000 via retailer (approximately CHF 100,000); 27 pieces planned'
+models:
+  - name: Arkhea Édition Souscription
+    prices:
+      - text: via retailer
+        amount: 86000
+        currency: GBP
+    status: current
+    production:
+      series_total: 27
+      note: 27 pieces planned
+last_verified: '2026-08-31'
+added: '2026-08-31'
+updated: '2026-08-31'
+doc_heading: Shona Taine / Khemea
+body: |-
+  Shona Taine is one of the youngest makers ever admitted to the AHCI, candidate at 25 and now a full member, and the rare woman inside the academy. A graduate of the school in Morteau, she founded her company Khemea in 2020 at 22 and won recognition for the best apprentice in France along the way. Her debut watch, the Arkhea, appeared as a prototype and reemerged in 2025 as the Khemea Édition Souscription in grade 5 titanium.
+
+  The Arkhea carries her own K.10 movement architecture around an off-centre grand feu enamel time display, moon phases, a poetic 31-dot calendar and a differential-based power reserve inspired by George Daniels' book, executed in-house on traditional machines. The central disclosure: the tourbillon at six is constructed by Olivier Mory, whose Télôs manufacture supplies tourbillons to independents openly and by design. Taine is transparent about the split, and the surrounding construction, displays and finishing are her work, but the regulating heart is a specialist's module.
+
+  Why Tier D, knocking on Tier C, and A3.5 / M3: the engineering thinking is genuinely hers and the Daniels-style differential plus display architecture are real construction work, which is why authorship stays at 3.5 despite the Mory tourbillon. Manufacture score reflects that the most complex component arrives complete from a consultant constructor. At 27 pieces planned with serious press and AHCI standing, a second reference replacing the bought tourbillon with her own regulating organ would put Tier C within immediate reach.

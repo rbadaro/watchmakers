@@ -1,0 +1,45 @@
+slug: moritz-grossmann
+name: Moritz Grossmann
+type: brand
+tier: S
+scores:
+  A: 4.5
+  M: 4.5
+status: active
+location: Germany
+country: Germany
+movement_making: partial
+website: https://www.grossmann-uhren.com
+instagram: moritz_grossmann_
+price:
+  text: 'Atum Hard Green celadon enamel dial: EUR 34,200; Benu Power Reserve (white or rose gold): EUR 53,300; Perpetual Calendar: EUR 83,000 in gold / EUR 91,800 in platinum'
+models:
+  - name: Atum Hard Green celadon enamel dial
+    prices:
+      - amount: 34200
+        currency: EUR
+    status: current
+  - name: Benu Power Reserve (white or rose gold)
+    prices:
+      - amount: 53300
+        currency: EUR
+    status: current
+  - name: Perpetual Calendar
+    prices:
+      - text: in gold /
+        amount: 83000
+        currency: EUR
+      - text: in platinum
+        amount: 91800
+        currency: EUR
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Moritz Grossmann
+body: |-
+  A genuine Glashütte calibre manufacture.
+
+  Strengths include distinctive German movement architecture, proprietary balance systems, exceptional hand work and unusual winding and reset mechanisms.
+
+  Far less collector hype than Lange despite very serious watchmaking.

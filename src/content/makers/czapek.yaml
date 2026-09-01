@@ -1,0 +1,54 @@
+slug: czapek
+name: Czapek
+type: brand
+tier: S
+status: active
+website: https://czapek.com/
+instagram: czapekgeneve
+price:
+  text: Quai des Bergues No. 25 steel CHF 19,200 / EUR 20,700 / USD 26,900; Quai des Bergues No. 33 rose gold CHF 34,000 / EUR 36,700 / USD 47,600; Quai des Bergues Sursum Corda limited edition rose gold CHF 36,500 / EUR 39,400 / USD 51,500; Antarctique Plique-a-Jour limited edition CHF 61,200 (all before taxes)
+models:
+  - name: Quai des Bergues No. 25 steel
+    prices:
+      - text: /
+        amount: 19200
+        currency: CHF
+      - text: /
+        amount: 20700
+        currency: EUR
+      - amount: 26900
+        currency: USD
+    status: current
+  - name: Quai des Bergues No. 33 rose gold
+    prices:
+      - text: /
+        amount: 34000
+        currency: CHF
+      - text: /
+        amount: 36700
+        currency: EUR
+      - amount: 47600
+        currency: USD
+    status: current
+  - name: Quai des Bergues Sursum Corda limited edition rose gold
+    prices:
+      - text: /
+        amount: 36500
+        currency: CHF
+      - text: /
+        amount: 39400
+        currency: EUR
+      - amount: 51500
+        currency: USD
+    status: current
+  - name: Antarctique Plique-a-Jour limited edition
+    prices:
+      - text: all
+        amount: 61200
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Czapek
+body: Very good proprietary movement design, especially in the Antarctique family, but production depends substantially on specialist Swiss manufacturing partners. Legitimate haute horlogerie, simply not a Smith-style atelier.

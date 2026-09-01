@@ -1,0 +1,35 @@
+slug: trilobe
+name: Trilobe
+type: brand
+tier: S
+status: active
+website: https://trilobe.com
+instagram: trilobewatches
+price:
+  text: 'Trente-Deux: EUR 21,000 incl. tax (steel on bracelet), EUR 42,600 incl. tax (rose gold on rubber, varies by shipping country); Une Folle Journee Dune: EUR 23,500 titanium / EUR 35,500 rose gold (2023 press figure); Les Matinaux and Nuit Fantastique: unknown (official collection pages show no prices)'
+models:
+  - name: Trente-Deux
+    prices:
+      - text: steel on bracelet
+        amount: 21000
+        currency: EUR
+      - text: rose gold on rubber, varies by shipping country
+        amount: 42600
+        currency: EUR
+    status: current
+  - name: Une Folle Journee Dune
+    prices:
+      - text: titanium /
+        amount: 23500
+        currency: EUR
+      - text: rose gold (2023 press figure)
+        amount: 35500
+        currency: EUR
+    status: current
+  - name: Les Matinaux and Nuit Fantastique
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Trilobe
+body: Exceptionally creative displays and proprietary concepts, generally realised in conjunction with specialist movement constructors.

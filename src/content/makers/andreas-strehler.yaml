@@ -1,0 +1,39 @@
+slug: andreas-strehler
+name: Andreas Strehler
+type: individual
+people:
+  - Andreas Strehler
+tier: S
+tier_note: also listed in Tier A (established masters); canonical placement is Tier S (modern canon)
+scores:
+  A: 5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://astrehler.ch
+instagram: andreasstrehler
+price:
+  text: Strehler Säntis World Time CHF 24,750; Andreas Strehler Faune et Flore from CHF 165,000
+models:
+  - name: Strehler Säntis World Time
+    prices:
+      - amount: 24750
+        currency: CHF
+    status: current
+  - name: Andreas Strehler Faune et Flore
+    prices:
+      - amount: 165000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Andreas Strehler
+body: |-
+  Technical stature says Tier S even if market recognition does not.
+
+  Strehler is one of the people other watchmakers turn to when they need very difficult movement engineering solved.
+
+  Why canonical-quality: construction rather than fashion.

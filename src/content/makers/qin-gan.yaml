@@ -1,0 +1,36 @@
+slug: qin-gan
+name: Qin Gan
+type: individual
+people:
+  - Qin Gan
+tier: C
+scores:
+  A: 4.5
+  M: 4.5
+status: active
+location: China
+country: China
+movement_making: partial
+website: https://www.qinganwatch.com/
+instagram: qingan.official
+price:
+  text: Pastorale II USD 65,000 excl. VAT (18k gold, approx. 15 pieces per year)
+models:
+  - name: Pastorale II
+    production:
+      per_year: 15
+    prices:
+      - amount: 65000
+        currency: USD
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Qin Gan
+body: |-
+  Qin Gan is a good example of a maker who is not really undiscovered domestically but remains underappreciated in Western collecting.
+
+  The Pastorale family uses his own movement architecture and shows a restoration-trained maker transitioning into highly refined contemporary independent watchmaking.
+
+  Strength: quiet classicalism rather than attention-seeking mechanics.
+  Collector thesis: geographical awareness arbitrage rather than genuinely pre-discovery.

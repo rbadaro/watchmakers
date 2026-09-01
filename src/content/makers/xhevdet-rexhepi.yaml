@@ -1,0 +1,37 @@
+slug: xhevdet-rexhepi
+name: Xhevdet Rexhepi
+type: individual
+people:
+  - Xhevdet Rexhepi
+tier: C
+scores:
+  A: 4.5
+  M:
+    - 3.5
+    - 4
+status: active
+location: Geneva
+country: Switzerland
+movement_making: partial
+website: https://xhevdetrexhepi.com/en/minute-inerte
+instagram: xhevdet.rexhepi
+price:
+  text: Minute Inerte CHF 89,391 incl. VAT
+models:
+  - name: Minute Inerte
+    prices:
+      - amount: 89391
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Xhevdet Rexhepi
+body: |-
+  Xhevdet should not simply be treated as 'Rexhep's brother'.
+
+  The Minute Inerte has a genuinely unusual mechanism: the seconds hand traverses the dial in 58 seconds, pauses for two seconds, and the minute hand jumps instantaneously.
+
+  It is a poetic complication rather than a conventional chronometric one.
+  Collector status: already discovered.
+  Long-term question: can his second and third references build a sufficiently distinct identity from Akrivia?

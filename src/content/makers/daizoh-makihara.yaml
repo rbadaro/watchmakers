@@ -1,0 +1,35 @@
+slug: daizoh-makihara
+name: Daizoh Makihara
+type: individual
+people:
+  - Daizoh Makihara
+tier: C
+scores:
+  A: 4.5
+  M: 4.5
+status: active
+location: Japan
+country: Japan
+movement_making: partial
+website: https://www.daizohmakihara.jp
+instagram: daizohmakihara.88
+price:
+  text: Kikutsunagimon Sakura approx. JPY 5,903,700 incl. tax, made to order (Beauties of Nature approx. USD 160,000)
+models:
+  - name: Kikutsunagimon Sakura
+    prices:
+      - text: made to order
+        amount: 5903700
+        currency: JPY
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Daizoh Makihara
+body: |-
+  Makihara's work combines high-level watchmaking and exceptional Japanese decorative craft.
+
+  Beauties of Nature includes animated botanical elements and a perpetual moonphase around his own DM movement architecture.
+
+  Production is tiny enough that lead times can become extraordinary.
+  Why interesting: arguably more artistic than chronometric, but still genuine movement watchmaking rather than decorative packaging.

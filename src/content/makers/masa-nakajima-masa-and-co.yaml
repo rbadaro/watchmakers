@@ -1,0 +1,61 @@
+slug: masa-nakajima-masa-and-co
+name: Masa Nakajima / Masa & Co.
+type: brand
+people:
+  - Masa Nakajima
+aliases:
+  - Masa & Co.
+  - Masa & Co
+tier: D
+scores:
+  A: 4.5
+  M: 5
+status: active
+location: Tokyo
+country: Japan
+movement_making: full_inhouse
+website: https://masaspastime.com/
+instagram: pastime_masa_
+price:
+  text: 'MP Series with in-house calibre MP1, annual lottery, sold out for 2026, all plus 10% Japan tax: Nagi JPY 9,000,000 stainless steel and JPY 12,000,000 K18 white gold; Sohkoku JPY 13,000,000 shakudo with pink gold and JPY 13,500,000 K18 pink gold; Shike now unpublished on the live site, GPHG 2026 entry listed at CHF 60,000'
+models:
+  - name: 'MP Series with in-house calibre MP1, annual lottery, sold out for 2026, all plus 10% Japan tax: Nagi'
+    prices:
+      - text: stainless steel and
+        amount: 9000000
+        currency: JPY
+      - text: K18 white gold
+        amount: 12000000
+        currency: JPY
+    status: sold_out
+  - name: Sohkoku
+    prices:
+      - text: shakudo with pink gold and
+        amount: 13000000
+        currency: JPY
+      - text: K18 pink gold
+        amount: 13500000
+        currency: JPY
+    status: current
+  - name: Shike now unpublished on the live site, GPHG 2026 entry listed
+    prices:
+      - amount: 60000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Masa Nakajima / Masa & Co.
+body: |-
+  One of my favourite sleepers.
+
+  Nakajima spent roughly a decade developing the MP1 architecture. The remarkable part is not merely the time spent: Masa's workshop reportedly makes effectively everything apart from specialist springs and jewels.
+
+  The result is much closer philosophically to Smith or Kikuno than to the typical independent brand with a proprietary calibre.
+
+  Masa & Co. also provides the ecosystem for Nayuta Shinohara's work, so these should not be viewed as two completely independent exposures.
+
+  Collector thesis: significant technical substance before equivalent Western-market recognition.
+  Priority: top ten; possibly the sleeper of the whole report.
+
+  Update August 2026: Masa & Co. was selected in the preliminary round of the 2026 Grand Prix d'Horlogerie de Genève; winners will be announced on 7 November 2026.

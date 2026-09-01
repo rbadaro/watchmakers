@@ -1,0 +1,41 @@
+slug: urwerk
+name: Urwerk
+type: brand
+tier: S
+scores:
+  A: 5
+  M: 3.5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://www.urwerk.com
+instagram: urwerkgeneve
+price:
+  text: 'UR-10 Spacemeter: CHF 70,000 excl. taxes; UR-120 Blue Planet: CHF 115,000 excl. VAT; UR-230 Polaris / UR-230 Black Star: CHF 150,000 excl. taxes'
+models:
+  - name: UR-10 Spacemeter
+    prices:
+      - amount: 70000
+        currency: CHF
+    status: current
+  - name: UR-120 Blue Planet
+    prices:
+      - amount: 115000
+        currency: CHF
+    status: current
+  - name: UR-230 Polaris / UR-230 Black Star
+    prices:
+      - amount: 150000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Urwerk
+body: |-
+  Felix Baumgartner and Martin Frei have created one of the strongest visual and mechanical languages in watchmaking.
+
+  Signature architecture revolves around satellite and hour systems rather than conventional hands. Some movements use supplied foundations; others involve far deeper internal movement creation.
+
+  Authorship: unquestionably high.

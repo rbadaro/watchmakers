@@ -1,0 +1,38 @@
+slug: armin-strom
+name: Armin Strom
+type: brand
+tier: S
+scores:
+  A: 5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://arminstrom.com
+instagram: arminstrom
+price:
+  text: 'Gravity Equal Force (steel): CHF 27,500; Dual Time Resonance Manufacture Edition (steel): CHF 95,000; One Week and Masterpiece/tourbillon lines: on request'
+models:
+  - name: Gravity Equal Force (steel)
+    prices:
+      - amount: 27500
+        currency: CHF
+    status: current
+  - name: Dual Time Resonance Manufacture Edition (steel)
+    prices:
+      - amount: 95000
+        currency: CHF
+    status: current
+  - name: One Week and Masterpiece/tourbillon lines
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Armin Strom
+body: |-
+  One of the best vertically integrated small manufactures.
+
+  Particular strengths include resonance, twin regulators, constant-force architecture, visible movement design and significant internal component production.
+
+  The Mirrored Force Resonance is the key mechanical calling card.

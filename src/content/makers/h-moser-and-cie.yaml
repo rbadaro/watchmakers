@@ -1,0 +1,50 @@
+slug: h-moser-and-cie
+name: H. Moser & Cie.
+type: brand
+aliases:
+  - H. Moser & Cie
+  - Moser
+tier: S
+scores:
+  A: 4.5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://h-moser.com
+instagram: moserwatches
+price:
+  text: 'Streamliner Centre Seconds: CHF 21,900; Streamliner Flyback Chronograph: CHF 48,600 incl. VAT (Bucherer); Endeavour Centre Seconds: from CHF 19,900; Pioneer Tourbillon: CHF 49,900'
+models:
+  - name: Streamliner Centre Seconds
+    prices:
+      - amount: 21900
+        currency: CHF
+    status: current
+  - name: Streamliner Flyback Chronograph
+    prices:
+      - text: Bucherer
+        amount: 48600
+        currency: CHF
+    status: current
+  - name: 'Endeavour Centre Seconds:'
+    prices:
+      - amount: 19900
+        currency: CHF
+    status: current
+  - name: Pioneer Tourbillon
+    prices:
+      - amount: 49900
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: H. Moser & Cie.
+body: |-
+  Moser is much larger than the artisan ateliers, but mechanically far more vertically integrated than many collectors realise.
+
+  Its group includes Precision Engineering, providing unusual control over hairspring and regulating-component capability.
+
+  Notable movements include modular escapement systems, perpetual calendar, minute repeater, tourbillon and sophisticated automatic calibres.

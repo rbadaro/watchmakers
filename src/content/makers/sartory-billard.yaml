@@ -1,0 +1,40 @@
+slug: sartory-billard
+name: Sartory-Billard
+type: individual
+people:
+  - Sartory-Billard
+tier: S
+status: active
+website: https://sartory-billard.com/
+instagram: sartorybillard
+price:
+  text: 'SB04 bespoke: from EUR 3,300 (2022 press figure, may be higher now); SB05 bespoke: from EUR 8,400 steel excl. VAT (titanium +EUR 500, full polished tantalum +EUR 9,500); SB10 Jumping Hour 250th Anniversary: EUR 5,200 excl. VAT'
+models:
+  - name: 'SB04 bespoke:'
+    prices:
+      - text: 2022 press figure, may be higher now
+        amount: 3300
+        currency: EUR
+    status: current
+  - name: 'SB05 bespoke:'
+    prices:
+      - text: steel
+        amount: 8400
+        currency: EUR
+      - text: titanium (+EUR 500)
+        amount: 8900
+        currency: EUR
+      - text: full polished tantalum (+EUR 9)
+        amount: 8409
+        currency: EUR
+    status: current
+  - name: SB10 Jumping Hour 250th Anniversary
+    prices:
+      - amount: 5200
+        currency: EUR
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Sartory-Billard
+body: Exceptional bespoke watchmaking, particularly guilloché, stone dials, meteorite, engraving and case customisation. Movement independence is not the core attraction.

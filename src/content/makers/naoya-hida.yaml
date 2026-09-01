@@ -1,0 +1,66 @@
+slug: naoya-hida
+name: Naoya Hida
+type: atelier
+tier: S
+status: active
+website: https://naoyahidawatch.com/
+instagram: naoya_hida_co.official
+price:
+  text: NH TYPE1E JPY 2,970,000; NH TYPE2C-2 JPY 3,135,000; NH TYPE3B JPY 3,630,000; NH TYPE3B-3 JPY 11,000,000; NH TYPE3B-4 JPY 16,500,000; NH TYPE5B JPY 4,070,000; NH TYPE5B-1 JPY 4,070,000; NH TYPE6A JPY 8,800,000; NH TYPE7A JPY 5,830,000; NH TYPE8A JPY 3,520,000 (all 2026 production, incl. 10% Japan tax)
+models:
+  - name: NH TYPE1E
+    prices:
+      - amount: 2970000
+        currency: JPY
+    status: current
+  - name: NH TYPE2C-2
+    prices:
+      - amount: 3135000
+        currency: JPY
+    status: current
+  - name: NH TYPE3B
+    prices:
+      - amount: 3630000
+        currency: JPY
+    status: current
+  - name: NH TYPE3B-3
+    prices:
+      - amount: 11000000
+        currency: JPY
+    status: current
+  - name: NH TYPE3B-4
+    prices:
+      - amount: 16500000
+        currency: JPY
+    status: current
+  - name: NH TYPE5B
+    prices:
+      - amount: 4070000
+        currency: JPY
+    status: current
+  - name: NH TYPE5B-1
+    prices:
+      - amount: 4070000
+        currency: JPY
+    status: current
+  - name: NH TYPE6A
+    prices:
+      - amount: 8800000
+        currency: JPY
+    status: current
+  - name: NH TYPE7A
+    prices:
+      - amount: 5830000
+        currency: JPY
+    status: current
+  - name: NH TYPE8A
+    prices:
+      - text: all 2026 production, incl. 10% Japan tax
+        amount: 3520000
+        currency: JPY
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Naoya Hida
+body: Beautiful Japanese neo-vintage design and extensive hand finishing. The attraction is execution and aesthetics rather than blank-sheet movement creation.

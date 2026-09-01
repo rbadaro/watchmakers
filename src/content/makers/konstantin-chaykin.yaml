@@ -1,0 +1,56 @@
+slug: konstantin-chaykin
+name: Konstantin Chaykin
+type: brand
+tier: A
+scores:
+  A: 5
+  M: 4
+status: active
+location: Russia
+country: Russia
+movement_making: partial
+website: https://konstantinchaykin.com/
+instagram: k_chaykin
+price:
+  text: 'Joker Classic: CHF 16,900; Kolobok 2: CHF 17,900; Joker Iron Mask / Joker Golden Mask: CHF 40,800 each; Matroskin (55 pieces): approx. USD 25,000; ThinKing Mystery (12 pieces): CHF 400,000 excl. taxes'
+models:
+  - name: Joker Classic
+    prices:
+      - amount: 16900
+        currency: CHF
+    status: current
+  - name: Kolobok 2
+    prices:
+      - amount: 17900
+        currency: CHF
+    status: current
+  - name: Joker Iron Mask / Joker Golden Mask
+    prices:
+      - text: each
+        amount: 40800
+        currency: CHF
+    status: current
+  - name: 'Matroskin (55 pieces):'
+    production:
+      series_total: 55
+    prices:
+      - amount: 25000
+        currency: USD
+    status: current
+  - name: ThinKing Mystery
+    production:
+      series_total: 12
+    prices:
+      - amount: 400000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Konstantin Chaykin
+body: |-
+  Chaykin is often underestimated because the Joker and Wristmon watches look playful.
+
+  Behind that lies a prolific mechanical inventor. His work includes proprietary regulators, astronomical watches, exotic displays and increasingly complete in-house calibres.
+
+  Why interesting: one of the most prolific mechanical idea generators in contemporary independent watchmaking.

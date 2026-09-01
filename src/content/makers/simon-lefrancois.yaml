@@ -1,0 +1,24 @@
+slug: simon-lefrancois
+name: Simon LeFrançois
+type: individual
+people:
+  - Simon LeFrançois
+tier: S
+status: active
+instagram: montre_lefrancois
+price:
+  text: 'Volumes: EUR 17,000 incl. VAT (3 build slots per year, rising to 5 from 2027); Automatique No.1: price on request (limited to 20 pieces, sold out)'
+models:
+  - name: Volumes
+    prices:
+      - text: 3 build slots per year, rising to 5 from 2027
+        amount: 17000
+        currency: EUR
+    status: current
+  - name: Automatique No.1
+    status: sold_out
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Simon LeFrançois
+body: Very small-scale, genuinely interesting independent design. Movement bases remain externally rooted enough that the maker should be followed without being placed beside Cleguer, Cools or Ohno mechanically.

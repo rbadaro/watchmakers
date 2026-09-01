@@ -1,0 +1,36 @@
+slug: l-atelier-bernard
+name: L’Atelier Bernard
+type: atelier
+tier: D
+scores:
+  A: 4.5
+  M: 5
+status: active
+location: Belgium / Switzerland
+country: Switzerland
+movement_making: full_inhouse
+instagram: l_atelier_bernard
+price:
+  text: 'The Owl Dual Impulse Duplex Tourbillon: CHF 150,000 excl. taxes; edition strictly limited to 6 pieces, all sold'
+models:
+  - name: The Owl Dual Impulse Duplex Tourbillon
+    prices:
+      - amount: 150000
+        currency: CHF
+    status: current
+    production:
+      series_total: 6
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: L’Atelier Bernard
+body: |-
+  Two young Belgian watchmakers and one of the purest first-generation atelier propositions.
+
+  Their first watch, The Owl, revives the duplex escapement, a historically important but today rarely used architecture. Nearly the entire movement is made internally, with specialist items such as the mainspring, hairspring and jewels being the notable exceptions.
+
+  The founding run is just six pieces.
+
+  Why interesting: high component-making content, unusual escapement and minuscule production.
+  Collector thesis: Reference 1 is effectively spoken for; become a founding collector of what comes next.
+  Priority: top five.

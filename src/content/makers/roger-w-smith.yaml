@@ -1,0 +1,40 @@
+slug: roger-w-smith
+name: Roger W. Smith
+type: atelier
+aliases:
+  - RW Smith
+  - Roger Smith
+tier: S
+scores:
+  A: 5
+  M: 5
+status: active
+location: Isle of Man
+country: Isle of Man
+movement_making: full_inhouse
+website: https://rwsmithwatches.com/
+instagram: rogerwsmithltd
+price:
+  text: 'Series 6 (40 mm, 18k gold or platinum, made to order): from GBP 320,000 before taxes (approx. USD 400,000 equivalent in gold); platinum or solid gold movement significantly more'
+models:
+  - name: 'Series 6 (40 mm, 18k gold or platinum, made to order):'
+    prices:
+      - amount: 320000
+        currency: GBP
+    status: current
+    production:
+      note: platinum or solid gold movement significantly more
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Roger W. Smith
+body: |-
+  The most direct living continuation of George Daniels' philosophy.
+
+  Smith worked with Daniels, inherited his workshop equipment and has spent years evolving the co-axial escapement into his own single-wheel implementation.
+
+  Smith's workshop makes essentially everything from raw material except specialist components including balance spring, mainspring, jewels, sapphire, seals and straps.
+
+  Key watches include Series One through Series Six, with Series Two the foundational production movement designed specifically around the Daniels co-axial concept.
+
+  Why canonical: arguably the clearest modern example of 'the complete watchmaker'.

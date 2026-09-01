@@ -1,0 +1,44 @@
+slug: ming
+name: Ming
+type: brand
+tier: S
+status: active
+website: https://www.ming.watch/
+instagram: mingwatches
+price:
+  text: '57.04 Phoenix monopusher chronograph (2026): CHF 6,250 on FKM / CHF 7,250 on Polymesh; 57.05 Comet worldtimer (Aug 2026): CHF 6,950 on leather / CHF 7,950 on Polymesh; 29.01 Worldtimer (Schwarz Etienne flagship): CHF 19,500 (2023 launch price); all excl. taxes'
+models:
+  - name: 57.04 Phoenix monopusher chronograph
+    years:
+      introduced: 2026
+    prices:
+      - text: on FKM /
+        amount: 6250
+        currency: CHF
+      - text: on Polymesh
+        amount: 7250
+        currency: CHF
+    status: current
+  - name: 57.05 Comet worldtimer
+    years:
+      introduced: 2026
+    prices:
+      - text: on leather /
+        amount: 6950
+        currency: CHF
+      - text: on Polymesh
+        amount: 7950
+        currency: CHF
+    status: current
+  - name: 29.01 Worldtimer (Schwarz Etienne flagship)
+    years:
+      introduced: 2023
+    prices:
+      - amount: 19500
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Ming
+body: Excellent industrial design and movement customisation, but movement manufacturing typically involves specialist partners such as Schwarz Etienne. Buy for design, execution and coherent brand language.

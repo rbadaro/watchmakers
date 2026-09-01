@@ -1,0 +1,34 @@
+slug: atelier-pieters
+name: Atelier Pieters
+type: atelier
+tier: D
+scores:
+  A: 3
+  M: 3.5
+status: active
+location: Les Hauts-Geneveys, Switzerland
+country: Switzerland
+movement_making: partial
+website: https://atelierpieters.ch
+instagram: atelier_pieters
+price:
+  text: 'Atelier 1: approx. CHF 45,000; four pieces per reference per year'
+models:
+  - name: 'Atelier 1:'
+    prices:
+      - amount: 45000
+        currency: CHF
+    status: current
+    production:
+      per_year: 4
+      note: pieces per reference per year
+last_verified: '2026-08-31'
+added: '2026-08-31'
+updated: '2026-08-31'
+doc_heading: Atelier Pieters
+body: |-
+  Atelier Pieters is the husband-and-wife atelier of Maarten and Jessica Pieters in Les Hauts-Geneveys, high above La Chaux-de-Fonds. The atelier combines training work, historical techniques courses, and their own watchmaking. Their inaugural model, the Atelier 1, is produced at the almost ceremonial rate of four pieces per reference per year, and they exhibit as one of the 23 artisans at the Indies.NYC salon in October 2026.
+
+  The Atelier 1 runs on their own in-house calibres with mainplates and bridges made manually in the atelier, while escapement, jewels and mainspring come from the Swiss specialist suppliers, the standard division even among purists. The honest split is declared openly on their own material. What they make themselves is the structural and decorative heart of the watch; what they buy is what virtually everyone buys.
+
+  Why Tier D and A3 / M3.5: genuinely in-house calibres at four pieces per year is the artisan-bench thesis almost by definition, and the school side of the practice signals a knowledge depth typical of conservators. The score holds on breadth of proof: one reference family, very low output, short record. This is a construction to watch patiently rather than chase, and if the movement count and complication ambition grow, the trajectory resembles the small Geneva ateliers of two generations ago.

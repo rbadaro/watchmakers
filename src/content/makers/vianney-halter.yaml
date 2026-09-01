@@ -1,0 +1,42 @@
+slug: vianney-halter
+name: Vianney Halter
+type: individual
+people:
+  - Vianney Halter
+tier: A
+scores:
+  A: 5
+  M:
+    - 3.5
+    - 4
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://www.vianney-halter.com
+instagram: vianney_halter_official
+price:
+  text: 'On request (published: Deep Space Tourbillon CHF 202,500; Deep Space Resonance CHF 860,000)'
+models:
+  - name: Deep Space Tourbillon
+    prices:
+      - amount: 202500
+        currency: CHF
+    status: current
+  - name: Deep Space Resonance
+    prices:
+      - amount: 860000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Vianney Halter
+body: |-
+  Halter was crucial to the late-1990s and early-2000s independent-watchmaking renaissance.
+
+  The Antiqua remains one of the great radical designs of the era.
+
+  Movement purity varies by period: earlier pieces drew substantially on existing movement architecture, while later work became increasingly proprietary and technically ambitious.
+  Historical importance: enormous.
+  Movement-first caveat: not as consistently M5 as Smith, Gauthier or Strehler.

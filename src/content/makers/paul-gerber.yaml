@@ -1,0 +1,41 @@
+slug: paul-gerber
+name: Paul Gerber
+type: individual
+people:
+  - Paul Gerber
+tier: A
+scores:
+  A: 5
+  M: 4
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://gerber-uhren.ch/
+price:
+  text: 'Rotor models on ETA base (Model 42): CHF 4,875 retail in 2011, current Ref. 420-TR Guilloche (46 pieces) on request (est. USD 5,500 to 7,350 from dealer listings); in-house Cal. 41 (Ref. 416, steel, pre-owned dealer): USD 32,500; unique Waterford 2023 with Anny Weber: CHF 24,130 at Phillips Geneva May 2024; high complications and unique commissions on request'
+models:
+  - name: Rotor models on ETA base (Model 42)
+    production:
+      series_total: 46
+    prices:
+      - text: retail in 2011, current Ref. 420-TR Guilloche on request
+        amount: 4875
+        currency: CHF
+    status: current
+  - name: unique Waterford 2023 with Anny Weber
+    prices:
+      - text: at Phillips Geneva May 2024
+        amount: 24130
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Paul Gerber
+body: |-
+  Gerber is another historical independent whose technical contribution exceeds his collector fame.
+
+  His work has included proprietary escapement experimentation, alarm mechanisms, complicated automatics and highly ingenious commissioned movements.
+
+  Collector thesis: a technical historian's choice rather than a momentum trade.

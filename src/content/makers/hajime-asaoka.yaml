@@ -1,0 +1,40 @@
+slug: hajime-asaoka
+name: Hajime Asaoka
+type: individual
+people:
+  - Hajime Asaoka
+tier: B
+scores:
+  A: 4.5
+  M: 4.5
+status: active
+location: Tokyo
+country: Japan
+movement_making: partial
+website: http://www.hajimeasaoka.com/hajimeasaoka_EN.html
+instagram: hajimeasaoka_official
+price:
+  text: 'Tsunami: JPY 3,000,000 (approx. USD 26,700 at the time, fewer than 10 made as of late 2018); Tourbillon No.1: JPY 6,825,000 (2012). Current pieces price on request, approx. JPY 3,000,000-7,000,000 range based on these sourced figures.'
+models:
+  - name: Tsunami
+    prices:
+      - amount: 3000000
+        currency: JPY
+    status: current
+  - name: Tourbillon No.1
+    prices:
+      - text: (2012). Current pieces price on request, approx
+        amount: 6825000
+        currency: JPY
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Hajime Asaoka
+body: |-
+  One of the foundational figures of modern Japanese independent watchmaking.
+
+  His eponymous watches include tourbillons, time-only calibres and highly distinctive manually finished movements.
+
+  Do not confuse these with Kurono Tokyo, his intentionally more accessible brand using supplied movements.
+  Collector thesis: eponymous Asaoka belongs in serious indie collections.

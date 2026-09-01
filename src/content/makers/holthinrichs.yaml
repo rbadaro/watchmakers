@@ -1,0 +1,32 @@
+slug: holthinrichs
+name: Holthinrichs
+type: brand
+tier: S
+status: active
+website: https://holthinrichs.com
+instagram: holthinrichswatches
+price:
+  text: 'SIGNATURE LAB Series 1.S and 1.GMT: from EUR 5,900 excl. VAT (limited to 100 pieces each); ORNAMENT NOUVEAU Spirit of Blue (8 pieces): CHF 62,800 (2025 press figure); SIGNATURE ORNAMENT and DECONSTRUCTED lines: unknown (catalog price page fetch failed)'
+models:
+  - name: 'SIGNATURE LAB Series 1.S and 1.GMT:'
+    production:
+      series_total: 100
+    prices:
+      - amount: 5900
+        currency: EUR
+    status: current
+  - name: ORNAMENT NOUVEAU Spirit of Blue
+    production:
+      series_total: 8
+    prices:
+      - text: 2025 press figure
+        amount: 62800
+        currency: CHF
+    status: current
+  - name: SIGNATURE ORNAMENT and DECONSTRUCTED lines
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Holthinrichs
+body: Exceptionally interesting Dutch case architecture and increasingly ambitious watchmaking. Movement creation is not yet the defining reason to collect the brand.

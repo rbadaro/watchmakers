@@ -1,0 +1,50 @@
+slug: singer-reimagined
+name: Singer Reimagined
+type: individual
+people:
+  - Singer Reimagined
+tier: S
+status: active
+website: https://singerreimagined.com
+instagram: singerreimagined
+price:
+  text: 'Heritage Collection: CHF 16,700 excl. VAT; Caballero: CHF 17,500 excl. VAT; DualTrack: CHF 22,500 (USD 30,400) before taxes; 1969 Timer: CHF 31,500 steel / CHF 32,500 bronze excl. taxes; 1969 Chronograph: CHF 53,500 steel / CHF 55,000 bronze excl. taxes'
+models:
+  - name: Heritage Collection
+    prices:
+      - amount: 16700
+        currency: CHF
+    status: current
+  - name: Caballero
+    prices:
+      - amount: 17500
+        currency: CHF
+    status: current
+  - name: DualTrack
+    prices:
+      - amount: 22500
+        currency: CHF
+    status: current
+  - name: 1969 Timer
+    prices:
+      - text: steel /
+        amount: 31500
+        currency: CHF
+      - text: bronze
+        amount: 32500
+        currency: CHF
+    status: current
+  - name: 1969 Chronograph
+    prices:
+      - text: steel /
+        amount: 53500
+        currency: CHF
+      - text: bronze
+        amount: 55000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Singer Reimagined
+body: Brilliant chronograph concepts, but Agenhor is central to the mechanical magic. This is closer to a world-class design and commissioning collaboration than a movement-maker.

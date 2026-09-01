@@ -1,0 +1,49 @@
+slug: nayuta-shinohara
+name: Nayuta Shinohara
+type: individual
+people:
+  - Nayuta Shinohara
+tier: D
+scores:
+  A: 4.5
+  M:
+    - 4
+    - 4.5
+status: active
+location: Japan
+country: Japan
+movement_making: partial
+website: https://antique-pastime.com/en/masa-co/model-b2
+price:
+  text: 'NAYUTA Model B2: JPY 3,700,000 plus 10% tax, lottery sold out for 2026; Model A: on request (est. JPY 3,700,000, in line with the official Model B2 list); unique Model A TOKI 1/1 carried a Phillips presale estimate HK$150,000-300,000 (US$20,000-40,000)'
+models:
+  - name: NAYUTA Model B2
+    prices:
+      - text: plus 10% tax, lottery sold out for 2026
+        amount: 3700000
+        currency: JPY
+    status: sold_out
+  - name: 'Model A: on request (est'
+    prices:
+      - text: in line with the official Model B2 list)
+        amount: 3700000
+        currency: JPY
+    status: current
+awards:
+  - year: 2020
+    name: Walter Lange Watchmaking Excellence Award
+    result: winner
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Nayuta Shinohara
+body: |-
+  Shinohara's Model A / Nayuta Model sits within the Masa & Co. ecosystem.
+
+  The watch uses a hand-wound movement with a very large balance and an unusually artisanal presentation.
+
+  Important caveat: available descriptions differ as to precisely how much inherited or base architecture remains, so an M5 score would be premature until the provenance of every major train and component is clearer.
+
+  Collector thesis: interesting, but best approached through the broader Masa & Co. relationship rather than as a completely separate portfolio bet.
+
+  Update August 2026: Shinohara won the tenth A. Lange & Söhne Walter Lange Watchmaking Excellence Award in 2020; no later edition of the prize has been confirmed since.

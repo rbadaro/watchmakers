@@ -1,0 +1,35 @@
+slug: mcgonigle-watches
+name: McGonigle Watches
+type: brand
+people:
+  - Stephen McGonigle
+  - John McGonigle
+tier: A
+scores:
+  A: 4.5
+  M: 4
+status: active
+location: Ireland / Switzerland
+country: Switzerland
+movement_making: partial
+website: https://www.mcgonigle.ch
+instagram: mcgoniglewatches
+price:
+  text: 'Tuscar Bánú: on request (est. from published CHF 52,800)'
+models:
+  - name: 'Tuscar Bánú: on request (est. from published'
+    prices:
+      - text: )
+        amount: 52800
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: McGonigle Watches
+body: |-
+  John and Stephen McGonigle came from serious Swiss complications backgrounds.
+
+  The eponymous watches include Tuscar, tourbillons, highly complicated pieces and distinctive hand-finished calibres.
+
+  Why interesting: genuine high-end Irish watchmaking with far less market recognition than comparable Swiss makers.

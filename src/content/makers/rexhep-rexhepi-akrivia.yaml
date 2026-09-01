@@ -1,0 +1,57 @@
+slug: rexhep-rexhepi-akrivia
+name: Rexhep Rexhepi / Akrivia
+type: atelier
+people:
+  - Rexhep Rexhepi
+aliases:
+  - Akrivia
+  - RRCC
+tier: S
+scores:
+  A: 5
+  M:
+    - 4.5
+    - 5
+status: active
+location: Geneva
+country: Switzerland
+movement_making: partial
+website: https://www.akrivia.com
+instagram: akrivia
+price:
+  text: 'Chronometre Contemporain II (RRCC II, 50 pieces per metal): CHF 150,000 excl. tax (launched 2022 at CHF 125,000); Louis Vuitton x Akrivia LVRR-01 (10 pieces): CHF 450,000 excl. tax'
+models:
+  - name: Chronometre Contemporain II (RRCC II)
+    years:
+      introduced: 2022
+    production:
+      series_total: 50
+      note: 50 pieces per metal
+    prices:
+      - text: (launched 2022 at
+        amount: 150000
+        currency: CHF
+      - text: )
+        amount: 125000
+        currency: CHF
+    status: current
+  - name: Louis Vuitton x Akrivia LVRR-01
+    production:
+      series_total: 10
+    prices:
+      - amount: 450000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Rexhep Rexhepi / Akrivia
+body: |-
+  Rexhep is important here partly because his career is the pattern we are trying to detect earlier in others.
+
+  He emerged from elite complications work, created Akrivia extremely young and gradually transformed from promising young constructor into one of the defining independents of his generation.
+
+  Essential pieces include the early Akrivia tourbillons, Chronomètre Contemporain and RRCC II.
+
+  Why canonical: technical ability, finishing, aesthetic identity and extraordinary collector demand have converged.
+  Practical reality: the early-discovery phase is over.

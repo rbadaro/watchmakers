@@ -1,0 +1,49 @@
+slug: laurent-ferrier
+name: Laurent Ferrier
+type: brand
+tier: A
+scores:
+  A: 5
+  M:
+    - 3.5
+    - 4
+status: active
+location: Geneva
+country: Switzerland
+movement_making: partial
+website: https://laurentferrier.ch/collections/timepieces
+instagram: laurent_ferrier
+price:
+  text: Classic Origin CHF 34,000; Sport Auto CHF 51,000; Classic Micro-Rotor CHF 77,000; Grand Sport Tourbillon CHF 225,000
+models:
+  - name: Classic Origin
+    prices:
+      - amount: 34000
+        currency: CHF
+    status: current
+  - name: Sport Auto
+    prices:
+      - amount: 51000
+        currency: CHF
+    status: current
+  - name: Classic Micro-Rotor
+    prices:
+      - amount: 77000
+        currency: CHF
+    status: current
+  - name: Grand Sport Tourbillon
+    prices:
+      - amount: 225000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Laurent Ferrier
+body: |-
+  Ferrier is already one of modern independent watchmaking's defining aesthetic voices, but the movements deserve equal attention.
+
+  The micro-rotor calibre with natural escapement is the key mechanical Ferrier. It combines micro-rotor automatic winding, direct-impulse natural escapement, highly classical bridge design and superb but restrained finishing.
+
+  Why Ferrier matters: almost perfect balance between technical sophistication, movement aesthetics and wearability.
+  Collector status: established blue-chip independent, although still dramatically easier to buy than Smith or Rexhepi.

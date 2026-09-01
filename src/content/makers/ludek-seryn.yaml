@@ -1,0 +1,40 @@
+slug: ludek-seryn
+name: Luděk Seryn
+type: individual
+people:
+  - Luděk Seryn
+tier: B
+scores:
+  A: 4
+  M: 4
+status: active
+location: Czech Republic
+country: Czech Republic
+movement_making: partial
+website: https://serynwatches.com/
+instagram: seryn_watches
+price:
+  text: 'LS (Mechanica) line: on request (est. EUR 150,000-250,000; Karel Rotation started from EUR 200,000); Simplex line (approx. 40 pieces per year): price on request, more accessible per maker.'
+models:
+  - name: 'LS (Mechanica) line: on request (est'
+    prices:
+      - text: -250,000; Karel Rotation started from
+        amount: 150000
+        currency: EUR
+      - text: )
+        amount: 200000
+        currency: EUR
+    status: current
+  - name: Simplex line (approx.)
+    production:
+      per_year: 40
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Luděk Seryn
+body: |-
+  Seryn is an unusually obscure European independent with genuine own-movement history.
+
+  His LS calibre family and more experimental rotating constructions show substantial movement authorship.
+  Collector thesis: genuinely underfollowed.

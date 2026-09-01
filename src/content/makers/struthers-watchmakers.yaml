@@ -1,0 +1,34 @@
+slug: struthers-watchmakers
+name: Struthers Watchmakers
+type: brand
+tier: S
+scores:
+  A: 4.5
+  M: 4.5
+status: active
+location: Birmingham, United Kingdom
+country: United Kingdom
+movement_making: partial
+website: https://strutherswatchmakers.co.uk
+instagram: strutherswatchmakers
+price:
+  text: 'Tailor-Made bespoke commissions (e.g. The Kingsley): on request (2-3 watches per year, 12-18 month build); reference point: Watches of Switzerland Centenary unique piece sold at GBP 72,000'
+models:
+  - name: Tailor-Made bespoke commissions (e.g. The Kingsley)
+    status: current
+  - name: 'reference point: Watches of Switzerland Centenary unique piece sold'
+    prices:
+      - amount: 72000
+        currency: GBP
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Struthers Watchmakers
+body: |-
+  A much more important inclusion for the British side of the map.
+
+  Rebecca and Craig Struthers' Project 248 involves development of their own calibre, drawing heavily on traditional English lever-watch construction.
+
+  They combine restoration knowledge with genuine movement-making ambition.
+  Why interesting: if Smith and Frodsham are the established pinnacle of modern British movement making, Struthers is an important younger branch.

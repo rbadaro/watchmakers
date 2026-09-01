@@ -1,0 +1,49 @@
+slug: mathieu-cleguer
+name: Mathieu Cleguer
+type: individual
+people:
+  - Mathieu Cleguer
+tier: D
+scores:
+  A: 5
+  M: 3
+status: active
+location: Geneva
+country: Switzerland
+movement_making: partial
+website: https://www.cleguer.com/
+instagram: cleguer.horology
+price:
+  text: 'Inspiration One Souscription titanium (12 pieces, pre-sold): CHF 56,000; Inspiration One upcoming precious-metal editions (4 batches of 12, list price): CHF 95,300; 80 movements total incl. 20 reserved for bespoke commissions'
+models:
+  - name: Inspiration One Souscription titanium (pre-sold)
+    production:
+      series_total: 12
+    prices:
+      - amount: 56000
+        currency: CHF
+    status: current
+  - name: Inspiration One upcoming precious-metal editions (4 batches of 12, list price)
+    prices:
+      - amount: 95300
+        currency: CHF
+    status: current
+    production:
+      note: 80 movements total incl. 20 reserved for bespoke commissions
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Mathieu Cleguer
+body: |-
+  Cleguer might be the best movement constructor among today's truly young commercial independents.
+
+  The Inspiration One introduces his proprietary Innate escapement. Cleguer's goal was to retain the low-friction/direct-impulse qualities associated with a natural escapement while solving its self-starting problem. His architecture combines twin escape wheels with a central lever handling locking and impulse.
+
+  The watch uses a large 12.9 mm balance at 18,000 vph and Maltese-cross stopwork.
+
+  Production is intentionally tiny: the first 12 titanium Souscription watches are allocated, five batches of 12 Inspiration Ones are planned, and another 20 movements are reserved for unique pieces, for 80 planned movements in total.
+
+  Cleguer is transparent about using specialist component manufacturers. That is why the authorship score is A5 while physical manufacture is M3.
+
+  Collector thesis: secure a precious-metal batch or, ideally, commission one of the 20 unique watches.
+  Priority: one of the strongest genuinely actionable opportunities.

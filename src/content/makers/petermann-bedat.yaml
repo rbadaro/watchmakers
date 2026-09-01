@@ -1,0 +1,39 @@
+slug: petermann-bedat
+name: Petermann Bédat
+type: duo
+people:
+  - Gaël Petermann
+  - Florian Bédat
+tier: C
+scores:
+  A: 4.5
+  M: 4.5
+status: active
+location: Renens, Switzerland
+country: Switzerland
+movement_making: partial
+website: https://petermann-bedat.ch/
+instagram: petermann_bedat
+price:
+  text: 1967 Second Series titanium CHF 69,800 excl. tax (first-series 1967 in gold CHF 59,800)
+models:
+  - name: 1967 Second Series titanium
+    prices:
+      - text: (first-series 1967 in gold
+        amount: 69800
+        currency: CHF
+      - text: )
+        amount: 59800
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Petermann Bédat
+body: |-
+  Gaël Petermann and Florian Bédat produce exceptionally refined neo-classical movements.
+
+  The 1967 established them with deadbeat seconds; later references expand their range while preserving beautifully restrained construction.
+
+  Strength: extraordinarily refined movement architecture and finishing.
+  Long-term: very plausible Tier A.

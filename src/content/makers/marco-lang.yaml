@@ -1,0 +1,38 @@
+slug: marco-lang
+name: Marco Lang
+type: individual
+people:
+  - Marco Lang
+tier: C
+scores:
+  A: 4
+  M: 4
+status: active
+location: Dresden, Germany
+country: Germany
+movement_making: partial
+website: https://www.marcolangwatches.com/
+price:
+  text: 'Zweigesicht-1: EUR 51,500 to EUR 68,000 excluding taxes, by case metal (edition sold out)'
+  amount: 51500
+  currency: EUR
+models:
+  - name: Zweigesicht-1
+    prices:
+      - text: to
+        amount: 51500
+        currency: EUR
+      - text: by case metal (edition)
+        amount: 68000
+        currency: EUR
+    status: sold_out
+last_verified: '2026-08-31'
+added: '2026-08-31'
+updated: '2026-08-31'
+doc_heading: Marco Lang
+body: |-
+  Marco Lang, born in 1971, is a fifth-generation watchmaker from Dresden: years of restoring clocks and scientific instruments after apprenticeship in Glashütte, co-founding Lang & Heyne with Mirko Heyne in 2001, selling his majority stake and founding the movement supplier Uhren-Werke-Dresden in 2013, then returning to the bench under his own name in 2019. The Zweigesicht-1 of 2020, a two-face watch in an edition of 18, was the first fruit of that return; the Seven Spheres of 2025 extended the family. Notably, he open-sources his construction data so that any competent watchmaker can service his work in the future.
+
+  The Zweigesicht-1 runs his in-house hand-wound calibre ml-01 at 3 Hz with 70 hours of autonomy from two series-mounted barrels, hardened-steel flying bridges over a frosted gilt mainplate, a free four-legged balance with gold eccentres and his own resettable shock-indication module. Monochrome reports that almost every component in each watch is made by his own hands on traditional tools, while SJX notes the case is supplier-made to his design. Output of four to five watches a year direct from the Dresden atelier kept the 18-piece edition exclusive until it sold out.
+
+  Why Tier C and A4 / M4: this is a proven calibre author now working at one-man-atelier scale, which is exactly the correction the map needed; the overlap with the existing Lang & Heyne entry is institutional history, not present product. Authorship and manufacture both rest on the same foundation (one pair of hands behind ml-01), while the score band above waits for a deeper eponymous catalogue than two models. Caveats: the hand-manufacture claim is substantially self-reported today, and longevity or service data on the solo brand are thin.

@@ -1,0 +1,44 @@
+slug: sylvain-berneron
+name: Sylvain Berneron
+type: individual
+people:
+  - Sylvain Berneron
+tier: C
+scores:
+  A: 4.5
+  M:
+    - 2.5
+    - 3
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: finished_ebauche
+website: https://www.berneron.ch/
+instagram: berneron
+price:
+  text: 'Mirage 38 (Prussian Blue, Sienna): CHF 72,500 excluding VAT (24 pcs/yr); Mirage 34 (Lapis Lazuli, Tiger Eye): CHF 58,500 excluding VAT (48 pcs/yr)'
+models:
+  - name: Mirage 38 (Prussian Blue, Sienna)
+    prices:
+      - text: 24 pcs/yr
+        amount: 72500
+        currency: CHF
+    status: current
+  - name: Mirage 34 (Lapis Lazuli, Tiger Eye)
+    prices:
+      - text: 48 pcs/yr
+        amount: 58500
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Sylvain Berneron
+body: |-
+  Berneron's Mirage is one of the most aesthetically coherent young independents.
+
+  But it is important not to confuse authorship with manufacture. The movement was developed alongside specialist movement constructors rather than wholly produced at Berneron's bench.
+
+  Why care: movement architecture, case and dial form an unusually integrated whole.
+  Collector status: already extremely hot.
+  Movement-first view: less pure than Cools, Pinaud or Pagès.

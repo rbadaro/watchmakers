@@ -1,0 +1,44 @@
+slug: bernhard-zwinz-winnerl
+name: Bernhard Zwinz / Winnerl
+type: brand
+people:
+  - Bernhard Zwinz
+aliases:
+  - Winnerl
+tier: B
+scores:
+  A: 5
+  M: 4
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://winnerl.ch/
+instagram: j.t._winnerl
+price:
+  text: 'Tremblage series: CHF 65,000 excl. tax (launch price, 6 pieces). New Heart Return model: price on request.'
+models:
+  - name: Tremblage series
+    production:
+      series_total: 6
+    prices:
+      - text: 'New Heart Return model: price on request'
+        amount: 65000
+        currency: CHF
+    status: current
+awards:
+  - year: 2026
+    name: Louis Vuitton Watch Prize
+    result: semifinalist
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Bernhard Zwinz / Winnerl
+body: |-
+  Zwinz has an extraordinary behind-the-scenes career and worked within some of the finest modern independent-watchmaking environments.
+
+  Winnerl's newer movements have become increasingly original, including blank-sheet movement development.
+
+  Why care: maker's-maker credentials with much less collector fame than Brette or Rexhepi.
+
+  Update August 2026: Zwinz is a semifinalist for the 2026 Louis Vuitton Watch Prize.

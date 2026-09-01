@@ -1,0 +1,49 @@
+slug: bovet
+name: Bovet
+type: brand
+tier: S
+scores:
+  A: 4.5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://bovet.com/
+instagram: bovet1822
+price:
+  text: 'Mostly on request (est. CHF 24,500 to CHF 200,000+): Récital 29 steel CHF 24,500 indicated price; Récital 23 18k red gold EUR 70,000 (diamond bezel) to EUR 120,000; Virtuoso VIII Chapter Two DLC-SLN CHF 200,000'
+models:
+  - name: Mostly on request (est
+    prices:
+      - text: to
+        amount: 24500
+        currency: CHF
+      - text: '+): Récital 29 steel'
+        amount: 200000
+        currency: CHF
+      - text: indicated price
+        amount: 24500
+        currency: CHF
+    status: current
+  - name: Récital 23 18k red gold
+    prices:
+      - text: (diamond bezel) to
+        amount: 70000
+        currency: EUR
+      - amount: 120000
+        currency: EUR
+    status: current
+  - name: Virtuoso VIII Chapter Two DLC-SLN
+    prices:
+      - amount: 200000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Bovet
+body: |-
+  Much larger and more theatrical than the makers that dominate this report, but technically a real integrated manufacture.
+
+  Strong capability in tourbillons, long power reserves, differential winding, engraving and decorative crafts, and highly complex calibres.

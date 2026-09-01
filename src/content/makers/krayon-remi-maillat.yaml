@@ -1,0 +1,46 @@
+slug: krayon-remi-maillat
+name: Krayon / Rémi Maillat
+type: brand
+people:
+  - Rémi Maillat
+aliases:
+  - Krayon
+tier: B
+scores:
+  A: 5
+  M: 3.5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://www.krayon.ch/krayon.php
+instagram: krayon.ch
+price:
+  text: 'Anyday (white gold, max 45 per year): CHF 88,000; Anywhere: CHF 138,000 excl. tax; Everywhere (production paused): from CHF 700,000.'
+models:
+  - name: Anyday (white gold, max 45 per year)
+    prices:
+      - amount: 88000
+        currency: CHF
+    status: current
+  - name: Anywhere
+    prices:
+      - amount: 138000
+        currency: CHF
+    status: current
+  - name: 'Everywhere (production paused):'
+    prices:
+      - amount: 700000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Krayon / Rémi Maillat
+body: |-
+  Maillat's specialism is unusual astronomical and mathematical complication design.
+
+  Everywhere and Anywhere are not derivative perpetual-calendar exercises but novel solutions for indicating sunrise, sunset and temporal information.
+
+  Strength: mathematical movement design.
+  Manufacture caveat: more constructor than one-man component maker.

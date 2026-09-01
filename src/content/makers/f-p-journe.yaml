@@ -1,0 +1,91 @@
+slug: f-p-journe
+name: F.P. Journe
+type: brand
+tier: S
+scores:
+  A: 5
+  M: 5
+status: active
+location: Geneva
+country: Switzerland
+movement_making: full_inhouse
+website: https://fpjourne.com/
+instagram: fpjourneofficial
+price:
+  text: 'Elegante 40 mm: CHF 15,400; Chronometre Bleu 39 mm: CHF 39,300; Chronometre Souverain: CHF 42,400; Automatique Lune: CHF 53,900; Quantieme Perpetuel: CHF 89,900; Chronometre Furtif: CHF 90,000; Chronometre Optimum: CHF 128,100; Chronometre a Resonance: CHF 149,600; Repetition Souveraine: CHF 264,000 silver dial / CHF 308,000 sapphire dial; Tourbillon Souverain: CHF 275,000; FFC: CHF 900,000; Astronomic Souveraine: CHF 1,045,000 (all 2026 retail CHF excl. tax)'
+models:
+  - name: Elegante 40 mm
+    prices:
+      - amount: 15400
+        currency: CHF
+    status: current
+  - name: Chronometre Bleu 39 mm
+    prices:
+      - amount: 39300
+        currency: CHF
+    status: current
+  - name: Chronometre Souverain
+    prices:
+      - amount: 42400
+        currency: CHF
+    status: current
+  - name: Automatique Lune
+    prices:
+      - amount: 53900
+        currency: CHF
+    status: current
+  - name: Quantieme Perpetuel
+    prices:
+      - amount: 89900
+        currency: CHF
+    status: current
+  - name: Chronometre Furtif
+    prices:
+      - amount: 90000
+        currency: CHF
+    status: current
+  - name: Chronometre Optimum
+    prices:
+      - amount: 128100
+        currency: CHF
+    status: current
+  - name: Chronometre a Resonance
+    prices:
+      - amount: 149600
+        currency: CHF
+    status: current
+  - name: Repetition Souveraine
+    prices:
+      - text: silver dial /
+        amount: 264000
+        currency: CHF
+      - text: sapphire dial
+        amount: 308000
+        currency: CHF
+    status: current
+  - name: Tourbillon Souverain
+    prices:
+      - amount: 275000
+        currency: CHF
+    status: current
+  - name: FFC
+    prices:
+      - amount: 900000
+        currency: CHF
+    status: current
+  - name: Astronomic Souveraine
+    prices:
+      - text: all 2026 retail CHF
+        amount: 1045000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: F.P. Journe
+body: |-
+  Journe is unique because he combined the intellectual inventiveness of a one-man independent with enough scale to build a genuine manufacture.
+
+  His Invenit et Fecit philosophy explicitly means 'invented and made'. Essential movement families include Tourbillon Souverain, Chronomètre à Résonance, Chronomètre Optimum, Sonnerie Souveraine, Octa, Centigraphe and FFC.
+
+  Why canonical: arguably the most important independent movement inventor of the last generation.

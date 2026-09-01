@@ -1,0 +1,50 @@
+slug: stepan-sarpaneva
+name: Stepan Sarpaneva
+type: atelier
+tier: S
+status: active
+website: https://studiosarpaneva.com/
+instagram: sarpanevawatches
+price:
+  text: 'Supernova EUR 16,000; Supernova Moonphase EUR 24,500; Stardust Pluto/Mars EUR 16,500-19,000; Firehorse EUR 18,500; Lunations Eclipse EUR 44,500; still orderable from earlier collections: Nakki Blue Moon EUR 21,000, K1 Black Enamel EUR 22,500 (all excl. taxes)'
+models:
+  - name: Supernova
+    prices:
+      - amount: 16000
+        currency: EUR
+    status: current
+  - name: Supernova Moonphase
+    prices:
+      - amount: 24500
+        currency: EUR
+    status: current
+  - name: Stardust Pluto/Mars
+    prices:
+      - text: -19,000
+        amount: 16500
+        currency: EUR
+    status: current
+  - name: Firehorse
+    prices:
+      - amount: 18500
+        currency: EUR
+    status: current
+  - name: Lunations Eclipse
+    prices:
+      - amount: 44500
+        currency: EUR
+    status: current
+  - name: 'still orderable from earlier collections: Nakki Blue Moon'
+    prices:
+      - text: K1 Black Enamel
+        amount: 21000
+        currency: EUR
+      - text: all
+        amount: 22500
+        currency: EUR
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Stepan Sarpaneva
+body: Highly distinctive Finnish dial and case design, particularly his moon faces. Movement architecture historically relies substantially on supplied foundations.

@@ -1,0 +1,46 @@
+slug: mineroci
+name: Mineroci
+type: brand
+tier: D
+scores:
+  A: 4
+  M: 4
+status: active
+location: Beijing
+country: China
+movement_making: partial
+instagram: mineroci_official
+price:
+  text: 'RD002: CHF 78,000; Cloissone Enamel Guilloche Fish: HKD 140,800 (99 pieces, sold out)'
+models:
+  - name: RD002
+    prices:
+      - amount: 78000
+        currency: CHF
+    status: current
+  - name: Cloissone Enamel Guilloche Fish
+    production:
+      series_total: 99
+    prices:
+      - amount: 140800
+        currency: HKD
+    status: sold_out
+awards:
+  - year: 2026
+    name: Louis Vuitton Watch Prize
+    result: semifinalist
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Mineroci
+body: |-
+  Mineroci is one of the more interesting representatives of the new Chinese haute-horlogerie movement.
+
+  The RD002 combines remontoire, deadbeat seconds, highly symmetrical movement architecture and extremely small production.
+
+  Western collectors are only beginning to treat Chinese independent watchmaking as something beyond inexpensive tourbillons.
+
+  Collector thesis: asymmetric exposure to a potentially important new national independent-watchmaking ecosystem.
+  Risk: long-term brand recognition is harder to predict than for the Swiss and Japanese names.
+
+  Update August 2026: Mineroci is a semifinalist for the 2026 Louis Vuitton Watch Prize.

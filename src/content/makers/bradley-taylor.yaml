@@ -1,0 +1,47 @@
+slug: bradley-taylor
+name: Bradley Taylor
+type: individual
+people:
+  - Bradley Taylor
+tier: D
+scores:
+  A: 3
+  M: 3
+status: active
+location: North Vancouver, Canada
+country: Canada
+movement_making: partial
+website: https://bradleytaylor.ca
+instagram: bradleytaylor.ca
+price:
+  text: 'Ardea: USD 62,000 stainless steel; USD 82,500 platinum (series of 50); earlier Paragon and Lutria sold out'
+models:
+  - name: Ardea
+    prices:
+      - text: stainless steel
+        amount: 62000
+        currency: USD
+      - text: platinum
+        amount: 82500
+        currency: USD
+    status: current
+    production:
+      series_total: 50
+  - name: Paragon
+    status: sold_out
+  - name: Lutria
+    status: sold_out
+awards:
+  - year: 2026
+    name: HSNY Independent Watchmaker Grant
+    result: recipient
+last_verified: '2026-08-31'
+added: '2026-08-31'
+updated: '2026-08-31'
+doc_heading: Bradley Taylor
+body: |-
+  Bradley Taylor works alone in a 1,000 square foot workshop in North Vancouver. Born in Toronto, he trained in Le Locle under Henrik Korpela, earned a Patek Philippe Level II service certification in Geneva, co-founded Birchall and Taylor with classmate Alan Birchall in 2017, and has been solo since 2020. The close of 2025 and the spring of 2026 brought his breakthrough: the Ardea, covered by Hodinkee, SJX, Revolution and Monochrome, and a 2026 HSNY Independent Watchmaker Grant shared with two other young makers on this list.
+
+  The Ardea is where Taylor moves from finishing stock movements to making his own. Its hand-wound Cal. 475RS uses an architecture drawing on the vintage Omega 30T2 family, but virtually every component is manufactured from scratch by Taylor himself, including the main plate, bridges, solid-gold train wheels and a free-sprung balance. The dial side is equally in-house: hand guilloche on a sterling-silver dial turned on his own restored rose engine, depletion gilded, with solid-platinum polished applied numerals. The calibre is only 4.75mm tall by 31mm wide, running at 18,000 vibrations per hour with a 40-hour reserve, and it adds a retrograde 60-second hand. His earlier Paragon (2021) and Lutria (2022), both sold out, used stock Vaucher 5401 base calibres, so the authorship claim applies squarely to the 475RS era.
+
+  Why Tier D and A3 / M3: like Kortela Valta he works from a vintage Omega architecture, but Taylor goes further on manufacture because the main plate is also his own, along with the wheels, balance, dial, hands and numerals. Two sold-out small series plus a 50-piece third series put him past the patron stage. The HSNY grant and the breadth of press mark the start of the recognition cycle that would argue for Tier C on the next reference.

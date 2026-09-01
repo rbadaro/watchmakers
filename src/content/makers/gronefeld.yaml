@@ -1,0 +1,65 @@
+slug: gronefeld
+name: Grönefeld
+type: brand
+tier: B
+scores:
+  A: 4.5
+  M: 3.5
+status: active
+location: Netherlands
+country: Netherlands
+movement_making: partial
+website: https://gronefeld.com/
+instagram: gronefeld_watches
+price:
+  text: '1941 Principia steel: from EUR 29,950 (red gold EUR 37,300, white gold EUR 38,750); 1969 DeltaWorks: EUR 49,800 excl. tax; 1941 Remontoire: EUR 44,900 steel / EUR 49,500 red gold / EUR 50,850 white gold excl. tax; 1941 Grönograaf: EUR 155,000 steel / EUR 165,000 tantalum (orders closed).'
+models:
+  - name: '1941 Principia steel:'
+    prices:
+      - amount: 29950
+        currency: EUR
+      - text: white gold
+        amount: 37300
+        currency: EUR
+      - text: )
+        amount: 38750
+        currency: EUR
+    status: current
+  - name: 1969 DeltaWorks
+    prices:
+      - amount: 49800
+        currency: EUR
+    status: current
+  - name: 1941 Remontoire
+    prices:
+      - text: steel /
+        amount: 44900
+        currency: EUR
+      - text: red gold /
+        amount: 49500
+        currency: EUR
+      - text: white gold
+        amount: 50850
+        currency: EUR
+    status: current
+  - name: 1941 Grönograaf
+    prices:
+      - text: steel /
+        amount: 155000
+        currency: EUR
+      - text: tantalum (orders closed)
+        amount: 165000
+        currency: EUR
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Grönefeld
+body: |-
+  Bart and Tim Grönefeld produce some of the most beautifully finished modern movements.
+
+  Notable work includes One Hertz deadbeat seconds, Parallax Tourbillon, 1941 Remontoire and Principia automatic.
+
+  Component supply is more distributed than with Smith or Cools, hence the lower M score.
+  Quality: extremely high.
+  Collector status: firmly established.

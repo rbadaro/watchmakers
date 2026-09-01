@@ -1,0 +1,47 @@
+slug: j-n-shapiro
+name: J.N. Shapiro
+type: individual
+people:
+  - Joshua Shapiro
+aliases:
+  - JN Shapiro
+tier: B
+scores:
+  A: 5
+  M: 5
+status: active
+location: California, USA
+country: United States
+movement_making: full_inhouse
+website: https://jnshapirowatches.com/
+instagram: jnshapiro_watches
+price:
+  text: Infinity Series Pure USD 26,000; Radiant chronograph USD 35,900; Resurgence Series from USD 70,000
+models:
+  - name: Infinity Series Pure
+    prices:
+      - amount: 26000
+        currency: USD
+    status: current
+  - name: Radiant chronograph
+    prices:
+      - amount: 35900
+        currency: USD
+    status: current
+  - name: Resurgence Series
+    prices:
+      - amount: 70000
+        currency: USD
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: J.N. Shapiro
+body: |-
+  Shapiro has evolved from an exceptional guilloché and dial specialist into one of America's most serious complete watch manufacturers.
+
+  The Resurgence represents that transition: a largely US-made movement, case, dial and substantial regulating architecture produced inside Shapiro's operation.
+
+  Important correction: Shapiro did not win the second Louis Vuitton Watch Prize. Resurgence was a semi-finalist; Hazemann & Monnin won.
+
+  Why important: there are very few modern attempts to rebuild essentially complete haute-horlogerie capability in the United States.

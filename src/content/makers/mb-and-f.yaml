@@ -1,0 +1,47 @@
+slug: mb-and-f
+name: MB&F
+type: brand
+tier: S
+scores:
+  A: 5
+  M: 3
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://www.mbandf.com
+instagram: mbandf
+price:
+  text: 'M.A.D.1S: CHF 2,900 excl. VAT; LM101 EVO: CHF 62,000 excl. tax; LM Sequential Flyback EVO: CHF 168,000 excl. VAT; Horological Machine 11 Architect: CHF 198,000'
+models:
+  - name: M.A.D.1S
+    prices:
+      - amount: 2900
+        currency: CHF
+    status: current
+  - name: LM101 EVO
+    prices:
+      - amount: 62000
+        currency: CHF
+    status: current
+  - name: LM Sequential Flyback EVO
+    prices:
+      - amount: 168000
+        currency: CHF
+    status: current
+  - name: Horological Machine 11 Architect
+    prices:
+      - amount: 198000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: MB&F
+body: |-
+  MB&F intentionally complicates the authorship question.
+
+  Max Büsser creates the concepts, but the entire philosophy is to collaborate openly with 'Friends', including external movement constructors, designers and finishers. Later movements are increasingly conceived internally.
+
+  Why important: one of the most influential independent brands of the century.
+  Why M3: collaboration is the point, not vertically integrated production.

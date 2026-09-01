@@ -1,0 +1,50 @@
+slug: aaron-becsei-bexei
+name: Aaron Becsei / Bexei
+type: brand
+people:
+  - Aaron Becsei
+aliases:
+  - Bexei
+tier: B
+scores:
+  A: 5
+  M: 5
+status: active
+location: Hungary
+country: Hungary
+movement_making: full_inhouse
+website: https://bexei.hu/
+instagram: bexeiwatches
+price:
+  text: 'Bespoke unique pieces: Dignitas Pure Project XX EUR 77,000 excl. tax (2022); entry unique Dignitas from approx. EUR 60,000; minute repeater or sonnerie pieces EUR 300,000-500,000. New Pameus series (2026, platinum or 18k yellow gold, 6 pieces per metal): price on request.'
+models:
+  - name: 'Bespoke unique pieces: Dignitas Pure Project XX'
+    prices:
+      - text: '2022'
+        amount: 77000
+        currency: EUR
+    status: current
+  - name: entry unique Dignitas
+    prices:
+      - amount: 60000
+        currency: EUR
+    status: current
+  - name: minute repeater or sonnerie pieces
+    production:
+      series_total: 6
+      note: 6 pieces per metal; 6 pieces per metal
+    prices:
+      - text: '-500,000. New Pameus series : price on request'
+        amount: 300000
+        currency: EUR
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Aaron Becsei / Bexei
+body: |-
+  Becsei is an AHCI member and one of Europe's most under-the-radar complete watchmakers.
+
+  Bexei's appeal comes from proprietary movement construction, extremely low annual production, substantial internal manufacture and idiosyncratic hand decoration.
+
+  The styling can be more Baroque than Smith or Dufour, but mechanically it is serious.

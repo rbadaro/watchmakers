@@ -1,0 +1,46 @@
+slug: nicholas-hacko-nhw
+name: Nicholas Hacko / NHW
+type: brand
+people:
+  - Nicholas Hacko
+aliases:
+  - NHW
+  - Nicholas Hacko Watches
+tier: S
+scores:
+  A: 3.5
+  M: 3.5
+status: active
+location: Australia
+country: Australia
+movement_making: partial
+website: https://www.nicholashacko.com.au/
+instagram: nicholashackowatch
+price:
+  text: 'Mark 1: AUD 4,200 incl. GST; Mark II Curl Curl: AUD 7,900; NH Series (NH3): RRP was AUD 7,900, long sold out (current NH2 Timascus: on request)'
+models:
+  - name: Mark 1
+    prices:
+      - text: incl. GST
+        amount: 4200
+        currency: AUD
+    status: current
+  - name: Mark II Curl Curl
+    prices:
+      - amount: 7900
+        currency: AUD
+    status: current
+  - name: 'NH Series (NH3): RRP'
+    prices:
+      - text: 'long sold out (current NH2 Timascus: on request)'
+        amount: 7900
+        currency: AUD
+    status: sold_out
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Nicholas Hacko / NHW
+body: |-
+  Important correction: Hacko's Australian manufacturing programme is impressive, but the movement lineage retains substantial 6498-derived architecture.
+
+  That makes this a genuinely interesting local-manufacturing project rather than M5 blank-sheet movement watchmaking.

@@ -1,0 +1,36 @@
+slug: niton
+name: Niton
+type: brand
+tier: D
+scores:
+  A: 4
+  M: 4
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://niton.swiss
+instagram: niton.swiss
+price:
+  text: 'Prima Pink Gold: CHF 44,750 excluding VAT; Prima Platinum: CHF 47,750 excluding VAT'
+models:
+  - name: Prima Pink Gold
+    prices:
+      - amount: 44750
+        currency: CHF
+    status: current
+  - name: Prima Platinum
+    prices:
+      - amount: 47750
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Niton
+body: |-
+  The revived Niton is better thought of as a tiny independent manufacture than a single bench watchmaker.
+
+  The Prima uses a proprietary form movement with jumping hour, striking hour, zero reset and Geneva Seal certification. Only 38 pieces were planned for the initial series.
+
+  Interesting mechanically, but it belongs more naturally beside small manufactures than Ohno or Birchall-style craftsmen.

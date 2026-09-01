@@ -1,0 +1,24 @@
+slug: bernard-mermont
+name: Bernard Mermont
+type: individual
+people:
+  - Bernard Mermont
+tier: S
+status: active
+website: https://mermont.ch/
+price:
+  text: 'La Parfaite: CHF 10,998 (platinum case, single model; earlier salmon dial family-and-friends version sold out)'
+models:
+  - name: La Parfaite
+    prices:
+      - text: platinum case, single model
+        amount: 10998
+        currency: CHF
+    status: current
+  - name: salmon dial family-and-friends version
+    status: sold_out
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Bernard Mermont
+body: Beautiful artisanal execution, but La Parfaite uses La Joux-Perret and Peseux-based movement architecture. Therefore not a central candidate for this particular movement-first exercise.

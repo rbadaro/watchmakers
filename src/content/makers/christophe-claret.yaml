@@ -1,0 +1,59 @@
+slug: christophe-claret
+name: Christophe Claret
+type: brand
+tier: A
+scores:
+  A: 5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://www.claret.ch/
+instagram: christopheclaretofficial
+price:
+  text: 'Maestro: USD 68,000; Kantharos: USD 108,000; Poker: USD 168,000 (last known retail per EveryWatch index, Oct 2025 to Jul 2026); Concertino: CHF 348,000 titanium / CHF 378,000 red gold (2021); Napoleon Westminster minute repeater: CHF 590,000 (2021). Brand dormant; figures are last known retail'
+models:
+  - name: Maestro
+    prices:
+      - amount: 68000
+        currency: USD
+    status: current
+  - name: Kantharos
+    prices:
+      - amount: 108000
+        currency: USD
+    status: current
+  - name: Poker
+    prices:
+      - text: last known retail per EveryWatch index, Oct 2025 to Jul 2026
+        amount: 168000
+        currency: USD
+    status: current
+  - name: Concertino
+    prices:
+      - text: titanium /
+        amount: 348000
+        currency: CHF
+      - text: red gold (2021)
+        amount: 378000
+        currency: CHF
+    status: current
+  - name: Napoleon Westminster minute repeater
+    prices:
+      - text: (2021). Brand dormant
+        amount: 590000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Christophe Claret
+body: |-
+  Claret was an elite movement constructor before becoming a consumer-facing watch brand.
+
+  His manufacture has created movements for numerous prestigious houses and can handle extraordinarily complicated mechanisms.
+
+  Own-name creations have included tourbillons, minute repeaters, gaming complications, striking watches and unconventional displays.
+
+  Why important: one of the major hidden engines behind modern complication watchmaking.

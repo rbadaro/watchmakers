@@ -1,0 +1,60 @@
+slug: ressence
+name: Ressence
+type: brand
+tier: S
+status: active
+website: https://ressencewatches.com/
+instagram: ressence_watches
+price:
+  text: 'Type 9: EUR 16,700; Type 8: EUR 18,000 (DE1/DE2 art editions EUR 25,000); Type 1 Round/Slim/Squared: EUR 24,150; Type 5: EUR 40,850; Type 7 XV: EUR 47,700; Type 3: EUR 50,600; Type 2: EUR 61,900; Type 11: USD 31,400 (US retailer, no EUR price published)'
+models:
+  - name: Type 9
+    prices:
+      - amount: 16700
+        currency: EUR
+    status: current
+  - name: Type 8
+    prices:
+      - text: (DE1/DE2 art editions
+        amount: 18000
+        currency: EUR
+      - text: )
+        amount: 25000
+        currency: EUR
+    status: current
+  - name: Type 1 Round/Slim/Squared
+    prices:
+      - amount: 24150
+        currency: EUR
+    status: current
+  - name: Type 5
+    prices:
+      - amount: 40850
+        currency: EUR
+    status: current
+  - name: Type 7 XV
+    prices:
+      - amount: 47700
+        currency: EUR
+    status: current
+  - name: Type 3
+    prices:
+      - amount: 50600
+        currency: EUR
+    status: current
+  - name: Type 2
+    prices:
+      - amount: 61900
+        currency: EUR
+    status: current
+  - name: Type 11
+    prices:
+      - text: US retailer, no EUR price published
+        amount: 31400
+        currency: USD
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Ressence
+body: One of the cleverest display systems in contemporary horology. The orbital display mechanism is highly proprietary, but sits on movement foundations that prevent Ressence from fitting the traditional complete-watchmaker category.

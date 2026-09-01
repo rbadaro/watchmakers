@@ -1,0 +1,55 @@
+slug: greubel-forsey
+name: Greubel Forsey
+type: brand
+tier: S
+scores:
+  A: 5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://www.greubelforsey.com
+instagram: greubel.forsey
+price:
+  text: 'Balancier 3 titanium: CHF 160,000; Balancier 3 Frosted Titanium (22 pieces): CHF 175,000; Balancier Contemporain Final Edition: CHF 220,000; Balancier Convexe S2 final ceramic editions (11 each): CHF 295,000; GMT Balancier Convexe titanium: USD 510,000'
+models:
+  - name: Balancier 3 titanium
+    prices:
+      - amount: 160000
+        currency: CHF
+    status: current
+  - name: Balancier 3 Frosted Titanium
+    production:
+      series_total: 22
+    prices:
+      - amount: 175000
+        currency: CHF
+    status: current
+  - name: Balancier Contemporain Final Edition
+    prices:
+      - amount: 220000
+        currency: CHF
+    status: current
+  - name: Balancier Convexe S2 final ceramic editions (11 each)
+    prices:
+      - amount: 295000
+        currency: CHF
+    status: current
+  - name: GMT Balancier Convexe titanium
+    prices:
+      - amount: 510000
+        currency: USD
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Greubel Forsey
+body: |-
+  This is no longer a tiny one-man atelier, but excluding Greubel Forsey from a movement-first independent map would be absurd.
+
+  Its technical work spans inclined tourbillons, multiple tourbillon systems, differential systems, sophisticated balances and extreme hand finishing.
+
+  The Hand Made collection pushes the idea further, with exceptionally high manual production and even internal hairspring work in selected projects.
+
+  Why canonical: one of the absolute peaks of modern mechanical execution.

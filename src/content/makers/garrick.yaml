@@ -1,0 +1,53 @@
+slug: garrick
+name: Garrick
+type: brand
+tier: S
+scores:
+  A: 4
+  M: 4
+status: active
+location: United Kingdom
+country: United Kingdom
+movement_making: partial
+website: https://garrick.co.uk/
+instagram: garrickwatchco
+price:
+  text: 'Norfolk: GBP 2,495 ex VAT / GBP 2,995 inc VAT; S5: GBP 16,000 ex VAT (launch, likely higher now); S3 MK2: GBP 27,495 ex VAT / GBP 32,995 inc VAT; S7 entry model a piece unique under GBP 10,000'
+models:
+  - name: Norfolk
+    prices:
+      - text: ex VAT /
+        amount: 2495
+        currency: GBP
+      - text: inc VAT
+        amount: 2995
+        currency: GBP
+    status: current
+  - name: S5
+    prices:
+      - text: ex VAT (launch, likely higher now)
+        amount: 16000
+        currency: GBP
+    status: current
+  - name: S3 MK2
+    prices:
+      - text: ex VAT /
+        amount: 27495
+        currency: GBP
+      - text: inc VAT
+        amount: 32995
+        currency: GBP
+    status: current
+  - name: S7 entry model a piece unique under
+    prices:
+      - amount: 10000
+        currency: GBP
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Garrick
+body: |-
+  Particularly relevant to modern British watchmaking.
+
+  Its upper-end watches now use increasingly proprietary movements produced and finished through Garrick's Norfolk operation and partners. Some lower references continue to rely more heavily on supplied architecture, so evaluate reference by reference.

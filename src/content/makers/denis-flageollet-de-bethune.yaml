@@ -1,0 +1,44 @@
+slug: denis-flageollet-de-bethune
+name: Denis Flageollet / De Bethune
+type: brand
+people:
+  - Denis Flageollet
+aliases:
+  - De Bethune
+tier: A
+scores:
+  A: 5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://www.debethune.ch/en
+instagram: de_bethune
+price:
+  text: DB25Vxs Starry Varius CHF 65,000 titanium / CHF 70,000 rose gold; DB28xs Kind of Blue Tourbillon CHF 190,000
+models:
+  - name: DB25Vxs Starry Varius
+    prices:
+      - text: titanium /
+        amount: 65000
+        currency: CHF
+      - text: rose gold
+        amount: 70000
+        currency: CHF
+    status: current
+  - name: DB28xs Kind of Blue Tourbillon
+    prices:
+      - amount: 190000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Denis Flageollet / De Bethune
+body: |-
+  De Bethune is less like a conventional luxury-watch manufacturer and more like an experimental horological laboratory.
+
+  Its technical innovations include proprietary balance architectures, hairspring terminal curves, silicon escapement components, ultra-light tourbillons, self-regulating twin barrels, spherical precision moonphase, deadbeat seconds and novel shock systems.
+
+  Why important: intellectually one of the most important independent manufactures of the last 25 years.

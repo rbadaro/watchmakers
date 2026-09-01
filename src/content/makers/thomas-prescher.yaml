@@ -1,0 +1,39 @@
+slug: thomas-prescher
+name: Thomas Prescher
+type: individual
+people:
+  - Thomas Prescher
+tier: A
+scores:
+  A: 5
+  M: 4.5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://www.prescher.ch
+instagram: thomasprescherhautehorlogerie
+price:
+  text: 'On request (published: Triple Axis Tourbillon Regulator CHF 525,000 rose gold / CHF 545,000 white gold / CHF 575,000 platinum)'
+models:
+  - name: Triple Axis Tourbillon Regulator
+    prices:
+      - text: rose gold /
+        amount: 525000
+        currency: CHF
+      - text: white gold /
+        amount: 545000
+        currency: CHF
+      - text: platinum
+        amount: 575000
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Thomas Prescher
+body: |-
+  Prescher's triple-axis flying tourbillon work established him as one of the complication pioneers of the early independent revival.
+
+  He produces tiny numbers and accepts highly bespoke work.
+  Why relevant: genuine movement and complication construction rather than design-led independence.

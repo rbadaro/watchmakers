@@ -1,0 +1,61 @@
+slug: rgm-roland-g-murphy
+name: RGM / Roland G. Murphy
+type: brand
+people:
+  - Roland G. Murphy
+aliases:
+  - RGM
+tier: B
+scores:
+  A: 4.5
+  M: 4.5
+status: active
+location: Pennsylvania, USA
+country: United States
+movement_making: partial
+website: https://www.rgmwatches.com
+instagram: rgmwatches
+price:
+  text: 'In-house Caliber 801 models: 801-COE Corps of Engineers USD 9,700-11,900; PS-801-CH Chess USD 13,900; 801/40 Classic Enamel USD 14,900; PS-801 Skeleton USD 21,400 steel / USD 34,200 rose gold; Pennsylvania Tourbillon on request (est. USD 75,000-95,000).'
+models:
+  - name: 'In-house Caliber 801 models: 801-COE Corps of Engineers'
+    prices:
+      - text: -11,900
+        amount: 9700
+        currency: USD
+    status: current
+  - name: PS-801-CH Chess
+    prices:
+      - amount: 13900
+        currency: USD
+    status: current
+  - name: 801/40 Classic Enamel
+    prices:
+      - amount: 14900
+        currency: USD
+    status: current
+  - name: PS-801 Skeleton
+    prices:
+      - text: steel /
+        amount: 21400
+        currency: USD
+      - text: rose gold
+        amount: 34200
+        currency: USD
+    status: current
+  - name: Pennsylvania Tourbillon on request (est
+    prices:
+      - text: -95,000)
+        amount: 75000
+        currency: USD
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: RGM / Roland G. Murphy
+body: |-
+  RGM has quietly rebuilt serious American movement-making capability.
+
+  The Calibre 801 is the core manufacture calibre, while the Pennsylvania Tourbillon pushes further into high-end internal manufacture.
+
+  Why important: one of the longest-running modern attempts to make rather than merely assemble mechanical watches in America.

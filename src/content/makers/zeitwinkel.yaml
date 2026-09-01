@@ -1,0 +1,41 @@
+slug: zeitwinkel
+name: Zeitwinkel
+type: brand
+tier: S
+scores:
+  A: 4
+  M: 4.5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://zeitwinkel.ch/
+instagram: zeitwinkel.ch
+price:
+  text: '273° Saphir Fumé: CHF 21,500 excl. VAT; 273° Saphir Bleu: CHF 15,500; 188° collection 39mm: CHF 9,900'
+models:
+  - name: 273° Saphir Fumé
+    prices:
+      - amount: 21500
+        currency: CHF
+    status: current
+  - name: 273° Saphir Bleu
+    prices:
+      - amount: 15500
+        currency: CHF
+    status: current
+  - name: 188° collection 39mm
+    prices:
+      - amount: 9900
+        currency: CHF
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Zeitwinkel
+body: |-
+  A surprisingly serious manufacture hidden behind extremely restrained styling.
+
+  Zeitwinkel's ZW calibre family is proprietary and internally developed.
+
+  Why interesting: real manufacture substance without indie-hype pricing.

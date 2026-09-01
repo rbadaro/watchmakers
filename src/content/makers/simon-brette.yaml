@@ -1,0 +1,54 @@
+slug: simon-brette
+name: Simon Brette
+type: individual
+people:
+  - Simon Brette
+tier: C
+scores:
+  A: 5
+  M: 3
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: partial
+website: https://simonbrette.com
+instagram: simon_brette_watches
+price:
+  text: 'Chronomètre Artisans Souscription (12 pcs): CHF 50,000 before taxes; Steel Edition (60 pcs): CHF 81,000; Rose Gold Edition (50 pcs): CHF 85,000; all sold out'
+models:
+  - name: Chronomètre Artisans Souscription (12 pcs)
+    prices:
+      - amount: 50000
+        currency: CHF
+    status: current
+  - name: Steel Edition (60 pcs)
+    prices:
+      - amount: 81000
+        currency: CHF
+    status: current
+  - name: Rose Gold Edition (50 pcs)
+    prices:
+      - amount: 85000
+        currency: CHF
+    status: current
+  - name: all
+    status: sold_out
+awards:
+  - year: 2026
+    name: Louis Vuitton Watch Prize
+    result: finalist
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Simon Brette
+body: |-
+  Brette is probably the best example of why authorship and manufacturing need different scores.
+
+  The Chronomètre Artisans is unquestionably Brette's watch mechanically and aesthetically, but it is intentionally created through an ecosystem of exceptional independent specialists.
+
+  The movement has twin parallel barrels, a 72-hour reserve, 18,000 vph, 194 movement components, a very large balance and bespoke winding and click architecture.
+
+  Collector position: no longer early.
+  Long-term view: one of the most likely members of the eventual modern canon.
+
+  Update August 2026: Brette was a Louis Vuitton Watch Prize finalist in 2024, and the Chronomètre Artisans was shortlisted for the 2025 Grand Prix d'Horlogerie de Genève.

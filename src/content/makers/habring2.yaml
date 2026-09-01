@@ -1,0 +1,66 @@
+slug: habring2
+name: Habring²
+type: brand
+people:
+  - Maria Habring
+  - Richard Habring
+aliases:
+  - Habring2
+tier: B
+scores:
+  A: 4.5
+  M: 4
+status: active
+location: Austria
+country: Austria
+movement_making: partial
+website: https://www.habring2.com
+instagram: habring2
+price:
+  text: 'Felix: approx. EUR 4,450-6,000 (entry model, older published price; Montre de Souscription Felix variant EUR 6,000 excl. VAT late 2024); ChronoFelix: EUR 7,750 excl. tax (2026 Medicus) to EUR 8,050 incl. VAT (Top Second); Doppel38: EUR 9,250; Doppel Felix rattrapante: EUR 7,750-8,250; Chrono Felix Perpetual: EUR 23,500 incl. VAT.'
+models:
+  - name: 'Felix:'
+    prices:
+      - text: -6,000 (entry model, older published price; Montre de Souscription Felix variant
+        amount: 4450
+        currency: EUR
+      - text: late 2024)
+        amount: 6000
+        currency: EUR
+    status: current
+  - name: ChronoFelix
+    prices:
+      - text: (2026 Medicus) to
+        amount: 7750
+        currency: EUR
+      - text: Top Second
+        amount: 8050
+        currency: EUR
+    status: current
+  - name: Doppel38
+    prices:
+      - amount: 9250
+        currency: EUR
+    status: current
+  - name: Doppel Felix rattrapante
+    prices:
+      - text: -8,250
+        amount: 7750
+        currency: EUR
+    status: current
+  - name: Chrono Felix Perpetual
+    prices:
+      - amount: 23500
+        currency: EUR
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Habring²
+body: |-
+  Richard and Maria Habring deserve much more respect than the prices suggest.
+
+  The A11 movement family was developed as an independent movement platform, deliberately retaining some historical dimensional compatibility but no longer simply being an ETA or Valjoux modification.
+
+  Habring² has produced deadbeat seconds, jumping seconds, split seconds, tourbillons and chronographs.
+  Value: outstanding.

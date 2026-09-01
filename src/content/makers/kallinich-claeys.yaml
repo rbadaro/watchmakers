@@ -1,0 +1,39 @@
+slug: kallinich-claeys
+name: Kallinich Claeys
+type: duo
+tier: D
+scores:
+  A: 4
+  M:
+    - 3.5
+    - 4
+status: active
+location: Glashütte
+country: Germany
+movement_making: partial
+website: https://www.kallinichclaeys.com/en
+instagram: kallinichclaeys
+price:
+  text: 'Einser Central Seconds: EUR 24,950 before taxes; Einser Voyager: EUR 49,800 excluding taxes'
+models:
+  - name: Einser Central Seconds
+    prices:
+      - amount: 24950
+        currency: EUR
+    status: current
+  - name: Einser Voyager
+    prices:
+      - amount: 49800
+        currency: EUR
+    status: current
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Kallinich Claeys
+body: |-
+  A young German atelier with a strong Saxon visual and mechanical vocabulary.
+
+  The founding Einser series was tiny, and Louis Vuitton Watch Prize semi-final status means awareness is rising.
+
+  Strength: excellent movement finishing and coherent design.
+  Watchpoint: determine how much future movement manufacturing moves internally rather than merely how refined the finishing becomes.

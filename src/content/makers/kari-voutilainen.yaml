@@ -1,0 +1,58 @@
+slug: kari-voutilainen
+name: Kari Voutilainen
+type: atelier
+tier: S
+scores:
+  A: 5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://www.voutilainen.ch
+instagram: voutilainenwatches
+price:
+  text: 'KV20i Reversed: CHF 118,800 steel / CHF 121,600 rose gold / CHF 124,800 white gold, platinum or titanium (excl. VAT); KV20i Reversed CS titanium: CHF 133,800; Tourbillon 20th Anniversary (2024): CHF 275,000 gold / CHF 285,000 platinum; Vingt-8: orders closed 31 Dec 2025 per official site'
+models:
+  - name: KV20i Reversed
+    prices:
+      - text: steel /
+        amount: 118800
+        currency: CHF
+      - text: rose gold /
+        amount: 121600
+        currency: CHF
+      - text: white gold, platinum or titanium
+        amount: 124800
+        currency: CHF
+    status: current
+  - name: KV20i Reversed CS titanium
+    prices:
+      - amount: 133800
+        currency: CHF
+    status: current
+  - name: Tourbillon 20th Anniversary
+    years:
+      introduced: 2024
+    prices:
+      - text: gold /
+        amount: 275000
+        currency: CHF
+      - text: platinum
+        amount: 285000
+        currency: CHF
+    status: current
+  - name: Vingt-8
+    status: discontinued
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Kari Voutilainen
+body: |-
+  Voutilainen represents an unusually complete combination of movement design, movement manufacturing, escapement work, hand finishing, dial making and bespoke commissioning.
+
+  The Vingt-8 is particularly significant because of its large balance and distinctive dual-wheel direct-impulse escapement.
+
+  Key families include Vingt-8, Observatoire, KV20 and later calibres, plus minute repeaters, tourbillons and unique pieces.
+
+  Why canonical: perhaps the best all-round combination of traditional craft and modern independent manufacture.

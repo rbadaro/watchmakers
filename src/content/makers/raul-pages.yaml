@@ -1,0 +1,54 @@
+slug: raul-pages
+name: Raúl Pagès
+type: individual
+people:
+  - Raúl Pagès
+tier: C
+scores:
+  A: 5
+  M: 5
+status: active
+location: Switzerland
+country: Switzerland
+movement_making: full_inhouse
+website: https://pageswatches.com/
+instagram: raul_pages_watches
+price:
+  text: 'Soberly Onyx: CHF 48,000 (2016, sold out); Régulateur à détente RP1: CHF 85,000 excluding taxes; RP2 White Agate: CHF 89,000 excluding taxes (50 pieces)'
+models:
+  - name: Soberly Onyx
+    prices:
+      - amount: 48000
+        currency: CHF
+    status: current
+  - name: Régulateur à détente RP1
+    prices:
+      - amount: 85000
+        currency: CHF
+    status: current
+  - name: RP2 White Agate
+    production:
+      series_total: 50
+    prices:
+      - amount: 89000
+        currency: CHF
+    status: current
+  - name: '2016'
+    status: sold_out
+awards:
+  - year: 2024
+    name: Louis Vuitton Watch Prize
+    result: winner
+last_verified: '2026-08-31'
+added: '2026-08-29'
+updated: '2026-08-31'
+doc_heading: Raúl Pagès
+body: |-
+  Pagès came from restoration, which matters because it gives his work deep historical grounding.
+
+  The RP1 Régulateur à Détente contains a hand-crafted pivoted detent escapement, an extraordinarily rare proposition in a modern wristwatch. He won the inaugural Louis Vuitton Watch Prize in 2024.
+
+  Why it matters: Pagès is not merely decorating a high-end movement. The escapement itself is a serious piece of watchmaking authorship.
+  Long-term: future master.
+
+  Update August 2026: the Régulateur à détente RP2 was shortlisted for the 2025 Grand Prix d'Horlogerie de Genève.
