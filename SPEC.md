@@ -346,9 +346,9 @@ renders; once remote exists, push to main deploys to Pages (live URL 200).
       footer with build date, maker count, GitHub link)
 - [x] Empty index page rendering through the layout
 - [x] `astro.config.mjs` site/base set for Pages (project-pages base path)
-- [ ] `.github/workflows/ci.yml` (check + build) and `deploy.yml` (build +
+- [x] `.github/workflows/ci.yml` (check + build) and `deploy.yml` (build +
       Pages deploy on main), deploy deferred until remote exists
-- [ ] README stub with setup commands
+- [x] README stub with setup commands
 
 **M2 Data layer** — acceptance: `pnpm build` green with all makers; validator
 green; gap report matches the documented known gaps.
