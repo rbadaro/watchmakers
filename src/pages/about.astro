@@ -1,0 +1,144 @@
+---
+import Base from '../layouts/Base.astro';
+import { listMakers, makerCount } from '../lib/makers';
+import fxJson from '../../data/fx-gbp.json';
+import type { FxSnapshot } from '../lib/prices';
+
+const fx = fxJson as unknown as FxSnapshot;
+
+const makers = await listMakers();
+const count = await makerCount();
+const missingWebsite = makers.filter((m) => !m.data.website).map((m) => m.data.name);
+const missingInstagram = makers.filter((m) => !m.data.instagram).map((m) => m.data.name);
+
+// A/M rubric, verbatim from the source document's introduction.
+const A_LEVELS = [
+  ['A5', 'Essentially blank-sheet movement architecture or substantial original mechanical invention personally attributable to the maker.'],
+  ['A4', 'Proprietary calibre or architecture, but with more inherited architecture, collaboration or specialist engineering input.'],
+  ['A3', 'Significant proprietary complication or extensive transformation of an existing calibre.'],
+] as const;
+const M_LEVELS = [
+  ['M5', 'The maker or atelier manufactures nearly all meaningful movement components itself. External hairsprings, mainsprings, jewels and crystals do not automatically reduce an M5.'],
+  ['M4', 'Significant internal component manufacture, but substantial specialist work remains external.'],
+  ['M3', 'Movement is designed by the maker but much of its physical production is delegated to specialists.'],
+  ['M2', 'Primarily supplier-produced movement with significant modification, decoration or complication work.'],
+] as const;
+---
+
+<Base
+  title="About"
+  description="What Movement Map tracks, how the tier and A/M scoring works, and where the data comes from."
+>
+  <section class="content-wrap max-w-3xl py-10">
+    <h1 class="text-3xl font-semibold tracking-tight text-ink">About</h1>
+
+    <div class="mt-6 space-y-10 text-ink-dim leading-relaxed">
+      <section>
+        <h2 class="text-lg font-semibold tracking-tight text-ink">What this is</h2>
+        <p class="mt-2">
+          Movement Map is a structured, searchable tracker of {count} independent
+          watchmakers: the people and small ateliers who design, make or
+          meaningfully transform their own movements. Each maker gets one page
+          with its tier, scores, prices, models, awards and ordering state.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold tracking-tight text-ink">Where the data comes from</h2>
+        <p class="mt-2">
+          The index is compiled from a private comparative research document on
+          independent watchmaking, maintained by hand over time. Public editorial
+          and brand sources behind the entries are listed on each maker page.
+        </p>
+      </section>
+
+      <section id="am-scale">
+        <h2 class="text-lg font-semibold tracking-tight text-ink">The A and M scores</h2>
+        <p class="mt-2">
+          Two scores track how mechanically independent a maker actually is:
+          <strong class="font-semibold text-ink">A for movement authorship</strong>
+          and <strong class="font-semibold text-ink">M for physical manufacture</strong>,
+          each on a 0 to 5 scale. Fractional scores and ranges appear where the
+          record sits between two levels.
+        </p>
+        <div class="mt-5 grid gap-4 sm:grid-cols-2">
+          <div class="rounded-card-lg border border-hairline bg-surface p-5 shadow-card">
+            <h3 class="text-sm font-semibold text-ink">A · Movement authorship</h3>
+            <dl class="mt-3 space-y-2">
+              {A_LEVELS.map(([level, text]) => (
+                <div class="flex gap-3">
+                  <dt class="shrink-0 text-sm font-semibold numerals text-accent">{level}</dt>
+                  <dd class="text-sm text-ink-dim">{text}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+          <div class="rounded-card-lg border border-hairline bg-surface p-5 shadow-card">
+            <h3 class="text-sm font-semibold text-ink">M · Physical manufacture</h3>
+            <dl class="mt-3 space-y-2">
+              {M_LEVELS.map(([level, text]) => (
+                <div class="flex gap-3">
+                  <dt class="shrink-0 text-sm font-semibold numerals text-accent">{level}</dt>
+                  <dd class="text-sm text-ink-dim">{text}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
+        <p class="mt-4 text-sm">
+          These scores measure independence of movement creation, not quality. A
+          maker with a lower M score can still produce a more desirable or more
+          beautifully finished watch than a technically purer M5 workshop.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold tracking-tight text-ink">Prices and currencies</h2>
+        <p class="mt-2">
+          Prices are shown in their original currency, exactly as researched.
+          For sorting and price-band filtering only, all amounts are normalized
+          to GBP at build time against a dated FX snapshot
+          (<time datetime={fx.date} class="numerals">{fx.date}</time>
+          {fx.approximate && ', indicative mid-market rates'}).
+          Snapshot rates are never displayed; refresh cadence is a few percent
+          of drift.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold tracking-tight text-ink">Known gaps</h2>
+        <p class="mt-2">
+          Some records are deliberately incomplete where nothing reliable could
+          be verified:
+        </p>
+        {missingWebsite.length > 0 && (
+          <p class="mt-3 text-sm">
+            <span class="font-medium text-ink">No website found: </span>
+            {missingWebsite.join(', ')}.
+          </p>
+        )}
+        {missingInstagram.length > 0 && (
+          <p class="mt-2 text-sm">
+            <span class="font-medium text-ink">No Instagram found: </span>
+            {missingInstagram.join(', ')}.
+          </p>
+        )}
+      </section>
+
+      <section>
+        <h2 class="text-lg font-semibold tracking-tight text-ink">Corrections</h2>
+        <p class="mt-2">
+          The site is a static build regenerated from versioned data files after
+          each correction. The last build date and live maker count are in the
+          page footer; source and history are on
+          <a
+            href="https://github.com/rbadaro/watchmakers"
+            rel="noopener"
+            class="text-accent hover:underline"
+          >
+            GitHub</a>.
+        </p>
+      </section>
+    </div>
+  </section>
+</Base>

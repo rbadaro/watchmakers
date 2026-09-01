@@ -1,0 +1,67 @@
+---
+import Base from '../layouts/Base.astro';
+import MakerCard from '../components/MakerCard.astro';
+import { listMakers } from '../lib/makers';
+import { TIERS, TIER_MEANING } from '../lib/tiers';
+import type { Tier } from '../lib/tiers';
+import { firstSentence } from '../lib/format';
+import { fromLine } from '../lib/prices';
+import type { FxSnapshot } from '../lib/prices';
+import fxJson from '../../data/fx-gbp.json';
+
+const fx = fxJson as unknown as FxSnapshot;
+
+const makers = await listMakers();
+const byTier = new Map<Tier, typeof makers>();
+for (const tier of TIERS) byTier.set(tier, []);
+for (const entry of makers) byTier.get(entry.data.tier as Tier)?.push(entry);
+---
+
+<Base
+  title="Tiers"
+  description="The tier board: every tracked independent watchmaker grouped from the modern canon down to the patron stage."
+>
+  <section class="content-wrap py-10">
+    <h1 class="text-3xl font-semibold tracking-tight text-ink">The tier board</h1>
+    <p class="mt-3 max-w-prose text-ink-dim">
+      Every tracked maker grouped by placement, from the modern canon at the
+      top down to makers still at the patron stage. A sanity-check view: the
+      full searchable directory lives on the home page.
+    </p>
+
+    <div class="mt-10 space-y-16">
+      {
+        TIERS.map((tier) => {
+          const entries = byTier.get(tier) ?? [];
+          return (
+            <section aria-labelledby={`tier-${tier}`}>
+              <header class="border-b border-hairline pb-4">
+                <div class="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+                  <h2
+                    id={`tier-${tier}`}
+                    class="text-xl font-semibold tracking-tight text-ink"
+                  >
+                    Tier {tier}
+                  </h2>
+                  <p class="text-sm text-ink-dim">{TIER_MEANING[tier]}</p>
+                  <span class="ml-auto text-xs text-ink-faint numerals">
+                    {entries.length} {entries.length === 1 ? 'maker' : 'makers'}
+                  </span>
+                </div>
+              </header>
+              <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {entries.map((entry) => (
+                  <MakerCard
+                    entry={entry}
+                    priceText={fromLine(entry.data, fx)}
+                    excerpt={firstSentence(entry.data.body)}
+                  />
+                ))}
+              </div>
+            </section>
+          );
+        })
+      }
+    </div>
+  </section>
+</Base>
