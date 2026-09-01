@@ -24,6 +24,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
     "js-yaml": "^5.4.1",
+    "lighthouse": "^13.4.1",
     "typescript": "^5.9.3",
     "zod": "^4.5.4"
   }

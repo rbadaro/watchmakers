@@ -254,7 +254,7 @@ export default function BrowseApp() {
         />
         <div class="flex items-center gap-2">
           {searching && (
-            <span class="text-xs text-ink-faint" id="sort-note">
+            <span class="text-xs text-ink-dim" id="sort-note">
               Sort follows search relevance
             </span>
           )}
@@ -323,12 +323,18 @@ export default function BrowseApp() {
         </div>
       </div>
 
+      {/* Keeps heading order valid around the h1 (Lighthouse heading-order):
+          the filter bar contains no heading, the grid needs an h2 before the
+          h3 card titles. Visually hidden; screen readers and the outline get
+          a proper section. */}
+      <h2 class="sr-only">Makers</h2>
+
       <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
         <p class="text-sm text-ink-dim" role="status" aria-live="polite">
           Showing {result.items.length} of {records.length} makers
         </p>
         {state.band !== 0 && result.hiddenNoPrice > 0 && (
-          <p class="text-xs text-ink-faint">{hiddenPriceNote(result.hiddenNoPrice)}</p>
+          <p class="text-xs text-ink-dim">{hiddenPriceNote(result.hiddenNoPrice)}</p>
         )}
       </div>
 

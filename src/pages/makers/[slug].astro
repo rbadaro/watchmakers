@@ -115,7 +115,7 @@ function outletName(url: string): string {
 
     <header class="mt-4 flex flex-wrap items-baseline gap-x-3 gap-y-2">
       <h1 class="text-3xl font-semibold tracking-tight text-ink">{m.name}</h1>
-      <p class="text-sm text-ink-faint">
+      <p class="text-sm text-ink-dim">
         {m.aliases && m.aliases.length > 0 ? m.aliases.join(' · ') : null}
       </p>
     </header>
@@ -286,7 +286,7 @@ function outletName(url: string): string {
         m.price?.text && (
           <section class="mt-10" aria-label="Pricing">
             <h2 class="text-lg font-semibold tracking-tight text-ink">Pricing</h2>
-            <p class="mt-2 text-sm text-ink-faint">{m.price.text}</p>
+            <p class="mt-2 text-sm text-ink-dim">{m.price.text}</p>
           </section>
         )
       )
@@ -295,8 +295,8 @@ function outletName(url: string): string {
     {
       m.sources && m.sources.length > 0 && (
         <section class="mt-10 border-t border-hairline pt-4" aria-label="Sources">
-          <h2 class="text-xs font-medium uppercase tracking-wide text-ink-faint">Sources</h2>
-          <ul class="mt-2 space-y-1 text-xs text-ink-faint">
+          <h2 class="text-xs font-medium uppercase tracking-wide text-ink-dim">Sources</h2>
+          <ul class="mt-2 space-y-1 text-xs text-ink-dim">
             {m.sources.map((url: string) => (
               <li>
                 <a href={url} rel="noopener" class="text-ink-dim hover:text-accent break-all">

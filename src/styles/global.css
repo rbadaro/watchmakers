@@ -17,14 +17,14 @@
   /* Ink */
   --color-ink: #1d1d1f;
   --color-ink-dim: #6e6e73;
-  --color-ink-faint: #86868b;
+  --color-ink-faint: #75757a; /* darkened from #86868b for WCAG AA (4.58:1) */
 
   /* The single accent, interactive affordances only */
   --color-accent: #0066cc;
 
   /* Tier badge chips: pastel background, 600-level text */
   --color-tier-s-bg: #f7f2e5;
-  --color-tier-s-text: #8a6d1d;
+  --color-tier-s-text: #7a5e18; /* darkened from #8a6d1d for WCAG AA on chip bg (5.46:1) */
   --color-tier-a-bg: #f2ecfa;
   --color-tier-a-text: #6e3dc4;
   --color-tier-b-bg: #e8f1fb;
