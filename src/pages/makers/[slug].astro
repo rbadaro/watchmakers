@@ -266,11 +266,11 @@ function outletName(url: string): string {
                       <td data-label="Model" class="font-medium">
                         {model.name}
                       </td>
-                      <td data-label="Calibre">{model.calibre ?? '\u2014'}</td>
+                      <td data-label="Calibre">{model.calibre ?? '\u2013'}</td>
                       <td data-label="Years" class="numerals whitespace-nowrap">
-                        {yearsLabel(model.years) || '\u2014'}
+                        {yearsLabel(model.years) || '\u2013'}
                       </td>
-                      <td data-label="Production">{productionLabel(model.production) || '\u2014'}</td>
+                      <td data-label="Production">{productionLabel(model.production) || '\u2013'}</td>
                       <td data-label="Prices" class="numerals">
                         {pricesLabel(model.prices) || 'not published'}
                       </td>

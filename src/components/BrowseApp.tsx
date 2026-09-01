@@ -63,7 +63,7 @@ function Chip({
       type="button"
       aria-pressed={active}
       onClick={onClick}
-      class={`rounded-full border px-3 py-1.5 text-sm transition-colors duration-150 ${
+      class={`rounded-full border px-3 py-1.5 text-sm transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
         active
           ? 'border-accent bg-accent text-white'
           : 'border-hairline bg-surface text-ink-dim hover:border-ink-faint/40 hover:text-ink'
@@ -85,7 +85,7 @@ function MakerCard({ item }: { item: QueryItem }) {
   return (
     <a
       href={`${BASE}makers/${m.slug}/`}
-      class="group flex flex-col rounded-card-lg border border-hairline bg-surface p-5 shadow-card transition-[transform,box-shadow] duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent hover:-translate-y-0.5 hover:shadow-md"
+      class="group flex flex-col rounded-card-lg border border-hairline bg-surface p-5 shadow-card transition-[translate,box-shadow] duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent motion-safe:hover:-translate-y-0.5 hover:shadow-md"
     >
       <div class="flex items-center justify-between gap-2">
         <TierBadge tier={m.tier} />
@@ -219,7 +219,7 @@ export default function BrowseApp() {
   };
 
   const controlClass =
-    'rounded-full border border-hairline bg-surface px-3 py-1.5 text-sm text-ink-dim transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20 disabled:opacity-50';
+    'rounded-full border border-hairline bg-surface px-3 py-1.5 text-sm text-ink-dim transition-colors focus-visible:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent disabled:opacity-50';
 
   if (loadError) {
     return (
@@ -250,7 +250,7 @@ export default function BrowseApp() {
           placeholder="Search makers, models, places..."
           value={state.q}
           onInput={(e) => update({ q: e.currentTarget.value }, false)}
-          class="w-full max-w-md rounded-full border border-hairline bg-surface px-4 py-2 text-sm text-ink shadow-card transition-colors placeholder:text-ink-faint focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
+          class="w-full max-w-md rounded-full border border-hairline bg-surface px-4 py-2 text-sm text-ink shadow-card transition-colors placeholder:text-ink-faint focus-visible:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
         />
         <div class="flex items-center gap-2">
           {searching && (

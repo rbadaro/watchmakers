@@ -23,7 +23,7 @@ const place = m.location && m.location !== '' ? m.location : (m.country ?? '');
 
 <a
   href={`${base}makers/${m.slug}/`}
-  class="group flex flex-col rounded-card-lg border border-hairline bg-surface p-5 shadow-card transition-[transform,box-shadow] duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent hover:-translate-y-0.5 hover:shadow-md"
+  class="group flex flex-col rounded-card-lg border border-hairline bg-surface p-5 shadow-card transition-[translate,box-shadow] duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent motion-safe:hover:-translate-y-0.5 hover:shadow-md"
 >
   <div class="flex items-center justify-between gap-2">
     <TierBadge tier={m.tier} />
