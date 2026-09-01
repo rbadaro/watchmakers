@@ -121,7 +121,7 @@ instagram: bradleytaylor.ca       # optional, bare handle without @
 price:                            # optional FALLBACK summary, only when models unknown
   text: "USD 60,000 to 90,000"
   amount: 60000
-  currency: USD                   # enum: USD | CHF | EUR | GBP | JPY
+  currency: USD                   # enum: USD | CHF | EUR | GBP | JPY | AUD
 models:                           # the watch/series collection
   - name: Ardea
     calibre: Cal. 475RS, hand-wound   # optional
