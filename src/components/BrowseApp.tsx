@@ -6,7 +6,7 @@
  */
 
 import { Fragment } from 'preact';
-import { useEffect, useMemo, useState } from 'preact/hooks';
+import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import {
   BANDS,
   DEFAULT_STATE,
@@ -14,7 +14,9 @@ import {
   TIERS,
   applyFilters,
   createSearcher,
+  queryToState,
   runQuery,
+  stateToQuery,
 } from '../lib/browse';
 import type {
   BrowseRecord,
@@ -124,7 +126,34 @@ function MakerCard({ item }: { item: QueryItem }) {
 export default function BrowseApp() {
   const [records, setRecords] = useState<BrowseRecord[] | null>(null);
   const [loadError, setLoadError] = useState(false);
-  const [state, setState] = useState<BrowseState>(DEFAULT_STATE);
+  // Initial state comes from the URL, so shared links and returning from a
+  // detail page both land on the filtered view they came from (SPEC 6.6).
+  const [state, setState] = useState<BrowseState>(() =>
+    typeof window === 'undefined' ? DEFAULT_STATE : queryToState(window.location.search),
+  );
+
+  // URL mirroring: typing replaces the current entry (no history spam),
+  // discrete control changes push one, popstate restores the full state.
+  const pushAction = useRef(true);
+  const mountedRef = useRef(false);
+
+  useEffect(() => {
+    const onPop = () => setState(queryToState(window.location.search));
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, []);
+
+  useEffect(() => {
+    if (!mountedRef.current) {
+      mountedRef.current = true;
+      return;
+    }
+    const qs = stateToQuery(state);
+    if (window.location.search !== qs) {
+      const method = pushAction.current ? 'pushState' : 'replaceState';
+      window.history[method](null, '', `${BASE}${qs}`);
+    }
+  }, [state]);
 
   // The index is fetched once (tiny: ~60 KB at 112 records) so the grid can
   // render without waiting for a search focus.
@@ -169,13 +198,21 @@ export default function BrowseApp() {
     );
   }, [records]);
 
-  const update = (partial: Partial<BrowseState>) => setState((s) => ({ ...s, ...partial }));
-  const toggleTier = (tier: Tier) =>
+  const update = (partial: Partial<BrowseState>, push = true) => {
+    pushAction.current = push;
+    setState((s) => ({ ...s, ...partial }));
+  };
+  const toggleTier = (tier: Tier) => {
+    pushAction.current = true;
     setState((s) => ({
       ...s,
       tiers: s.tiers.includes(tier) ? s.tiers.filter((t) => t !== tier) : [...s.tiers, tier],
     }));
-  const clearAll = () => setState(DEFAULT_STATE);
+  };
+  const clearAll = () => {
+    pushAction.current = true;
+    setState(DEFAULT_STATE);
+  };
 
   const controlClass =
     'rounded-full border border-hairline bg-surface px-3 py-1.5 text-sm text-ink-dim transition-colors focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20 disabled:opacity-50';
@@ -208,7 +245,7 @@ export default function BrowseApp() {
           aria-label="Search makers"
           placeholder="Search makers, models, places..."
           value={state.q}
-          onInput={(e) => update({ q: e.currentTarget.value })}
+          onInput={(e) => update({ q: e.currentTarget.value }, false)}
           class="w-full max-w-md rounded-full border border-hairline bg-surface px-4 py-2 text-sm text-ink shadow-card transition-colors placeholder:text-ink-faint focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
         />
         <div class="flex items-center gap-2">
