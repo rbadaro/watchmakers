@@ -9,6 +9,7 @@
     "check": "astro check",
     "astro": "astro",
     "validate": "node scripts/validate.mjs",
+    "smoke:browse": "node scripts/smoke-browse.mjs",
     "new:maker": "node scripts/new-maker.mjs"
   },
   "dependencies": {
