@@ -371,14 +371,17 @@ green; gap report matches the documented known gaps.
 **M3 Browse** — acceptance: query params round-trip; result count correct
 across filter combinations; sort disables during search.
 
-- [ ] `src/pages/search-index.json.ts` endpoint per section 6 fields
-- [ ] `BrowseApp` island: lazy index load on first search focus
-- [ ] Search: instant, highlight in names, Fuse weights/threshold per section 6,
+- [x] `src/pages/search-index.json.ts` endpoint per section 6 fields
+- [x] `BrowseApp` island, index JSON fetched once on mount instead of on
+      first search focus, so the grid renders without an interaction (still
+      zero per-keystroke fetches; change of detail noted in build log)
+- [x] Search: instant, highlight in names, Fuse weights/threshold per section 6,
       match-reason line, empty state with clear-all reset
-- [ ] Filter bar: tier chips, country dropdown, full-in-house toggle, price
+- [x] Filter bar: tier chips, country dropdown, full-in-house toggle, price
       band chips (incl. unknown-price exclusion note), sort control
-- [ ] URL sync `?q=&tier=&country=&movement=&band=&sort=`, back/forward works
-- [ ] Card grid: all makers at once, card anatomy per section 5
+- [x] URL sync `?q=&tier=&country=&movement=&band=&sort=`, back/forward works
+      (typing replaceState, discrete changes pushState, popstate restores)
+- [x] Card grid: all makers at once, card anatomy per section 5
       (lean + ordering pill), default order tier then name
 
 **M4 Detail, tiers, about** — acceptance: every slug resolves; prev/next and
