@@ -16,7 +16,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import yaml from 'js-yaml';
+import { load as yamlLoad } from 'js-yaml';
 import { z } from 'zod';
 import { makeMakerSchema } from '../src/content/makerSchema.mjs';
 
@@ -46,7 +46,7 @@ for (const file of files) {
   const fp = path.join(dir, file);
   let data;
   try {
-    data = yaml.load(fs.readFileSync(fp, 'utf8'));
+    data = yamlLoad(fs.readFileSync(fp, 'utf8'));
   } catch (err) {
     console.error(`FAIL ${file}: YAML parse error: ${err.message}`);
     failures++;

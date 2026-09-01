@@ -4,9 +4,8 @@
  *
  * Usage: node scripts/new-maker.mjs "Full Display Name" TIER
  * Writes src/content/makers/<slug>.yaml with required fields filled with
- * placeholders and the optional blocks present but commented out.
- * The file will NOT validate until placeholders are replaced, by design:
- * this is a skeleton, not a record.
+ * placeholder strings (schema-valid) and optional blocks commented out.
+ * Do not commit placeholders; run pnpm validate after filling it in.
  */
 import fs from 'node:fs';
 import path from 'node:path';
