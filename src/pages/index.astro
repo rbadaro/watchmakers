@@ -1,5 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
+import BrowseApp from '../components/BrowseApp';
+import { listMakers } from '../lib/makers';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const makers = await listMakers();
 ---
 
 <Base>
@@ -12,13 +17,36 @@ import Base from '../layouts/Base.astro';
       canon: tiers, scores, prices, and how their books actually work.
     </p>
 
-    {/* The browse island (search, filters, card grid) mounts here in M3. */}
-    <div
-      id="browse-root"
-      class="mt-10 rounded-card border border-hairline bg-surface shadow-card p-10 text-center text-ink-dim"
-      aria-label="Maker index"
-    >
-      <p class="text-sm">The maker index is being assembled. Check back soon.</p>
+    <div id="browse-root" class="mt-10">
+      <BrowseApp client:only="preact">
+        <div
+          class="rounded-card border border-hairline bg-surface p-10 text-center text-ink-dim shadow-card"
+          aria-busy="true"
+        >
+          <p>Loading the index...</p>
+        </div>
+      </BrowseApp>
+      <noscript>
+        <p class="mb-3 text-sm text-ink-dim">
+          JavaScript is off, so this is the plain index without search and
+          filters.
+        </p>
+        <ul class="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          {
+            makers.map((m) => (
+              <li class="rounded-card border border-hairline bg-surface px-4 py-3 text-sm">
+                <a
+                  href={`${base}makers/${m.data.slug}/`}
+                  class="font-medium text-ink hover:text-accent"
+                >
+                  {m.data.name}
+                </a>
+                <span class="ml-2 text-xs text-ink-faint">Tier {m.data.tier}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </noscript>
     </div>
   </section>
 </Base>
