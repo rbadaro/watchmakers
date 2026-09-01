@@ -13,7 +13,9 @@ const {
   description = SITE_SUBTITLE,
 } = Astro.props;
 
-const base = import.meta.env.BASE_URL;
+// BASE_URL comes straight from astro.config base and may or may not end in
+// a slash depending on mode; normalize so every join below is exact.
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const count = await makerCount();
 const buildDate = new Date().toISOString().slice(0, 10);
 const pageTitle = title === SITE_TITLE ? title : `${title} · ${SITE_TITLE}`;
