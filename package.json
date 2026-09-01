@@ -1,7 +1,8 @@
 {
   "name": "movement-map",
-  "type": "module",
   "version": "0.0.1",
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
