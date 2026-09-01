@@ -98,7 +98,14 @@ people: [Bradley Taylor]          # searchable names behind the record
 aliases: [Birchall & Taylor]      # optional, old/other names, feeds search
 tier: D                           # enum: S | A | B | C | D | E
 tier_note: knocking on C          # optional free text, shown next to badge
-scores: { A: 3, M: 3 }            # optional, floats 0..5
+scores: { A: 3, M: 3 }            # optional, floats 0..5; a [min, max] pair is
+                                  # allowed for the doc's range scores, e.g.
+                                  # M: [3.5, 4] for "M3.5-4" in the doc
+                                  # axes (rubric lives on About, verbatim from
+                                  # doc intro): A = movement authorship,
+                                  # M = physical manufacture; scores measure
+                                  # independence of movement creation, not
+                                  # quality
 status: active                    # active | dormant | retired
 location: North Vancouver, Canada
 country: Canada
@@ -331,7 +338,7 @@ as the repo answers in section 11 arrive. Commit conventions: `feat:`, `fix:`,
 **M1 Scaffold** — acceptance: `pnpm build` green locally, empty themed shell
 renders; once remote exists, push to main deploys to Pages (live URL 200).
 
-- [ ] `pnpm create astro` minimal template, TypeScript strict
+- [x] `pnpm create astro` minimal template, TypeScript strict
 - [ ] Tailwind v4 via `@tailwindcss/vite`; light theme tokens in global.css
       (Apple palette from section 5, no dark palette)
 - [ ] `pnpm add @astrojs/preact preact fuse.js` + astro check wired into scripts
@@ -402,13 +409,19 @@ makers Ruben green-lights for the doc.
 
 ---
 
-## 11. Open questions for Ruben
+## 11. Setup decisions (all resolved 31 Aug 2026)
 
-1. Repo name and owner (personal GitHub? `rubenbadaro/watchmakers`?), and public
-   or private. Note: GitHub Pages on the free plan needs a public repo; nothing
-   in the data is sensitive.
-2. Site name. Working title "Independent Watchmakers Map" — keep, or something
-   shorter for the header?
-3. Custom domain now or later (a subdomain is one CNAME when you want it)?
-4. What do the A and M axes in the doc's scores stand for? The About page should
-   document them properly.
+- Repo: `github.com/rbadaro/watchmakers`, public (Ruben's handle, public
+  approved). Local repo at `~/workspace/watchmakers-app`; the push waits for
+  GitHub authentication (gh installed but not logged in).
+- Wordmark: "Movement Map", subtitle "An index of independent watchmakers"
+  (chosen by Bill per Ruben's delegation).
+- Domain: ship on `rbadaro.github.io/watchmakers`; a custom subdomain later is
+  one CNAME record plus `public/CNAME`.
+- A/M axes (from the doc intro): A = movement authorship, M = physical
+  manufacture; scores measure independence of movement creation, not quality.
+  The rubric (A5/A4/A3 and M5/M4/M3/M2 definitions) renders verbatim on About.
+- Toolchain note: this VM has no system Node 22. A user-local Node 22.23.2
+  lives at `~/.local/node22` with pnpm 9.15.9 via corepack; builders must
+  export `~/.local/node22/bin` onto PATH in every shell command (non-login
+  shells do not read `.bashrc`).
