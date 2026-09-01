@@ -387,16 +387,16 @@ across filter combinations; sort disables during search.
 **M4 Detail, tiers, about** — acceptance: every slug resolves; prev/next and
 back-with-state work; build timestamp renders.
 
-- [ ] `[slug].astro`: two-column layout, fact rail per settled list, stacks on
+- [x] `[slug].astro`: two-column layout, fact rail per settled list, stacks on
       mobile
-- [ ] Models table: rows name/calibre/years/production/prices/status pill,
+- [x] Models table: rows name/calibre/years/production/prices/status pill,
       label-value stack on mobile, quiet sold-out rows
-- [ ] Sources list (outlet + date) at page foot
-- [ ] Prev/next within tier (name-labelled), back link restoring filter state
-- [ ] `tiers.astro` pyramid board S to E
-- [ ] `about.astro`: methodology, A/M axes (needs Ruben's definition first),
+- [x] Sources list (outlet + date) at page foot
+- [x] Prev/next within tier (name-labelled), back link restoring filter state
+- [x] `tiers.astro` pyramid board S to E
+- [x] `about.astro`: methodology, A/M axes (needs Ruben's definition first),
       FX snapshot date, known-gaps list
-- [ ] `404.astro`
+- [x] `404.astro`
 
 **M5 Polish** — acceptance: Lighthouse run filed in README; no axe-critical
 issues.
