@@ -1,0 +1,18 @@
+---
+/**
+ * One label/value row in the detail-page fact rail. Used only when the
+ * underlying data exists (callers skip absent keys), so the row renders no
+ * empty placeholders.
+ */
+
+interface Props {
+  label: string;
+}
+
+const { label } = Astro.props;
+---
+
+<div class="flex flex-col gap-0.5 border-b border-hairline py-2.5 last:border-b-0 last:pb-0 first:pt-0">
+  <dt class="text-xs font-medium uppercase tracking-wide text-ink-faint">{label}</dt>
+  <dd class="text-sm text-ink"><slot /></dd>
+</div>

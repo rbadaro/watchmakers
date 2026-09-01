@@ -1,0 +1,24 @@
+---
+import type { Tier } from '../lib/tiers';
+
+interface Props {
+  tier: Tier;
+}
+
+const { tier } = Astro.props;
+
+const TIER_CLASSES: Record<Tier, string> = {
+  S: 'bg-tier-s-bg text-tier-s-text',
+  A: 'bg-tier-a-bg text-tier-a-text',
+  B: 'bg-tier-b-bg text-tier-b-text',
+  C: 'bg-tier-c-bg text-tier-c-text',
+  D: 'bg-tier-d-bg text-tier-d-text',
+  E: 'bg-tier-e-bg text-tier-e-text',
+};
+---
+
+<span
+  class={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold ${TIER_CLASSES[tier]}`}
+>
+  Tier {tier}
+</span>

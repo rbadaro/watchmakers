@@ -94,3 +94,67 @@
   margin-inline: auto;
   padding-inline: 1.25rem;
 }
+
+/*
+ * Maker body Markdown (detail page left column). Hand-rolled prose styles
+ * instead of @tailwindcss/typography so the light theme tokens stay the
+ * single source of truth.
+ */
+.markdown-body {
+  @apply text-ink-dim leading-relaxed;
+}
+
+.markdown-body > p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.markdown-body a {
+  @apply text-accent hover:underline;
+}
+
+.markdown-body strong {
+  @apply font-semibold text-ink;
+}
+
+.markdown-body em {
+  @apply italic;
+}
+
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4 {
+  @apply text-ink font-semibold tracking-tight mt-6 mb-2;
+}
+
+.markdown-body > :is(h2, h3, h4):first-child {
+  margin-top: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  @apply my-3 pl-5 list-disc;
+}
+
+.markdown-body ol {
+  @apply list-decimal;
+}
+
+.markdown-body li {
+  @apply mb-1;
+}
+
+.markdown-body hr {
+  @apply my-6 border-hairline;
+}
+
+.markdown-body blockquote {
+  @apply border-l-2 border-hairline pl-4 my-4 italic;
+}
+
+.markdown-body :not(pre) > code {
+  @apply bg-hairline/40 rounded px-1 text-[0.9em];
+}
+
+.markdown-body pre {
+  @apply overflow-x-auto rounded-card border border-hairline p-3 my-4 text-sm;
+}

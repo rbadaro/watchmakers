@@ -1,0 +1,51 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import TierBadge from './TierBadge.astro';
+
+/**
+ * The lean maker card (SPEC section 5 card anatomy), Astro flavour used on
+ * the tiers board. Kept visually identical to the card rendered by the
+ * Preact browse island on the index: same classes, same field order.
+ */
+
+interface Props {
+  entry: CollectionEntry<'makers'>;
+  priceText: string | null;
+  excerpt: string;
+}
+
+const { entry, priceText, excerpt } = Astro.props;
+const m = entry.data;
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const place = m.location && m.location !== '' ? m.location : (m.country ?? '');
+---
+
+<a
+  href={`${base}makers/${m.slug}/`}
+  class="group flex flex-col rounded-card-lg border border-hairline bg-surface p-5 shadow-card transition-[transform,box-shadow] duration-150 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent hover:-translate-y-0.5 hover:shadow-md"
+>
+  <div class="flex items-center justify-between gap-2">
+    <TierBadge tier={m.tier} />
+    {m.ordering?.status === 'open' && (
+      <span class="rounded-full bg-tier-c-bg px-2.5 py-0.5 text-xs font-medium text-tier-c-text">
+        Books open
+      </span>
+    )}
+    {m.ordering?.status === 'waitlist' && (
+      <span class="rounded-full bg-tier-d-bg px-2.5 py-0.5 text-xs font-medium text-tier-d-text">
+        Waitlist
+      </span>
+    )}
+  </div>
+  <h3 class="mt-3 text-base font-semibold text-ink group-hover:text-accent">
+    {m.name}
+  </h3>
+  {place !== '' && <p class="mt-1 text-sm text-ink-dim">{place}</p>}
+  <p class="mt-1 text-sm text-ink numerals line-clamp-1" title={priceText ?? undefined}>
+    {priceText ?? 'Price on request'}
+  </p>
+  {excerpt !== '' && (
+    <p class="mt-2 text-sm leading-relaxed text-ink-dim line-clamp-2">{excerpt}</p>
+  )}
+</a>
