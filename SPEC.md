@@ -401,11 +401,11 @@ back-with-state work; build timestamp renders.
 **M5 Polish** — acceptance: Lighthouse run filed in README; no axe-critical
 issues.
 
-- [ ] Empty states, focus rings, aria labels on all interactive controls,
+- [x] Empty states, focus rings, aria labels on all interactive controls,
       `prefers-reduced-motion` honored
-- [ ] Favicon
-- [ ] Lighthouse pass on /, one detail page, /tiers
-- [ ] README full + `docs/ADDING_MAKERS.md` (the section-8 workflow)
+- [x] Favicon
+- [x] Lighthouse pass on /, one detail page, /tiers
+- [x] README full + `docs/ADDING_MAKERS.md` (the section-8 workflow)
 
 **M6 First real adds** — run the section-8 workflow end to end on the next
 makers Ruben green-lights for the doc.
