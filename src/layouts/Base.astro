@@ -1,0 +1,67 @@
+---
+import '../styles/global.css';
+import { SITE_TITLE, SITE_SUBTITLE, REPO_URL } from '../lib/site';
+import { makerCount } from '../lib/makers';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = SITE_TITLE,
+  description = SITE_SUBTITLE,
+} = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+const count = await makerCount();
+const buildDate = new Date().toISOString().slice(0, 10);
+const pageTitle = title === SITE_TITLE ? title : `${title} · ${SITE_TITLE}`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+    <title>{pageTitle}</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <header class="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-hairline">
+      <div class="content-wrap flex items-center justify-between h-16">
+        <a href={base} class="flex items-baseline gap-3 group">
+          <span class="font-semibold text-ink tracking-tight group-hover:text-accent">
+            {SITE_TITLE}
+          </span>
+          <span class="hidden md:inline text-xs text-ink-dim">
+            {SITE_SUBTITLE}
+          </span>
+        </a>
+        <nav aria-label="Primary" class="flex items-center gap-6 text-sm">
+          <a href={`${base}tiers/`} class="text-ink-dim hover:text-ink">Tiers</a>
+          <a href={`${base}about/`} class="text-ink-dim hover:text-ink">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <footer class="border-t border-hairline">
+      <div class="content-wrap py-6 flex flex-wrap items-center justify-between gap-2 text-xs text-ink-faint">
+        <p>
+          <time datetime={buildDate}>Built {buildDate}</time>
+          <span aria-hidden="true"> · </span>
+          <span>{count} {count === 1 ? 'maker' : 'makers'}</span>
+        </p>
+        <a href={REPO_URL} class="text-ink-dim hover:text-accent" rel="noopener">
+          rbadaro/watchmakers
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

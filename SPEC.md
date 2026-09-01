@@ -342,9 +342,9 @@ renders; once remote exists, push to main deploys to Pages (live URL 200).
 - [x] Tailwind v4 via `@tailwindcss/vite`; light theme tokens in global.css
       (Apple palette from section 5, no dark palette)
 - [x] `pnpm add @astrojs/preact preact fuse.js` + astro check wired into scripts
-- [ ] Base layout with settled chrome (title left, Tiers + About right;
+- [x] Base layout with settled chrome (title left, Tiers + About right;
       footer with build date, maker count, GitHub link)
-- [ ] Empty index page rendering through the layout
+- [x] Empty index page rendering through the layout
 - [ ] `astro.config.mjs` site/base set for Pages (project-pages base path)
 - [ ] `.github/workflows/ci.yml` (check + build) and `deploy.yml` (build +
       Pages deploy on main), deploy deferred until remote exists
