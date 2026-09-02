@@ -96,7 +96,7 @@ slug: bradley-taylor              # ^[a-z0-9]+(-[a-z0-9]+)*$, unique
 type: individual                  # individual | duo | atelier | brand
 people: [Bradley Taylor]          # searchable names behind the record
 aliases: [Birchall & Taylor]      # optional, old/other names, feeds search
-tier: D                           # enum: S | A | B | C | D | E
+tier: D                           # enum: S | A | B | C | D | E | M | I
 tier_note: knocking on C          # optional free text, shown next to badge
 scores: { A: 3, M: 3 }            # optional, floats 0..5; a [min, max] pair is
                                   # allowed for the doc's range scores, e.g.
@@ -166,7 +166,7 @@ Rules:
 ## 5. Routes and UX
 
 **`/` (browse)** — the app. Sticky frosted header with the search input; below
-it the filter bar: tier chips (All, S, A, B, C, D, E), a country dropdown
+it the filter bar: tier chips (All, S, A, B, C, D, E, M, I), a country dropdown
 derived from the data, a movement-making toggle (full in-house only), price
 band chips (Any / under £50k / £50-150k / £150-300k / £300k+), and a sort
 control. A live result count. All makers render at once as one flat grid, no
@@ -215,7 +215,7 @@ Search behaviour, approved as proposed:
 - Foot navigation: prev/next within the tier, labelled with the makers'
   names, plus a back link that restores the grid's filter state from the URL.
 
-**`/tiers/`** — board view: one lane per tier S through E, makers as compact
+**`/tiers/`** — board view: one lane per tier S through E plus M and I, makers as compact
 rows. Cheap to build, useful for sanity-checking tier placements against the doc.
 
 **`/about/`** — what the site is, data provenance (compiled from public press
@@ -241,7 +241,7 @@ be added later.
 - Color discipline: grayscale everywhere, one accent (Apple link blue
   `#0066CC`) reserved for interactive affordances; no gradients
 - Tier badges: quiet tinted chips, pastel background with a 600-level text
-  color: S champagne, A violet, B blue, C green, D amber, E slate
+  color: S champagne, A violet, B blue, C green, D amber, E slate, M teal, I pink
 - Header: sticky, frosted glass (`backdrop-blur`, white at 80%), holding the
   search input
 - Motion: 150-200ms ease transitions only, honors `prefers-reduced-motion`

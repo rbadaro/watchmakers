@@ -64,7 +64,10 @@ export function makeMakerSchema(z) {
     type: z.enum(['individual', 'duo', 'atelier', 'brand']),
     people: z.array(z.string().min(1)).min(1).optional(),
     aliases: z.array(z.string().min(1)).optional(),
-    tier: z.enum(['S', 'A', 'B', 'C', 'D', 'E']),
+    // S-E from the doc's tier ladder; M and I come from the two untiered H1
+    // sections below the ladder ("Independent manufactures worth knowing" and
+    // "Important independents that fit the movement-first thesis less cleanly").
+    tier: z.enum(['S', 'A', 'B', 'C', 'D', 'E', 'M', 'I']),
     tier_note: z.string().optional(),
     scores: z
       .object({

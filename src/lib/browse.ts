@@ -10,8 +10,8 @@
 import Fuse from 'fuse.js';
 import type { IFuseOptions } from 'fuse.js';
 
-export type Tier = 'S' | 'A' | 'B' | 'C' | 'D' | 'E';
-export const TIERS: Tier[] = ['S', 'A', 'B', 'C', 'D', 'E'];
+export type Tier = 'S' | 'A' | 'B' | 'C' | 'D' | 'E' | 'M' | 'I';
+export const TIERS: Tier[] = ['S', 'A', 'B', 'C', 'D', 'E', 'M', 'I'];
 
 export type SortId = 'default' | 'name' | 'price_asc' | 'price_desc' | 'updated';
 export type MovementFilter = 'any' | 'full_inhouse';

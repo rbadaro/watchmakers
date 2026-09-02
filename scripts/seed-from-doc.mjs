@@ -55,7 +55,7 @@ for (const el of doc.body.content) {
   paras.push({ style, text });
 }
 
-const TIER_ORDER = ['S', 'A', 'B', 'C', 'D', 'E'];
+const TIER_ORDER = ['S', 'A', 'B', 'C', 'D', 'E', 'M', 'I'];
 const tierAt = new Array(paras.length).fill(null);
 let currentTier = null;
 for (let i = 0; i < paras.length; i++) {
@@ -63,6 +63,9 @@ for (let i = 0; i < paras.length; i++) {
   if (style === 'HEADING_1') {
     const m = text.match(/Tier\s+([SABCDE])/i);
     if (m) currentTier = m[1].toUpperCase();
+    // The two untiered H1 sections below the ladder map to their own tiers.
+    else if (/Independent manufactures worth knowing/i.test(text)) currentTier = 'M';
+    else if (/Important independents/i.test(text)) currentTier = 'I';
   }
   tierAt[i] = currentTier;
 }

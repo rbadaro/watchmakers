@@ -35,6 +35,10 @@
   --color-tier-d-text: #a05c10;
   --color-tier-e-bg: #eef0f3;
   --color-tier-e-text: #5b6470;
+  --color-tier-m-bg: #e4f2f0;
+  --color-tier-m-text: #1f6e62;
+  --color-tier-i-bg: #f6e9f3;
+  --color-tier-i-text: #8c3d77;
 
   /* Card geometry */
   --radius-card: 1rem;

@@ -37,6 +37,8 @@ const TIER_CLASSES: Record<Tier, string> = {
   C: 'bg-tier-c-bg text-tier-c-text',
   D: 'bg-tier-d-bg text-tier-d-text',
   E: 'bg-tier-e-bg text-tier-e-text',
+  M: 'bg-tier-m-bg text-tier-m-text',
+  I: 'bg-tier-i-bg text-tier-i-text',
 };
 
 function TierBadge({ tier }: { tier: Tier }) {
