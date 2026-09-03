@@ -17,6 +17,12 @@ export type SortId = 'default' | 'name' | 'price_asc' | 'price_desc' | 'updated'
 export type MovementFilter = 'any' | 'full_inhouse';
 export type PriceBand = 0 | 1 | 2 | 3 | 4;
 
+/** {min, max} for one A/M axis; a single score expands to min == max. */
+export interface ScoreRange {
+  min: number;
+  max: number;
+}
+
 /** One record of src/pages/search-index.json.ts. */
 export interface BrowseRecord {
   slug: string;
@@ -28,6 +34,10 @@ export interface BrowseRecord {
   location: string;
   movement_making: string;
   orderingStatus: 'open' | 'waitlist' | 'closed' | null;
+  /** Authorship score range; absent for the condensed Tier S records (M7). */
+  a?: ScoreRange;
+  /** Manufacture score range; absent for the condensed Tier S records (M7). */
+  m?: ScoreRange;
   models: string[];
   priceText: string | null;
   priceFromGBP: number | null;
@@ -37,12 +47,18 @@ export interface BrowseRecord {
   updated: string;
 }
 
+/** Minimum-score thresholds offered by the Authorship/Manufacture selects (M7). */
+export const A_THRESHOLDS = [5, 4.5, 4, 3.5, 3];
+export const M_THRESHOLDS = [5, 4.5, 4, 3.5, 3, 2.5, 2];
+
 export interface BrowseState {
   q: string;
   tiers: Tier[]; // empty = all tiers
   country: string; // '' = all countries
   movement: MovementFilter;
   band: PriceBand; // 0 = any price
+  a: number | null; // minimum authorship score; null = any (M7)
+  m: number | null; // minimum manufacture score; null = any (M7)
   sort: SortId;
 }
 
@@ -52,6 +68,8 @@ export const DEFAULT_STATE: BrowseState = {
   country: '',
   movement: 'any',
   band: 0,
+  a: null,
+  m: null,
   sort: 'default',
 };
 
@@ -77,12 +95,18 @@ export interface FilterResult {
   items: BrowseRecord[];
   /** Records excluded only because an active price band hides unknown prices. */
   hiddenNoPrice: number;
+  /** Records excluded only because an active authorship filter hides records without A scores. */
+  hiddenNoScoreA: number;
+  /** Records excluded only because an active manufacture filter hides records without M scores. */
+  hiddenNoScoreM: number;
 }
 
 /** All filters AND-combine (SPEC 6.3). */
 export function applyFilters(records: BrowseRecord[], state: BrowseState): FilterResult {
   const band = BANDS.find((b) => b.id === state.band) ?? BANDS[0];
   let hiddenNoPrice = 0;
+  let hiddenNoScoreA = 0;
+  let hiddenNoScoreM = 0;
   const items = records.filter((m) => {
     if (state.tiers.length > 0 && !state.tiers.includes(m.tier)) return false;
     if (state.country !== '' && m.country !== state.country) return false;
@@ -95,9 +119,29 @@ export function applyFilters(records: BrowseRecord[], state: BrowseState): Filte
       if (band.min != null && m.priceFromGBP < band.min) return false;
       if (band.max != null && m.priceFromGBP >= band.max) return false;
     }
+    // Score thresholds test the axis MINIMUM, conservatively (M7): a range
+    // like M [3.5, 4] means "between 3.5 and 4", so it passes >= 3.5 but
+    // fails >= 4; we never assume the range's undocumented top meets the
+    // bar. Records without that axis score hide, counted per axis (the
+    // price band's unknown-count behaviour), so the two counts never
+    // overlap: a record missing both axes counts once, at A.
+    if (state.a != null) {
+      if (m.a == null) {
+        hiddenNoScoreA += 1;
+        return false;
+      }
+      if (m.a.min < state.a) return false;
+    }
+    if (state.m != null) {
+      if (m.m == null) {
+        hiddenNoScoreM += 1;
+        return false;
+      }
+      if (m.m.min < state.m) return false;
+    }
     return true;
   });
-  return { items, hiddenNoPrice };
+  return { items, hiddenNoPrice, hiddenNoScoreA, hiddenNoScoreM };
 }
 
 /* ------------------------------- sorting ------------------------------- */
@@ -224,6 +268,8 @@ export interface QueryItem {
 export interface QueryResult {
   items: QueryItem[];
   hiddenNoPrice: number;
+  hiddenNoScoreA: number;
+  hiddenNoScoreM: number;
   searching: boolean;
 }
 
@@ -237,7 +283,8 @@ export function runQuery(
   fuse: Fuse<BrowseRecord> | null,
   state: BrowseState,
 ): QueryResult {
-  const { items: filtered, hiddenNoPrice } = applyFilters(records, state);
+  const { items: filtered, hiddenNoPrice, hiddenNoScoreA, hiddenNoScoreM } =
+    applyFilters(records, state);
   const q = state.q.trim();
   if (q === '' || fuse == null) {
     return {
@@ -247,6 +294,8 @@ export function runQuery(
         segments: [{ text: record.name, mark: false }],
       })),
       hiddenNoPrice,
+      hiddenNoScoreA,
+      hiddenNoScoreM,
       searching: false,
     };
   }
@@ -259,7 +308,7 @@ export function runQuery(
       reason: matchReason((hit.matches ?? []) as SearchMatch[]),
       segments: nameSegments(hit.item.name, (hit.matches ?? []) as SearchMatch[]),
     }));
-  return { items, hiddenNoPrice, searching: true };
+  return { items, hiddenNoPrice, hiddenNoScoreA, hiddenNoScoreM, searching: true };
 }
 
 /* ------------------------------ URL state ------------------------------ */
@@ -277,6 +326,8 @@ export function stateToQuery(state: BrowseState): string {
   if (state.country !== '') p.set('country', state.country);
   if (state.movement !== 'any') p.set('movement', state.movement);
   if (state.band !== 0) p.set('band', String(state.band));
+  if (state.a != null) p.set('a', String(state.a));
+  if (state.m != null) p.set('m', String(state.m));
   if (state.sort !== 'default') p.set('sort', state.sort);
   const s = p.toString();
   return s === '' ? '' : `?${s}`;
@@ -296,5 +347,11 @@ export function queryToState(search: string): BrowseState {
   const sortIds = SORTS.map((s) => s.id) as string[];
   const sortParam = p.get('sort') ?? '';
   const sort: SortId = sortIds.includes(sortParam) ? (sortParam as SortId) : 'default';
-  return { q: p.get('q') ?? '', tiers, country: p.get('country') ?? '', movement, band, sort };
+  // Only the threshold values the selects offer are legal; anything else
+  // collapses to Any, the same junk-handling as band/sort above (M7).
+  const aNum = Number(p.get('a'));
+  const a = A_THRESHOLDS.includes(aNum) ? aNum : null;
+  const mNum = Number(p.get('m'));
+  const m = M_THRESHOLDS.includes(mNum) ? mNum : null;
+  return { q: p.get('q') ?? '', tiers, country: p.get('country') ?? '', movement, band, a, m, sort };
 }
