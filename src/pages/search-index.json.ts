@@ -14,6 +14,10 @@ import { firstSentence } from '../lib/format';
 
 const fx = fxJson as unknown as FxSnapshot;
 
+/** Single score expands to {min, max} with min == max; [min, max] pairs pass through (SPEC 4). */
+const toRange = (v: number | [number, number] | undefined): { min: number; max: number } | undefined =>
+  v == null ? undefined : Array.isArray(v) ? { min: v[0], max: v[1] } : { min: v, max: v };
+
 export const GET: APIRoute = async () => {
   const makers = await getCollection('makers');
   const index = makers.map((entry) => {
@@ -28,6 +32,10 @@ export const GET: APIRoute = async () => {
       location: d.location ?? '',
       movement_making: d.movement_making ?? '',
       orderingStatus: d.ordering?.status ?? null,
+      // Omitted (undefined -> absent in JSON) for the condensed Tier S
+      // records with no scores block, like unknown prices (M7).
+      a: toRange(d.scores?.A),
+      m: toRange(d.scores?.M),
       models: (d.models ?? []).map((model: { name: string }) => model.name),
       priceText: fromLine(d, fx),
       priceFromGBP: priceFromGBP(d, fx),
