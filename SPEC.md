@@ -424,7 +424,7 @@ matching on the axis minimum, with the unknown-scored count visible.
       "N makers without authorship/manufacture scores are hidden" note
 - [x] URL keys `a`/`m` (omitted at Any; popstate restore included)
 - [x] This checklist ticked; filter-bar description line added to section 5
-- [ ] Deployed live (CI + Pages green, selects verified on the served site)
+- [x] Deployed live (CI + Pages green, selects verified on the served site)
 
 ---
 
