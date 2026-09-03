@@ -168,8 +168,10 @@ Rules:
 **`/` (browse)** — the app. Sticky frosted header with the search input; below
 it the filter bar: tier chips (All, S, A, B, C, D, E, M, I), a country dropdown
 derived from the data, a movement-making toggle (full in-house only), price
-band chips (Any / under £50k / £50-150k / £150-300k / £300k+), and a sort
-control. A live result count. All makers render at once as one flat grid, no
+band chips (Any / under £50k / £50-150k / £150-300k / £300k+), Authorship and
+Manufacture minimum-score selects (axis minimum must meet the threshold, so
+a range like M [3.5, 4] passes ≥3.5 but fails ≥4; records without that axis
+score hide with a count note), and a sort control. A live result count. All makers render at once as one flat grid, no
 pagination, no infinite scroll.
 
 Browse UX, settled by Ruben 31 Aug 2026:
@@ -409,6 +411,20 @@ issues.
 
 **M6 First real adds** — run the section-8 workflow end to end on the next
 makers Ruben green-lights for the doc.
+
+**M7 A/M score filters** — minimum-threshold selects for both score axes,
+matching on the axis minimum, with the unknown-scored count visible.
+
+- [x] Search index emits per-maker `a`/`m` as `{min, max}` (single scores
+      expand, `[min, max]` pairs pass through, omitted when unknown)
+- [x] `browse.ts` `a`/`m` threshold filters with per-axis hidden counts +
+      smoke checks (range pass/fail at the axis minimum, unknown hidden and
+      counted, URL round-trip)
+- [x] Authorship/Manufacture selects in the filter bar with the
+      "N makers without authorship/manufacture scores are hidden" note
+- [x] URL keys `a`/`m` (omitted at Any; popstate restore included)
+- [x] This checklist ticked; filter-bar description line added to section 5
+- [ ] Deployed live (CI + Pages green, selects verified on the served site)
 
 ---
 
