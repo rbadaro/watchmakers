@@ -8,8 +8,10 @@
 import { Fragment } from 'preact';
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import {
+  A_THRESHOLDS,
   BANDS,
   DEFAULT_STATE,
+  M_THRESHOLDS,
   SORTS,
   TIERS,
   applyFilters,
@@ -79,6 +81,12 @@ function Chip({
 function hiddenPriceNote(n: number): string {
   return `${n} ${n === 1 ? 'maker' : 'makers'} without public ${
     n === 1 ? 'price is' : 'prices are'
+  } hidden by this filter`;
+}
+
+function hiddenScoreNote(n: number, axis: 'authorship' | 'manufacture'): string {
+  return `${n} ${n === 1 ? 'maker' : 'makers'} without ${axis} ${
+    n === 1 ? 'score is' : 'scores are'
   } hidden by this filter`;
 }
 
@@ -303,6 +311,41 @@ export default function BrowseApp() {
             </option>
           ))}
         </select>
+        {/* Score-threshold selects (M7): match on the axis minimum, stay
+            enabled during search like every other filter, and hide unscored
+            records with the count note shown below the filter bar. */}
+        <span class="flex items-center gap-1.5 text-sm text-ink-dim">
+          Authorship
+          <select
+            aria-label="Minimum authorship score"
+            value={state.a == null ? '' : String(state.a)}
+            onChange={(e) =>
+              update({ a: e.currentTarget.value === '' ? null : Number(e.currentTarget.value) })
+            }
+            class={controlClass}
+          >
+            <option value="">Any</option>
+            {A_THRESHOLDS.map((t) => (
+              <option key={t} value={String(t)}>{`≥ ${t}`}</option>
+            ))}
+          </select>
+        </span>
+        <span class="flex items-center gap-1.5 text-sm text-ink-dim">
+          Manufacture
+          <select
+            aria-label="Minimum manufacture score"
+            value={state.m == null ? '' : String(state.m)}
+            onChange={(e) =>
+              update({ m: e.currentTarget.value === '' ? null : Number(e.currentTarget.value) })
+            }
+            class={controlClass}
+          >
+            <option value="">Any</option>
+            {M_THRESHOLDS.map((t) => (
+              <option key={t} value={String(t)}>{`≥ ${t}`}</option>
+            ))}
+          </select>
+        </span>
         <Chip
           active={state.movement === 'full_inhouse'}
           onClick={() =>
@@ -337,6 +380,12 @@ export default function BrowseApp() {
         </p>
         {state.band !== 0 && result.hiddenNoPrice > 0 && (
           <p class="text-xs text-ink-dim">{hiddenPriceNote(result.hiddenNoPrice)}</p>
+        )}
+        {state.a != null && result.hiddenNoScoreA > 0 && (
+          <p class="text-xs text-ink-dim">{hiddenScoreNote(result.hiddenNoScoreA, 'authorship')}</p>
+        )}
+        {state.m != null && result.hiddenNoScoreM > 0 && (
+          <p class="text-xs text-ink-dim">{hiddenScoreNote(result.hiddenNoScoreM, 'manufacture')}</p>
         )}
       </div>
 
