@@ -10,37 +10,75 @@ scores:
   A: 5
   M: 3.5
 status: active
-location: Switzerland
+location: Neuchâtel, Switzerland
 country: Switzerland
+founded: 2017
 movement_making: partial
 website: https://www.krayon.ch/krayon.php
 instagram: krayon.ch
 price:
   text: 'Anyday (white gold, max 45 per year): CHF 88,000; Anywhere: CHF 138,000 excl. tax; Everywhere (production paused): from CHF 700,000.'
 models:
-  - name: Anyday (white gold, max 45 per year)
+  - name: Anyday
+    calibre: C032
+    years:
+      introduced: 2024
+    production:
+      per_year: 45
+      note: annual cap; deliveries began August 2025
     prices:
       - amount: 88000
         currency: CHF
     status: current
   - name: Anywhere
+    calibre: C030
+    years:
+      introduced: 2020
     prices:
       - amount: 138000
         currency: CHF
+        text: excl. tax (doc snapshot Aug 2026)
     status: current
-  - name: 'Everywhere (production paused):'
+  - name: Everywhere
+    years:
+      introduced: 2017
+    production:
+      note: production paused (doc snapshot Aug 2026)
     prices:
       - amount: 700000
         currency: CHF
-    status: current
-last_verified: '2026-08-31'
+        text: from CHF 700,000
+    status: discontinued
+awards:
+  - year: 2018
+    name: GPHG Innovation Watch Prize
+    result: won
+    models:
+      - Everywhere Horizon
+  - year: 2022
+    name: GPHG Calendar and Astronomy Prize
+    result: won
+    models:
+      - Anywhere
+sources:
+  - https://www.krayon.ch/press/pr-03-gphg/PR-Krayon-GPHG-Innovation-2018-EN.pdf
+  - https://www.christies.com/en/lot/lot-6481397
+  - https://www.fhs.swiss/eng/2022_09_15_05_Krayon.html
+  - https://watchesbysjx.com/2020/05/krayon-anywhere-review.html
+  - https://www.hodinkee.com/articles/krayon-anywhere-universal-sunrise-sunset-complication-introducing
+  - https://monochrome-watches.com/independent-watchmaker-krayon-unveils-anyday-a-mechanical-agenda-on-the-wrist/
+  - https://www.fratellowatches.com/a-close-look-at-krayon-and-its-sunrise-and-sunset-complications/
+  - https://oracleoftime.com/krayon-where-complications-meet-clarity/
+last_verified: '2026-09-05'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-09-05'
 doc_heading: Krayon / Rémi Maillat
 body: |-
-  Maillat's specialism is unusual astronomical and mathematical complication design.
+  Maillat's specialism is unusual astronomical and mathematical complication design. He founded a movement-engineering studio in 2013 and debuted his first watch in 2017.
 
-  Everywhere and Anywhere are not derivative perpetual-calendar exercises but novel solutions for indicating sunrise, sunset and temporal information.
+  Everywhere (2017) was a world first: a universal mechanical calculator giving sunrise and sunset times anywhere on Earth, settable by the wearer, in nearly 600 components. The bespoke Everywhere Horizon took the 2018 GPHG Innovation Watch Prize the following year; production is now paused, from CHF 700,000.
 
-  Strength: mathematical movement design.
-  Manufacture caveat: more constructor than one-man component maker.
+  Anywhere (2020, calibre C030) simplified the same idea to one location chosen by the owner and set by Krayon's watchmakers. It won the 2022 GPHG Calendar and Astronomy Prize. Anyday (2024, calibre C032) is the departure from the sun-theme duo: a month-at-a-glance "mechanical planner" calendar in white gold, capped at 45 pieces a year, with deliveries beginning August 2025.
+
+  Strength: mathematical movement design. Everywhere and Anywhere are not derivative perpetual-calendar exercises but novel solutions for indicating sunrise, sunset and temporal information.
+  Manufacture caveat: more constructor than one-man component maker; parts come from specialist suppliers, with assembly and finishing in a Neuchâtel atelier of about a dozen producing roughly 40 watches a year.
