@@ -1,8 +1,9 @@
 /**
  * BrowseApp: the single interactive island of the site (SPEC sections 5-6).
- * Search input, tier chips, country dropdown, in-house toggle, price band
- * chips, sort select, live counts, and the maker card grid. All behaviour
- * lives in src/lib/browse.ts; this file is rendering and wiring only.
+ * Search input, compact select grid (tier, country, authorship/manufacture
+ * minimums, movement making, price band), sort select, live counts, and the
+ * maker card grid. All behaviour lives in src/lib/browse.ts; this file is
+ * rendering and wiring only.
  */
 
 import { Fragment } from 'preact';
@@ -53,30 +54,9 @@ function TierBadge({ tier }: { tier: Tier }) {
   );
 }
 
-function Chip({
-  active,
-  onClick,
-  label,
-}: {
-  active: boolean;
-  onClick: () => void;
-  label: string;
-}) {
-  return (
-    <button
-      type="button"
-      aria-pressed={active}
-      onClick={onClick}
-      class={`rounded-full border px-3 py-1.5 text-sm transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
-        active
-          ? 'border-accent bg-accent text-white'
-          : 'border-hairline bg-surface text-ink-dim hover:border-ink-faint/40 hover:text-ink'
-      }`}
-    >
-      {label}
-    </button>
-  );
-}
+/* Compact filter grid (M8): tier, price band and in-house are native
+   selects, sharing the same control language as the other filters. All
+   controls keep the same state keys and URL params as the old pills. */
 
 function hiddenPriceNote(n: number): string {
   return `${n} ${n === 1 ? 'maker' : 'makers'} without public ${
@@ -216,13 +196,8 @@ export default function BrowseApp() {
     pushAction.current = push;
     setState((s) => ({ ...s, ...partial }));
   };
-  const toggleTier = (tier: Tier) => {
-    pushAction.current = true;
-    setState((s) => ({
-      ...s,
-      tiers: s.tiers.includes(tier) ? s.tiers.filter((t) => t !== tier) : [...s.tiers, tier],
-    }));
-  };
+  const toggleTier = (tier: Tier | '') =>
+    update({ tiers: tier === '' ? [] : [tier] });
   const clearAll = () => {
     pushAction.current = true;
     setState(DEFAULT_STATE);
@@ -285,32 +260,43 @@ export default function BrowseApp() {
         </div>
       </div>
 
-      <div class="flex flex-wrap items-center gap-2" role="group" aria-label="Filter by tier">
-        <Chip active={state.tiers.length === 0} onClick={() => update({ tiers: [] })} label="All" />
-        {TIERS.map((tier) => (
-          <Chip
-            key={tier}
-            active={state.tiers.includes(tier)}
-            onClick={() => toggleTier(tier)}
-            label={`${tier} · ${tierCounts.get(tier) ?? 0}`}
-          />
-        ))}
-      </div>
-
-      <div class="flex flex-wrap items-center gap-2">
-        <select
-          aria-label="Filter by country"
-          value={state.country}
-          onChange={(e) => update({ country: e.currentTarget.value })}
-          class={controlClass}
-        >
-          <option value="">All countries</option>
-          {countries.map((country) => (
-            <option key={country} value={country}>
-              {country}
-            </option>
-          ))}
-        </select>
+      {/* Compact filter grid (M8): mobile 2 columns, desktop 4. Every
+          select shares the same control language; tier counts ride in the
+          option labels. A legacy multi-tier URL (?tier=S,A) keeps filtering
+          on all its tiers and shows the first in the select until changed. */}
+      <div class="grid grid-cols-2 gap-x-3 gap-y-2 lg:grid-cols-4">
+        <span class="flex items-center gap-1.5 text-sm text-ink-dim">
+          Tier
+          <select
+            aria-label="Filter by tier"
+            value={state.tiers[0] ?? ''}
+            onChange={(e) => toggleTier(e.currentTarget.value as Tier | '')}
+            class={`${controlClass} min-w-0 flex-1`}
+          >
+            <option value="">All tiers</option>
+            {TIERS.map((tier) => (
+              <option key={tier} value={tier}>
+                Tier {tier} ({tierCounts.get(tier) ?? 0})
+              </option>
+            ))}
+          </select>
+        </span>
+        <span class="flex items-center gap-1.5 text-sm text-ink-dim">
+          Country
+          <select
+            aria-label="Filter by country"
+            value={state.country}
+            onChange={(e) => update({ country: e.currentTarget.value })}
+            class={`${controlClass} min-w-0 flex-1`}
+          >
+            <option value="">All countries</option>
+            {countries.map((country) => (
+              <option key={country} value={country}>
+                {country}
+              </option>
+            ))}
+          </select>
+        </span>
         {/* Score-threshold selects (M7): match on the axis minimum, stay
             enabled during search like every other filter, and hide unscored
             records with the count note shown below the filter bar. */}
@@ -322,7 +308,7 @@ export default function BrowseApp() {
             onChange={(e) =>
               update({ a: e.currentTarget.value === '' ? null : Number(e.currentTarget.value) })
             }
-            class={controlClass}
+            class={`${controlClass} min-w-0 flex-1`}
           >
             <option value="">Any</option>
             {A_THRESHOLDS.map((t) => (
@@ -338,7 +324,7 @@ export default function BrowseApp() {
             onChange={(e) =>
               update({ m: e.currentTarget.value === '' ? null : Number(e.currentTarget.value) })
             }
-            class={controlClass}
+            class={`${controlClass} min-w-0 flex-1`}
           >
             <option value="">Any</option>
             {M_THRESHOLDS.map((t) => (
@@ -346,32 +332,38 @@ export default function BrowseApp() {
             ))}
           </select>
         </span>
-        <Chip
-          active={state.movement === 'full_inhouse'}
-          onClick={() =>
-            update({
-              movement: (state.movement === 'full_inhouse' ? 'any' : 'full_inhouse') as MovementFilter,
-            })
-          }
-          label="Full in-house"
-        />
-        <span class="mx-1 hidden h-5 w-px bg-hairline sm:block" aria-hidden="true" />
-        <div class="flex flex-wrap gap-2" role="group" aria-label="Filter by price band">
-          {BANDS.map((band) => (
-            <Chip
-              key={band.id}
-              active={state.band === band.id}
-              onClick={() => update({ band: band.id as PriceBand })}
-              label={band.label}
-            />
-          ))}
-        </div>
+        <span class="flex items-center gap-1.5 text-sm text-ink-dim">
+          Movement
+          <select
+            aria-label="Filter by movement making"
+            value={state.movement}
+            onChange={(e) => update({ movement: e.currentTarget.value as MovementFilter })}
+            class={`${controlClass} min-w-0 flex-1`}
+          >
+            <option value="any">All</option>
+            <option value="full_inhouse">Full in-house</option>
+          </select>
+        </span>
+        <span class="flex items-center gap-1.5 text-sm text-ink-dim">
+          Price
+          <select
+            aria-label="Filter by price band"
+            value={String(state.band)}
+            onChange={(e) => update({ band: Number(e.currentTarget.value) as PriceBand })}
+            class={`${controlClass} min-w-0 flex-1`}
+          >
+            {BANDS.map((band) => (
+              <option key={band.id} value={String(band.id)}>
+                {band.label}
+              </option>
+            ))}
+          </select>
+        </span>
       </div>
 
-      {/* Keeps heading order valid around the h1 (Lighthouse heading-order):
-          the filter bar contains no heading, the grid needs an h2 before the
-          h3 card titles. Visually hidden; screen readers and the outline get
-          a proper section. */}
+      {/* Keeps heading order valid: the filter bar contains no heading, the
+          grid needs an h2 before the h3 card titles. Visually hidden; screen
+          readers and the outline get a proper section. */}
       <h2 class="sr-only">Makers</h2>
 
       <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">

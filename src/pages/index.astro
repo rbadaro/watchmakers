@@ -8,16 +8,8 @@ const makers = await listMakers();
 ---
 
 <Base>
-  <section class="content-wrap py-16">
-    <h1 class="text-4xl font-semibold tracking-tight text-ink">
-      Independent movement-makers, mapped.
-    </h1>
-    <p class="mt-3 max-w-prose text-ink-dim">
-      A searchable index of the independent watchmakers behind the modern
-      canon: tiers, scores, prices, and how their books actually work.
-    </p>
-
-    <div id="browse-root" class="mt-10">
+  <section class="content-wrap py-6">
+    <div id="browse-root">
       <BrowseApp client:only="preact">
         <div
           class="rounded-card border border-hairline bg-surface p-10 text-center text-ink-dim shadow-card"
