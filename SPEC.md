@@ -166,12 +166,15 @@ Rules:
 ## 5. Routes and UX
 
 **`/` (browse)** — the app. Sticky frosted header with the search input; below
-it the filter bar: tier chips (All, S, A, B, C, D, E, M, I), a country dropdown
-derived from the data, a movement-making toggle (full in-house only), price
-band chips (Any / under £50k / £50-150k / £150-300k / £300k+), Authorship and
+it a compact filter bar: a Tier select with counts in the option labels ("All
+tiers", "Tier S (8)", ...), a country dropdown derived from the data, a
+Movement select (All / Full in-house), a Price select ("Any price" /
+"Under £50k" / "£50k-£150k" / "£150k-£300k" / "£300k+"), Authorship and
 Manufacture minimum-score selects (axis minimum must meet the threshold, so
 a range like M [3.5, 4] passes ≥3.5 but fails ≥4; records without that axis
-score hide with a count note), and a sort control. A live result count. All makers render at once as one flat grid, no
+score hide with a count note), and a sort control. No hero block: the page
+opens straight on the search field, then the filters, then the cards. A live
+result count. All makers render at once as one flat grid, no
 pagination, no infinite scroll.
 
 Browse UX, settled by Ruben 31 Aug 2026:
@@ -184,8 +187,8 @@ Browse UX, settled by Ruben 31 Aug 2026:
   to the repo; used only for sorting, price bands, and the "from" line.
   Display is always the original currency. Unknown price sorts last in both
   directions
-- Filters: tier chips, country dropdown, movement toggle, price bands. An
-  active price band excludes records without a public price, shown with a
+- Filters: tier select, country dropdown, movement select, price-band select.
+  An active price band excludes records without a public price, shown with a
   note: "N makers without public prices are hidden by this filter"
 - Sort: default tier then name; overrides Name A to Z, Price low to high,
   Price high to low, Recently updated. While search text is present, relevance
@@ -425,6 +428,23 @@ matching on the axis minimum, with the unknown-scored count visible.
 - [x] URL keys `a`/`m` (omitted at Any; popstate restore included)
 - [x] This checklist ticked; filter-bar description line added to section 5
 - [x] Deployed live (CI + Pages green, selects verified on the served site)
+
+**M8 Browse UI compaction** — hero removed, pill filters compacted to a select
+grid for mobile, nothing else changed.
+
+- [x] Hero removed: the big title and the "searchable index" paragraph are
+      gone on every viewport; the page opens with the search field, then
+      filters, then cards
+- [x] Tier chips became one select ("All tiers", "Tier S (8)", ...) with
+      counts in the option labels
+- [x] Price-band chips became one select with the same option labels
+- [x] "Full in-house" toggle became a Movement select (All / Full in-house)
+- [x] Compact grid: mobile 2 columns (search full width on its own row),
+      desktop 4 columns; same control language, accent focus rings, aria
+      labels, reduced-motion untouched; state keys and URL params unchanged
+- [x] Section-5 filter-bar description line updated to the current controls
+- [x] This checklist ticked; deployed live (CI + Pages green, verified on the
+      served site)
 
 ---
 
