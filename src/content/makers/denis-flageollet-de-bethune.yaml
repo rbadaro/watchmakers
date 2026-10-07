@@ -32,9 +32,16 @@ models:
       - amount: 190000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: DB25 Digitale
+    calibre: DB2144V3
+    years:
+      introduced: 2026
+    production:
+      note: hand-wound jumping hours + rotating minute disc + spherical moonphase; 42mm mirror-polished Grade 5 titanium; 416 components, 5-day reserve; price on request
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Denis Flageollet / De Bethune
 body: |-
   De Bethune is less like a conventional luxury-watch manufacturer and more like an experimental horological laboratory.
@@ -42,3 +49,9 @@ body: |-
   Its technical innovations include proprietary balance architectures, hairspring terminal curves, silicon escapement components, ultra-light tourbillons, self-regulating twin barrels, spherical precision moonphase, deadbeat seconds and novel shock systems.
 
   Why important: intellectually one of the most important independent manufactures of the last 25 years.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Mechanical Clock category)
+    models:
+      - Louis Vuitton x De Bethune LVDB-03 Sympathique Louis Varius

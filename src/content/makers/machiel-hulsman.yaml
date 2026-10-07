@@ -13,9 +13,9 @@ country: Netherlands
 movement_making: partial
 price:
   text: not published; bespoke commissions
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-31'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Machiel Hulsman
 body: |-
   Machiel Hulsman works alone in the Netherlands and is perhaps the most extreme hand-manufacture purist to appear in the AHCI candidate cohort. His first complete watch, named the Marie-Elise, appeared from a traditional North European bench tradition with almost no press until the AHCI listing and retailer attention began to point collectors toward him.
@@ -23,3 +23,15 @@ body: |-
   The claim that sets him apart: the Marie-Elise was designed, calculated and hand-made by Hulsman himself in full, including components that virtually no other living watchmaker fabricates. Everything was made in his atelier except the mainspring and the hairspring, down to the ruby jewels, which he cuts himself. Repeaters, sonneries and perpetual calendars are in development as bespoke commissions on the same terms.
 
   Why Tier D and A3 / M4.5: on physical manufacture he sits at the very top of this tier, arguably above several Tier B names, because the jewels alone mark a practice most shops abandoned generations ago. Authorship scores 3 rather than higher because the constructions so far work within classical architectures rather than proposing new ones, and because the recognition base is still one watch and bespoke orders. This is one of the few entries here where a proper factory visit could justify immediate re-scoring upward.
+models:
+  - name: Tourbillon Solstitium
+    years:
+      introduced: 2026
+    production:
+      series_total: 12
+      note: first serially produced watch; 39mm gold case, one-minute tourbillon, jumping hours + retrograde minutes; 75h twin-barrel, in-house escapement; 12 subscription pieces + no. 0 for charity auction; production ~2-2.5 years
+    prices:
+      - text: excl. VAT, staged payments
+        amount: 138000
+        currency: EUR
+    status: current

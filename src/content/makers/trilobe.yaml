@@ -28,8 +28,18 @@ models:
     status: current
   - name: Les Matinaux and Nuit Fantastique
     status: current
-last_verified: '2026-08-31'
+  - name: Château Trente-Deux
+    years:
+      introduced: 2026
+    production:
+      note: ref 3201BDX; burgundy dial, steel case + integrated bracelet, in-house X-Nihilo; first 100 pieces with Grand Cru; now part of the permanent collection
+    prices:
+      - text: excl. tax
+        amount: 17500
+        currency: EUR
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Trilobe
 body: Exceptionally creative displays and proprietary concepts, generally realised in conjunction with specialist movement constructors.

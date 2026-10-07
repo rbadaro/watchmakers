@@ -51,9 +51,24 @@ models:
         amount: 165000
         currency: EUR
     status: current
-last_verified: '2026-08-31'
+  - name: 1941 Quadrivium
+    calibre: Quadrivium
+    years:
+      introduced: 2026
+    production:
+      series_total: 56
+      note: 473 components; 7.5s remontoire with exposed governor at 9, 1-minute flying tourbillon at 6, central jumping seconds, 50h twin concentric barrels; tantalum deliveries from 2027
+    prices:
+      - text: tantalum Premiere Edition, excl. tax
+        amount: 280000
+        currency: EUR
+      - text: platinum Premiere Edition, excl. tax
+        amount: 310000
+        currency: EUR
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Grönefeld
 body: |-
   Bart and Tim Grönefeld produce some of the most beautifully finished modern movements.
@@ -63,3 +78,5 @@ body: |-
   Component supply is more distributed than with Smith or Cools, hence the lower M score.
   Quality: extremely high.
   Collector status: firmly established.
+
+  September 2026 flagship 1941 Quadrivium combines the house's signature 7.5s remontoire, flying tourbillon, central jumping seconds and power reserve in one new 473-component movement. Hodinkee reports Gronefeld has paused order intake on other models due to demand.

@@ -23,9 +23,18 @@ models:
       - amount: 65000
         currency: USD
     status: current
-last_verified: '2026-08-31'
+  - name: Pastorale II Hand-Engraved Dial
+    calibre: '1810'
+    production:
+      note: Pt950 platinum case 38.5mm; 18K gold hand-engraved dial; limited production
+    prices:
+      - text: excl. VAT
+        amount: 88000
+        currency: USD
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Qin Gan
 body: |-
   Qin Gan is a good example of a maker who is not really undiscovered domestically but remains underappreciated in Western collecting.

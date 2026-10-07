@@ -30,9 +30,9 @@ models:
     status: current
     production:
       note: 80 movements total incl. 20 reserved for bespoke commissions
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Mathieu Cleguer
 body: |-
   Cleguer might be the best movement constructor among today's truly young commercial independents.
@@ -47,3 +47,9 @@ body: |-
 
   Collector thesis: secure a precious-metal batch or, ideally, commission one of the 20 unique watches.
   Priority: one of the strongest genuinely actionable opportunities.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Complication category)
+    models:
+      - Inspiration One

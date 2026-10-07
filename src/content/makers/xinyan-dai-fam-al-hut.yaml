@@ -23,14 +23,21 @@ models:
       - amount: 55000
         currency: USD
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Xinyan Dai / Fam Al Hut
 body: |-
   Möbius combines a biaxial tourbillon with jumping and retrograde indications.
 
-  Fam Al Hut is no longer particularly hidden: Dai reached the final stage of major international independent-watch competitions and has substantial press recognition.
+  Fam Al Hut is no longer particularly hidden: Fam Al Hut won the Audacity Prize at GPHG 2025 and was a finalist for the 2026 Louis Vuitton Watch Prize for Independent Creatives.
 
   Why important: one of the strongest examples of sophisticated contemporary Chinese independent horology.
   Collector thesis: still early internationally, but no longer unknown.
+awards:
+  - year: 2025
+    name: Grand Prix d'Horlogerie de Genève
+    result: winner (Audacity Prize)
+  - year: 2026
+    name: Louis Vuitton Watch Prize for Independent Creatives
+    result: finalist

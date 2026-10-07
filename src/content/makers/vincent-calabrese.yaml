@@ -30,9 +30,9 @@ models:
       - amount: 8800
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Vincent Calabrese
 body: |-
   One of the foundational figures of modern independent watchmaking and a co-founder of the AHCI.
@@ -40,3 +40,5 @@ body: |-
   His long career includes the Spatiale concept and numerous unconventional movement constructions.
 
   Why he matters: historically more important than his current auction or social-media profile would suggest.
+
+  In September 2026 MB&F's M.A.D.Editions released the M.A.D.3, a reconstruction of Calabrese's wandering-hours (Baladin) mechanism, CHF 2,900, sold by raffle (blue public edition, raspberry reserved for Tribe & Friends).

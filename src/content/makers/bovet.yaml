@@ -39,11 +39,27 @@ models:
       - amount: 200000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Bovet
 body: |-
   Much larger and more theatrical than the makers that dominate this report, but technically a real integrated manufacture.
 
   Strong capability in tourbillons, long power reserves, differential winding, engraving and decorative crafts, and highly complex calibres.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Gem-Set category)
+    models:
+      - Recital 23
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Calendar and Astronomy category)
+    models:
+      - Recital 31
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Artistic Crafts category)
+    models:
+      - Monsieur Bovet Tribute to Edouard Bovet

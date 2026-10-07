@@ -33,9 +33,21 @@ models:
         amount: 91800
         currency: EUR
     status: current
-last_verified: '2026-08-31'
+  - name: Benu Power Reserve (brushed steel / black DLC steel)
+    calibre: '100.2'
+    years:
+      introduced: 2026
+    production:
+      series_total: 36
+      note: new in-house hand-wound calibre (227 parts, 26 jewels, 18,000 vph); linear trapezoid power-reserve display, 42h; 41mm x 11.65mm; anthracite sector dial; 18 pieces per reference
+    prices:
+      - text: excl taxes, per reference
+        amount: 40800
+        currency: EUR
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Moritz Grossmann
 body: |-
   A genuine Glashütte calibre manufacture.

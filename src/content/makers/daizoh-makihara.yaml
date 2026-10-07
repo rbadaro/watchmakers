@@ -22,9 +22,9 @@ models:
         amount: 5903700
         currency: JPY
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Daizoh Makihara
 body: |-
   Makihara's work combines high-level watchmaking and exceptional Japanese decorative craft.
@@ -33,3 +33,7 @@ body: |-
 
   Production is tiny enough that lead times can become extraordinary.
   Why interesting: arguably more artistic than chronometric, but still genuine movement watchmaking rather than decorative packaging.
+awards:
+  - year: 2026
+    name: Louis Vuitton Watch Prize for Independent Creatives
+    result: finalist

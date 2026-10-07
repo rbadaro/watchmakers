@@ -39,9 +39,14 @@ awards:
   - year: 2024
     name: Louis Vuitton Watch Prize
     result: winner
-last_verified: '2026-08-31'
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Petite Aiguille category)
+    models:
+      - Massena LAB Noctograph (with Raul Pages)
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Raúl Pagès
 body: |-
   Pagès came from restoration, which matters because it gives his work deep historical grounding.

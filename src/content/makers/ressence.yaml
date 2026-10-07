@@ -53,8 +53,19 @@ models:
         amount: 31400
         currency: USD
     status: current
-last_verified: '2026-08-31'
+  - name: Type 9 Jules Wittock
+    years:
+      introduced: 2026
+    production:
+      series_total: 60
+      note: JWE emerald-green / JWB black PVD; hand-engraved labyrinth dial by Jules Wittock with hidden word revealed at midnight; 30 per colourway
+    prices:
+      - text: excl. tax
+        amount: 20000
+        currency: CHF
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Ressence
 body: One of the cleverest display systems in contemporary horology. The orbital display mechanism is highly proprietary, but sits on movement foundations that prevent Ressence from fitting the traditional complete-watchmaker category.

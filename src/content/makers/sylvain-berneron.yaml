@@ -30,9 +30,21 @@ models:
         amount: 58500
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: Quantième Annuel (Black / Silver)
+    calibre: '595'
+    years:
+      introduced: 2025
+    production:
+      per_year: 24
+      note: platinum case 38mm; in-house cal. 595 annual calendar
+    prices:
+      - text: excluding VAT
+        amount: 140000
+        currency: CHF
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Sylvain Berneron
 body: |-
   Berneron's Mirage is one of the most aesthetically coherent young independents.
@@ -42,3 +54,9 @@ body: |-
   Why care: movement architecture, case and dial form an unusually integrated whole.
   Collector status: already extremely hot.
   Movement-first view: less pure than Cools, Pinaud or Pagès.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Calendar and Astronomy category)
+    models:
+      - Quantième Annuel

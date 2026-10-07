@@ -33,8 +33,18 @@ models:
       - amount: 5200
         currency: EUR
     status: current
-last_verified: '2026-08-31'
+  - name: SB10 Jumping Hour (standard editions)
+    years:
+      introduced: 2026
+    production:
+      series_total: 300
+      note: Black Sapphire, Aventurine, Meteorite cabochons; 2026 production limited to 300 individually numbered pieces
+    prices:
+      - amount: 3800
+        currency: EUR
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Sartory-Billard
 body: Exceptional bespoke watchmaking, particularly guilloché, stone dials, meteorite, engraving and case customisation. Movement independence is not the core attraction.

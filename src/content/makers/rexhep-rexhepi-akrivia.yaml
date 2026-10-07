@@ -42,9 +42,20 @@ models:
       - amount: 450000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: Chronograph Flyback (RRCHF)
+    calibre: RRCHF
+    years:
+      introduced: 2026
+    production:
+      note: first in-house chronograph; flyback with instantaneously jumping 60-min counter; symmetrical column-wheel calibre, 320 components, 72h PR; 38.8mm; grand feu enamel dial; platinum/rose gold; very low volume, not numbered
+    prices:
+      - text: excl. tax
+        amount: 150000
+        currency: CHF
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Rexhep Rexhepi / Akrivia
 body: |-
   Rexhep is important here partly because his career is the pattern we are trying to detect earlier in others.
@@ -55,3 +66,9 @@ body: |-
 
   Why canonical: technical ability, finishing, aesthetic identity and extraordinary collector demand have converged.
   Practical reality: the early-discovery phase is over.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Chronograph category)
+    models:
+      - Chronograph Flyback

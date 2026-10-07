@@ -46,9 +46,24 @@ models:
       - amount: 160000
         currency: EUR
     status: current
-last_verified: '2026-08-31'
+  - name: Friedrich III Power Reserve
+    calibre: VI-II
+    years:
+      introduced: 2026
+    production:
+      series_total: 25
+      note: 25th anniversary edition; compact differential-gear power reserve indication on Calibre VI (174 components, ~55h PR); 39.2mm; deliveries from Q4 2026
+    prices:
+      - text: 18ct rose gold, excl. taxes
+        amount: 58900
+        currency: EUR
+      - text: 950 platinum, excl. taxes
+        amount: 63500
+        currency: EUR
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Lang & Heyne
 body: |-
   Saxon construction, gorgeous three-quarter bridges, screwed chatons and extremely traditional finishing.

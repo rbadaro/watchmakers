@@ -39,6 +39,8 @@ models:
         currency: CHF
         text: excl. tax (doc snapshot Aug 2026)
     status: current
+    production:
+      note: Anywhere Aurora gemset limited edition sold via Phillips Geneva Sessions Fall 2026 auction; Anywhere Parhelion gemset edition unveiled July 2026; Anywhere x PAC-MAN platinum series (15 unique pieces, Apr 2026).
   - name: Everywhere
     years:
       introduced: 2017
@@ -49,6 +51,13 @@ models:
         currency: CHF
         text: from CHF 700,000
     status: discontinued
+  - name: Anyday Rose Gold
+    calibre: C032
+    years:
+      introduced: 2026
+    production:
+      note: 18K rose gold 39mm; two-tone anthracite sunburst dial with Y-motif guilloche; hand-painted weekday/weekend discs by André Martinez; price not yet confirmed
+    status: current
 awards:
   - year: 2018
     name: GPHG Innovation Watch Prize
@@ -60,6 +69,11 @@ awards:
     result: won
     models:
       - Anywhere
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Calendar and Astronomy category)
+    models:
+      - Anyday Rose Gold
 sources:
   - https://www.krayon.ch/press/pr-03-gphg/PR-Krayon-GPHG-Innovation-2018-EN.pdf
   - https://www.christies.com/en/lot/lot-6481397
@@ -69,9 +83,9 @@ sources:
   - https://monochrome-watches.com/independent-watchmaker-krayon-unveils-anyday-a-mechanical-agenda-on-the-wrist/
   - https://www.fratellowatches.com/a-close-look-at-krayon-and-its-sunrise-and-sunset-complications/
   - https://oracleoftime.com/krayon-where-complications-meet-clarity/
-last_verified: '2026-09-05'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-09-05'
+updated: '2026-10-07'
 doc_heading: Krayon / Rémi Maillat
 body: |-
   Maillat's specialism is unusual astronomical and mathematical complication design. He founded a movement-engineering studio in 2013 and debuted his first watch in 2017.

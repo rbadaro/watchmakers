@@ -26,9 +26,20 @@ models:
     status: current
   - name: One Week and Masterpiece/tourbillon lines
     status: current
-last_verified: '2026-08-31'
+  - name: Minute Repeater Resonance 12:59 First Edition
+    calibre: ARR25
+    years:
+      introduced: 2026
+    production:
+      series_total: 25
+      note: 506 components, dual resonance clutch spring, Westminster chime, selectable 12:59 chime mode, titanium 42 x 11.7 mm
+    prices:
+      - amount: 390000
+        currency: CHF
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Armin Strom
 body: |-
   One of the best vertically integrated small manufactures.
@@ -36,3 +47,5 @@ body: |-
   Particular strengths include resonance, twin regulators, constant-force architecture, visible movement design and significant internal component production.
 
   The Mirrored Force Resonance is the key mechanical calling card.
+
+  April 2026 Watches & Wonders brought the flagship Minute Repeater Resonance 12:59 First Edition (cal. ARR25), the brand's most complex resonance piece to date; 2026 also added Mirrored Force Resonance Ruby (5 pc), Red (15 pc) and Ice Blue editions plus a Tribute2 Aurum limited edition.
