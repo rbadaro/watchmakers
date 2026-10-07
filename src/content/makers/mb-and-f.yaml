@@ -34,9 +34,19 @@ models:
       - amount: 198000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: M.A.D.3 Vincent Calabrese
+    years:
+      introduced: 2026
+    production:
+      note: wandering-hours module honouring Calabrese 1989 Baladin concept; reworked La Joux-Perret G111 automatic; 40mm steel case by Eric Giroud; pink and blue dial launch editions; allocated by raffle
+    prices:
+      - text: excl VAT
+        amount: 2900
+        currency: CHF
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: MB&F
 body: |-
   MB&F intentionally complicates the authorship question.
@@ -45,3 +55,9 @@ body: |-
 
   Why important: one of the most influential independent brands of the century.
   Why M3: collaboration is the point, not vertically integrated production.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Essential category)
+    models:
+      - MB&F SP One Platinum

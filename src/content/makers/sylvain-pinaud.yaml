@@ -38,9 +38,20 @@ models:
       - amount: 130000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: Tourbillon 30-Second
+    years:
+      introduced: 2026
+    production:
+      series_total: 30
+      note: in-house 30-second tourbillon with zero-reset seconds, 100h power reserve; 39mm; 3 versions (titanium + 2 platinum), 10 pieces each; announced Apr 2026, sold out
+    prices:
+      - text: excluding taxes
+        amount: 180000
+        currency: CHF
+    status: sold_out
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Sylvain Pinaud
 body: |-
   Pinaud's Origine is one of the cleanest modern examples of genuine independent manufacture.
@@ -49,3 +60,9 @@ body: |-
 
   Strengths: movement construction, hand finishing, very contemporary architecture and high component-making content.
   My view: much more important mechanically than his brand recognition currently suggests.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Tourbillon category)
+    models:
+      - Tourbillon 30-Second

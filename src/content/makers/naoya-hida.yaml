@@ -59,8 +59,14 @@ models:
         amount: 3520000
         currency: JPY
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Naoya Hida
 body: Beautiful Japanese neo-vintage design and extensive hand finishing. The attraction is execution and aesthetics rather than blank-sheet movement creation.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Time Only category)
+    models:
+      - NH Type8A

@@ -29,9 +29,33 @@ models:
       - amount: 150000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: UR-150 Golden Scorpion
+    calibre: UR-50.01
+    years:
+      introduced: 2026
+    production:
+      series_total: 25
+      note: 2N yellow gold version of the satellite-hour UR-150
+    prices:
+      - text: excluding taxes
+        amount: 105000
+        currency: CHF
+    status: current
+  - name: UR-Freak (Ulysse Nardin collaboration)
+    calibre: UN-241
+    years:
+      introduced: 2025
+    production:
+      series_total: 100
+      note: Freak carousel fused with Urwerk satellite-hour display; 44mm sandblasted titanium
+    prices:
+      - text: excl VAT
+        amount: 100000
+        currency: CHF
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Urwerk
 body: |-
   Felix Baumgartner and Martin Frei have created one of the strongest visual and mechanical languages in watchmaking.
@@ -39,3 +63,9 @@ body: |-
   Signature architecture revolves around satellite and hour systems rather than conventional hands. Some movements use supplied foundations; others involve far deeper internal movement creation.
 
   Authorship: unquestionably high.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Complication category)
+    models:
+      - UR-Freak (Ulysse Nardin collaboration)

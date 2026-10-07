@@ -25,9 +25,15 @@ models:
       - amount: 68000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: C by Romain Gauthier Titanium Edition 39.5
+    years:
+      introduced: 2026
+    production:
+      note: 39.5mm Grade 5 titanium case (previously 41mm); blue/orange/pink dial accents with matching Super-LumiNova; first interchangeable rubber strap system
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Romain Gauthier
 body: |-
   One of the strongest manufactures on the entire list.

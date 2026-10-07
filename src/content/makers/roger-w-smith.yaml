@@ -24,9 +24,9 @@ models:
     status: current
     production:
       note: platinum or solid gold movement significantly more
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Roger W. Smith
 body: |-
   The most direct living continuation of George Daniels' philosophy.
@@ -38,3 +38,9 @@ body: |-
   Key watches include Series One through Series Six, with Series Two the foundational production movement designed specifically around the Daniels co-axial concept.
 
   Why canonical: arguably the clearest modern example of 'the complete watchmaker'.
+
+  2026 marks the 25th anniversary of Roger W. Smith Limited; 185 watches created to date, workshop output 15-20 watches per year, each made to order.
+awards:
+  - year: 2025
+    name: Prix Gaïa
+    result: winner (Craftsmanship-Creation category)

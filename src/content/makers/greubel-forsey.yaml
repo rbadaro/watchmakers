@@ -41,9 +41,9 @@ models:
       - amount: 510000
         currency: USD
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Greubel Forsey
 body: |-
   This is no longer a tiny one-man atelier, but excluding Greubel Forsey from a movement-first independent map would be absurd.
@@ -53,3 +53,5 @@ body: |-
   The Hand Made collection pushes the idea further, with exceptionally high manual production and even internal hairspring work in selected projects.
 
   Why canonical: one of the absolute peaks of modern mechanical execution.
+
+  Update 2026: co-founder Stephen Forsey's contract was terminated (effective 31 May 2026); he resigned from all company and foundation boards but remains a shareholder.

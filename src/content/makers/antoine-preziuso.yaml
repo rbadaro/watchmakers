@@ -27,9 +27,16 @@ models:
         amount: 1000000
         currency: USD
     status: current
-last_verified: '2026-08-31'
+  - name: Heritage Horloger
+    years:
+      introduced: 2026
+    production:
+      series_total: 40
+      note: 20 yellow gold, 20 platinum; hand-engraved 18k gold dial; manual-wound, 120h power reserve, hacking seconds; price on request
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-31'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Antoine Preziuso
 body: |-
   Antoine Preziuso is a Geneva master who came up through restoration before building original complications under his own name, a schooling visible in every movement he signs. His landmark work is the triple: the 3 Visions 3T trilogy and the TTR3, linking three tourbillons by differential, which crossed the public seven-figure line as the Million Dollar TTR3. His son Florian works beside him in the Geneva atelier, keeping output to bespoke and very small series.
@@ -37,3 +44,5 @@ body: |-
   The Tourbillon des Tourbillons is the reference piece: three tourbillon carriages circling a shared plate axis in 68 seconds, built as his own calibre and offered at CHF 380,000. At several points his complications have carried the Poinçon de Genève, submitting the whole construction to the Seal's requirements. Construction follows the classic Genevan split this report associates with the M3.5 band: components fabricated through the city's specialist chain, with finishing, assembly and regulation executed in the atelier.
 
   Why Tier C and A4 / M3.5: three decades of original high-complication authorship and triple-tourbillon work that remains almost without rival as bench-executed horology place him high within Tier C. Authorship stays at A4 rather than A5 because his language is tradition perfected, not grammar reinvented; manufacture stays at M3.5 because fabrication rides the supplier chain even as the bench work is his. Caveats are irregular output and a quiet public presence; price transparency above rests on the two documented anchors only.
+
+  September 2026 Geneva Watch Days saw the Heritage Horloger, a quieter classical register piece inspired by his 1928 Tourbillon Imperial pocket watch, limited to 40 pieces.

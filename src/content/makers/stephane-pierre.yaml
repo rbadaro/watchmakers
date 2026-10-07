@@ -23,9 +23,9 @@ models:
       - amount: 84000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Stéphane Pierre
 body: |-
   Pierre's L’Impétrant is an unusually ambitious debut. The 295-component movement incorporates bi-retrograde jumping indications, Maltese-cross stopwork, unusual dial-side architecture and highly sculptural construction.
@@ -34,3 +34,9 @@ body: |-
   Current view: promising, though Cleguer and Aubert & Ramel remain stronger mechanically.
 
   Update August 2026: L'Impétrant was selected in the preliminary round of the 2026 Grand Prix d'Horlogerie de Genève; winners will be announced on 7 November 2026.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Essential category)
+    models:
+      - L'Impetrant

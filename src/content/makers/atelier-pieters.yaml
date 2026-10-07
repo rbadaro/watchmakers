@@ -12,19 +12,37 @@ movement_making: partial
 website: https://atelierpieters.ch
 instagram: atelier_pieters
 price:
-  text: 'Atelier 1: approx. CHF 45,000; four pieces per reference per year'
+  text: 'Atelier 1 Founders'' Series: CHF 148,500 excl. VAT per colourway (8 pieces each of Jour and Minuit); ~4 pieces/year; first delivery Nov 2026.'
 models:
-  - name: 'Atelier 1:'
+  - name: Atelier 1 Founders' Series Jour
+    calibre: T2-03RM
+    years:
+      introduced: 2026
+    production:
+      series_total: 8
+      per_year: 4
+      note: tourbillon + dual planetary power reserve; 43.5mm Pt950; first delivery Nov 2026
     prices:
-      - amount: 45000
+      - text: excl. VAT
+        amount: 148500
         currency: CHF
     status: current
+  - name: Atelier 1 Founders' Series Minuit
+    calibre: T2-03RM
+    years:
+      introduced: 2026
     production:
+      series_total: 8
       per_year: 4
-      note: pieces per reference per year
-last_verified: '2026-08-31'
+      note: tourbillon + dual planetary power reserve; 43.5mm Pt950; first delivery Nov 2026
+    prices:
+      - text: excl. VAT
+        amount: 148500
+        currency: CHF
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-31'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Atelier Pieters
 body: |-
   Atelier Pieters is the husband-and-wife atelier of Maarten and Jessica Pieters in Les Hauts-Geneveys, high above La Chaux-de-Fonds. The atelier combines training work, historical techniques courses, and their own watchmaking. Their inaugural model, the Atelier 1, is produced at the almost ceremonial rate of four pieces per reference per year, and they exhibit as one of the 23 artisans at the Indies.NYC salon in October 2026.

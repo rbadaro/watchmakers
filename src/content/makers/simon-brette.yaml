@@ -34,12 +34,12 @@ models:
   - name: all
     status: sold_out
 awards:
-  - year: 2026
+  - year: 2024
     name: Louis Vuitton Watch Prize
     result: finalist
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Simon Brette
 body: |-
   Brette is probably the best example of why authorship and manufacturing need different scores.
@@ -52,3 +52,5 @@ body: |-
   Long-term view: one of the most likely members of the eventual modern canon.
 
   Update August 2026: Brette was a Louis Vuitton Watch Prize finalist in 2024, and the Chronomètre Artisans was shortlisted for the 2025 Grand Prix d'Horlogerie de Genève.
+
+  Prisma Cobra stainless steel bracelet (465 components, 2.5 years R&D, per official site) developed for the Chronometre Artisans Steel edition; platinum edition of Chronometre Artisans scheduled for winter 2026 per Brette's published four-metal roadmap.

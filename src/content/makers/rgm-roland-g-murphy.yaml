@@ -49,9 +49,28 @@ models:
         amount: 75000
         currency: USD
     status: current
-last_verified: '2026-08-31'
+  - name: Model 501-EFB (E.F. Bowman)
+    years:
+      introduced: 2026
+    production:
+      note: revives historic Lancaster E.F. Bowman name; 39mm American-made steel case; white Grand Feu enamel dial; RGM-finished Schwarz Etienne ASE 200 micro-rotor automatic, 86h PR
+    prices:
+      - text: steel
+        amount: 16950
+        currency: USD
+    status: current
+  - name: Model 501-PC Perpetual Calendar
+    years:
+      introduced: 2026
+    production:
+      note: first perpetual calendar since the 1990s; 39mm steel case; white Grand Feu enamel dial; ETA 2892-A2 modified by RGM with Dubois-Depraz perpetual calendar module; solid-gold winding rotor; moonphase
+    prices:
+      - amount: 39900
+        currency: USD
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: RGM / Roland G. Murphy
 body: |-
   RGM has quietly rebuilt serious American movement-making capability.
@@ -59,3 +78,5 @@ body: |-
   The Calibre 801 is the core manufacture calibre, while the Pennsylvania Tourbillon pushes further into high-end internal manufacture.
 
   Why important: one of the longest-running modern attempts to make rather than merely assemble mechanical watches in America.
+
+  Update October 2026: RGM has revived two new lines, the E.F. Bowman Model 501-EFB (historic Lancaster name, enamel dial, micro-rotor automatic) and the Model 501-PC, the brand's first perpetual calendar since the 1990s.

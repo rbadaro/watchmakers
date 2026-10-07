@@ -44,9 +44,20 @@ models:
       - amount: 400000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: SC02C
+    calibre: K.20-5
+    years:
+      introduced: 2026
+    production:
+      series_total: 28
+      note: space-tested mechanical chronograph developed with Roscosmos; modified Poljot 3133 base, 60 in-house components incl. 12-hour counter; 44mm antimagnetic steel
+    prices:
+      - amount: 50000
+        currency: CHF
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Konstantin Chaykin
 body: |-
   Chaykin is often underestimated because the Joker and Wristmon watches look playful.
@@ -54,3 +65,9 @@ body: |-
   Behind that lies a prolific mechanical inventor. His work includes proprietary regulators, astronomical watches, exotic displays and increasingly complete in-house calibres.
 
   Why interesting: one of the most prolific mechanical idea generators in contemporary independent watchmaking.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Mechanical Exception category)
+    models:
+      - ThinKing Mystery

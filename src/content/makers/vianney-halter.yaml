@@ -28,9 +28,9 @@ models:
       - amount: 860000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Vianney Halter
 body: |-
   Halter was crucial to the late-1990s and early-2000s independent-watchmaking renaissance.
@@ -40,3 +40,13 @@ body: |-
   Movement purity varies by period: earlier pieces drew substantially on existing movement architecture, while later work became increasingly proprietary and technically ambitious.
   Historical importance: enormous.
   Movement-first caveat: not as consistently M5 as Smith, Gauthier or Strehler.
+
+  In September 2026 Halter collaborated with Bvlgari on the Octo Finissimo Dual Time, the first Octo Finissimo dial designed by an outside independent watchmaker (new BVF 200 GMT calibre), released at Geneva Watch Days 2026 in limited editions.
+
+  The KWH collaboration with Behrens (2025, 18 gold pieces sold out) gained 2026 tantalum and ceramic editions (90 pieces each).
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Complication category)
+    models:
+      - Behrens X Vianney Halter KWH

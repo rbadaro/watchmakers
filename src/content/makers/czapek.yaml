@@ -47,8 +47,14 @@ models:
         amount: 61200
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Czapek
 body: Very good proprietary movement design, especially in the Antarctique family, but production depends substantially on specialist Swiss manufacturing partners. Legitimate haute horlogerie, simply not a Smith-style atelier.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Complication category)
+    models:
+      - Czapek Time Jumper

@@ -37,8 +37,17 @@ models:
       - amount: 19500
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Ming
-body: Excellent industrial design and movement customisation, but movement manufacturing typically involves specialist partners such as Schwarz Etienne. Buy for design, execution and coherent brand language.
+body: |-
+  Excellent industrial design and movement customisation, but movement manufacturing typically involves specialist partners such as Schwarz Etienne. Buy for design, execution and coherent brand language.
+
+  September 2026: MING founder Ming Thein quietly launched Donut Watch Company at Geneva Watch Days 2026, a separate affordable marque created by members of the MING team with MING backing (insisted it is its own brand, not a MING sub-brand). Debut Glazed prototype: 35mm polished steel case, flying-blade lugs, translucent frosted dial over a Japanese (Miyota) automatic, running-seconds at 5 o'clock, 50m WR, NATO strap, doughnut-shaped presentation case. Target price under about GBP 700. Not yet on sale; expressions of interest only.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Petite Aiguille category)
+    models:
+      - Ming x J.N. Shapiro 37.06 Lightning

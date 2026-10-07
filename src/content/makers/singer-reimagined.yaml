@@ -43,8 +43,41 @@ models:
         amount: 55000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: 1970 DualTrack
+    calibre: 4 Slim Dual Time
+    years:
+      introduced: 2026
+    production:
+      note: 40mm steel GMT; at retailers from October 2026
+    prices:
+      - text: excl. VAT
+        amount: 23500
+        currency: CHF
+    status: current
+  - name: Heritage V72
+    years:
+      introduced: 2026
+    production:
+      note: available early November 2026
+    prices:
+      - text: steel SR621, excl. taxes
+        amount: 23000
+        currency: CHF
+      - text: gold SR620-1, excl. taxes
+        amount: 45000
+        currency: CHF
+    status: current
+  - name: Caballero Titanium
+    years:
+      introduced: 2026
+    production:
+      note: 39mm Grade 5 titanium
+    prices:
+      - amount: 18500
+        currency: CHF
+    status: current
+last_verified: '2026-10-07'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-07'
 doc_heading: Singer Reimagined
 body: Brilliant chronograph concepts, but Agenhor is central to the mechanical magic. This is closer to a world-class design and commissioning collaboration than a movement-maker.
