@@ -53,9 +53,9 @@ models:
         amount: 100000
         currency: CHF
     status: current
-last_verified: '2026-10-07'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-10-07'
+updated: '2026-10-13'
 doc_heading: Urwerk
 body: |-
   Felix Baumgartner and Martin Frei have created one of the strongest visual and mechanical languages in watchmaking.
@@ -63,6 +63,8 @@ body: |-
   Signature architecture revolves around satellite and hour systems rather than conventional hands. Some movements use supplied foundations; others involve far deeper internal movement creation.
 
   Authorship: unquestionably high.
+
+  The UR-1001 Amadeus (2026) is a unique hand-engraved titanium pocket watch (cal. UR-10.01) with 100-year and 1,000-year indicators, around 500 hours of engraving by Florian Güllert, priced CHF 450,000, shown at Geneva Watch Days 2026.
 awards:
   - year: 2026
     name: Grand Prix d'Horlogerie de Genève

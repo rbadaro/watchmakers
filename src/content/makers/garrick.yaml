@@ -12,7 +12,7 @@ movement_making: partial
 website: https://garrick.co.uk/
 instagram: garrickwatchco
 price:
-  text: 'Norfolk: GBP 2,495 ex VAT / GBP 2,995 inc VAT; S5: GBP 16,000 ex VAT (launch, likely higher now); S3 MK2: GBP 27,495 ex VAT / GBP 32,995 inc VAT; S7 entry model a piece unique under GBP 10,000'
+  text: 'Norfolk: GBP 2,495 ex VAT / GBP 2,995 inc VAT; S5: GBP 16,000 ex VAT (launch, likely higher now); S3 MK2: GBP 32,450 ex VAT / GBP 38,940 inc VAT; S7 entry model a piece unique under GBP 10,000'
 models:
   - name: Norfolk
     prices:
@@ -32,10 +32,19 @@ models:
   - name: S3 MK2
     prices:
       - text: ex VAT /
-        amount: 27495
+        amount: 32450
         currency: GBP
       - text: inc VAT
-        amount: 32995
+        amount: 38940
+        currency: GBP
+    status: current
+  - name: S3 Deadbeat Seconds - Power Reserve
+    prices:
+      - text: steel, inc VAT
+        amount: 48000
+        currency: GBP
+      - text: gold, inc VAT
+        amount: 57000
         currency: GBP
     status: current
   - name: S7 entry model a piece unique under
@@ -43,9 +52,9 @@ models:
       - amount: 10000
         currency: GBP
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-13'
 doc_heading: Garrick
 body: |-
   Particularly relevant to modern British watchmaking.

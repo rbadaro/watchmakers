@@ -25,9 +25,17 @@ models:
       - amount: 60000
         currency: CHF
     status: sold_out
-last_verified: '2026-08-31'
+  - name: "L'Essentiel"
+    production:
+      note: 39mm titanium
+    prices:
+      - text: before tax
+        amount: 60000
+        currency: CHF
+    status: current
+last_verified: '2026-10-13'
 added: '2026-08-31'
-updated: '2026-08-31'
+updated: '2026-10-13'
 doc_heading: Fabian Pellet
 body: |-
   Fabian Pellet is a Swiss watchmaker who set up his own atelier in Tokyo. Trained at the watchmaking school in La Chaux-de-Fonds, he spent years working on complications at high-end suppliers in the Vallée de Joux before moving to Japan, a reversal of the more common route taken by Sekiguchi and Nakajima. He presented his first watch under his own name in 2024, a three-piece platinum debut that sold immediately, with a titanium version following in 2026.

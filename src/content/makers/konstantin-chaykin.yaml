@@ -55,9 +55,9 @@ models:
       - amount: 50000
         currency: CHF
     status: current
-last_verified: '2026-10-07'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-10-07'
+updated: '2026-10-13'
 doc_heading: Konstantin Chaykin
 body: |-
   Chaykin is often underestimated because the Joker and Wristmon watches look playful.
@@ -65,6 +65,8 @@ body: |-
   Behind that lies a prolific mechanical inventor. His work includes proprietary regulators, astronomical watches, exotic displays and increasingly complete in-house calibres.
 
   Why interesting: one of the most prolific mechanical idea generators in contemporary independent watchmaking.
+
+  At Geneva Watch Days 2026 Chaykin showed the SC02C, a space-tested chronograph made with Roscosmos (28 pieces, CHF 50,000), and a further prototype iteration of the 1.65mm ThinKing, whose design was first shown in August 2024.
 awards:
   - year: 2026
     name: Grand Prix d'Horlogerie de Genève

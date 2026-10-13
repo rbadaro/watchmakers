@@ -7,7 +7,7 @@ tier: B
 scores:
   A: 5
   M: 5
-status: active
+status: retired
 location: Germany
 country: Germany
 movement_making: full_inhouse
@@ -24,9 +24,9 @@ models:
         amount: 120000
         currency: USD
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-13'
 doc_heading: Christian Klings
 body: |-
   Klings is almost a perfect example of the forgotten independent master.

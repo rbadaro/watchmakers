@@ -26,9 +26,21 @@ models:
       - amount: 24000
         currency: EUR
     status: sold_out
-last_verified: '2026-08-31'
+  - name: Mondphase II
+    prices:
+      - text: steel
+        amount: 45000
+        currency: EUR
+      - text: bronze
+        amount: 58000
+        currency: EUR
+      - text: platinum
+        amount: 65000
+        currency: EUR
+    status: current
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-13'
 doc_heading: Felipe Pikullik
 body: |-
   Pikullik's positioning changed materially in 2025–26.

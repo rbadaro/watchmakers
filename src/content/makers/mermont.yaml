@@ -1,8 +1,9 @@
-slug: bernard-mermont
-name: Bernard Mermont
-type: individual
+slug: mermont
+name: Mermont
+type: brand
 people:
-  - Bernard Mermont
+  - Sebastian Bey-Haut
+  - Nicolas Delaloye
 tier: I
 status: active
 website: https://mermont.ch/
@@ -17,8 +18,8 @@ models:
     status: current
   - name: salmon dial family-and-friends version
     status: sold_out
-last_verified: '2026-08-31'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-08-31'
-doc_heading: Bernard Mermont
+updated: '2026-10-13'
+doc_heading: Mermont
 body: Beautiful artisanal execution, but La Parfaite uses La Joux-Perret and Peseux-based movement architecture. Therefore not a central candidate for this particular movement-first exercise.
