@@ -12,7 +12,7 @@ movement_making: partial
 website: https://zeitwinkel.ch/
 instagram: zeitwinkel.ch
 price:
-  text: '273° Saphir Fumé: CHF 21,500 excl. VAT; 273° Saphir Bleu: CHF 15,500; 188° collection 39mm: CHF 9,900'
+  text: '273° Saphir Fumé: CHF 21,500 excl. VAT; 273° Saphir Bleu: CHF 21,500 excl. VAT; 188° collection 39mm: CHF 14,900 excl. VAT'
 models:
   - name: 273° Saphir Fumé
     prices:
@@ -21,17 +21,17 @@ models:
     status: current
   - name: 273° Saphir Bleu
     prices:
-      - amount: 15500
+      - amount: 21500
         currency: CHF
     status: current
   - name: 188° collection 39mm
     prices:
-      - amount: 9900
+      - amount: 14900
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-13'
 doc_heading: Zeitwinkel
 body: |-
   A surprisingly serious manufacture hidden behind extremely restrained styling.

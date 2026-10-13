@@ -31,9 +31,18 @@ models:
     status: current
   - name: Geometry, Roswell and La Chaux-de-Fonds tourbillon lines
     status: current
-last_verified: '2026-08-31'
+  - name: 1902 Synergy by Peter Speake
+    production:
+      series_total: 88
+      note: 39mm Grade 5 titanium
+    prices:
+      - text: before taxes, 39mm Grade 5 titanium, limited to 88 pieces
+        amount: 25500
+        currency: CHF
+    status: current
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-13'
 doc_heading: Schwarz Etienne
 body: |-
   Another sleeper manufacture.

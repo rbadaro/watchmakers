@@ -47,9 +47,21 @@ models:
         amount: 61200
         currency: CHF
     status: current
-last_verified: '2026-10-07'
+  - name: Time Jumper
+    calibre: '10.1'
+    production:
+      note: in-house automatic, 24h jumping hours display
+    prices:
+      - text: steel, 100 pieces
+        amount: 42000
+        currency: CHF
+      - text: 3N yellow gold, 30 pieces
+        amount: 64000
+        currency: CHF
+    status: current
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-10-07'
+updated: '2026-10-13'
 doc_heading: Czapek
 body: Very good proprietary movement design, especially in the Antarctique family, but production depends substantially on specialist Swiss manufacturing partners. Legitimate haute horlogerie, simply not a Smith-style atelier.
 awards:

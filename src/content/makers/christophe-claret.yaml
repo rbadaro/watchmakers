@@ -12,7 +12,7 @@ movement_making: full_inhouse
 website: https://www.claret.ch/
 instagram: christopheclaretofficial
 price:
-  text: 'Maestro: USD 68,000; Kantharos: USD 108,000; Poker: USD 168,000 (last known retail per EveryWatch index, Oct 2025 to Jul 2026); Concertino: CHF 348,000 titanium / CHF 378,000 red gold (2021); Napoleon Westminster minute repeater: CHF 590,000 (2021). Brand dormant; figures are last known retail'
+  text: 'Figures are last known retail: Napoleon Westminster: CHF 590,000'
 models:
   - name: Maestro
     prices:
@@ -45,9 +45,9 @@ models:
         amount: 590000
         currency: CHF
     status: current
-last_verified: '2026-10-07'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-10-07'
+updated: '2026-10-13'
 doc_heading: Christophe Claret
 body: |-
   Claret was an elite movement constructor before becoming a consumer-facing watch brand.

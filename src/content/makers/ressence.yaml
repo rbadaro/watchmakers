@@ -6,7 +6,7 @@ status: active
 website: https://ressencewatches.com/
 instagram: ressence_watches
 price:
-  text: 'Type 9: EUR 16,700; Type 8: EUR 18,000 (DE1/DE2 art editions EUR 25,000); Type 1 Round/Slim/Squared: EUR 24,150; Type 5: EUR 40,850; Type 7 XV: EUR 47,700; Type 3: EUR 50,600; Type 2: EUR 61,900; Type 11: USD 31,400 (US retailer, no EUR price published)'
+  text: 'Type 9: EUR 16,700; Type 8: EUR 18,000 (DE1/DE2 art editions EUR 25,000); Type 1 Round/Slim/Squared: EUR 24,150; Type 5: EUR 40,850; Type 7 XV: EUR 47,700; Type 3: EUR 50,600; Type 2: EUR 61,900; Type 11: USD 31,400 / CHF 23,000 excl. VAT'
 models:
   - name: Type 9
     prices:
@@ -52,6 +52,9 @@ models:
       - text: US retailer, no EUR price published
         amount: 31400
         currency: USD
+      - text: excl. VAT
+        amount: 23000
+        currency: CHF
     status: current
   - name: Type 9 Jules Wittock
     years:
@@ -64,8 +67,8 @@ models:
         amount: 20000
         currency: CHF
     status: current
-last_verified: '2026-10-07'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-10-07'
+updated: '2026-10-13'
 doc_heading: Ressence
 body: One of the cleverest display systems in contemporary horology. The orbital display mechanism is highly proprietary, but sits on movement foundations that prevent Ressence from fitting the traditional complete-watchmaker category.

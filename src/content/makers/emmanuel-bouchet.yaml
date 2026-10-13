@@ -21,9 +21,23 @@ models:
       - amount: 127000
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: Source Aleph Day
+    production:
+      note: 39mm, stone dial
+    prices:
+      - amount: 104030
+        currency: USD
+    status: current
+  - name: Source Aleph Night
+    production:
+      note: 39mm, stone dial
+    prices:
+      - amount: 104030
+        currency: USD
+    status: current
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-13'
 doc_heading: Emmanuel Bouchet
 body: |-
   Bouchet's Complication One established a strong mechanical identity around an unconventional visible escapement and regulating architecture.

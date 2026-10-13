@@ -22,9 +22,9 @@ models:
         amount: 5903700
         currency: JPY
     status: current
-last_verified: '2026-10-07'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-10-07'
+updated: '2026-10-13'
 doc_heading: Daizoh Makihara
 body: |-
   Makihara's work combines high-level watchmaking and exceptional Japanese decorative craft.
@@ -33,6 +33,8 @@ body: |-
 
   Production is tiny enough that lead times can become extraordinary.
   Why interesting: arguably more artistic than chronometric, but still genuine movement watchmaking rather than decorative packaging.
+
+  Beauties of Nature is priced around USD 160,000 and is produced at one piece per year, with a waiting list of about seven years. A third project is in development, a simple three-hand watch of 36 to 38mm with an improved Edo Kiriko dial.
 awards:
   - year: 2026
     name: Louis Vuitton Watch Prize for Independent Creatives

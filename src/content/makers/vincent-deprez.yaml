@@ -15,9 +15,23 @@ website: https://vincentdeprez.watch
 instagram: vincent_deprez
 price:
   text: not published
-last_verified: '2026-08-31'
+models:
+  - name: Tourbillon Classique Souscription Edition
+    production:
+      series_total: 10
+    prices:
+      - text: 10 pieces
+    status: sold_out
+  - name: Tourbillon Classique - Scientific Edition
+    production:
+      series_total: 10
+      note: 39mm, dark blue grand feu enamel dial, fully subscribed
+    prices:
+      - text: price on request
+    status: sold_out
+last_verified: '2026-10-13'
 added: '2026-08-31'
-updated: '2026-08-31'
+updated: '2026-10-13'
 doc_heading: Vincent Deprez
 body: |-
   Vincent Deprez works near Geneva and came to independence from a decade of high-end restoration for the biggest houses, including time inside Vacheron Constantin and Patek Philippe restoration departments. He came to wider attention in 2025 when Dutch and Swiss press profiled his first independent watch, a traditionally constructed tourbillon made almost entirely without computer-controlled machines.

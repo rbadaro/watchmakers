@@ -6,7 +6,7 @@ scores:
   A: 4.5
   M: 4.5
 status: active
-location: Birmingham, United Kingdom
+location: Leek, Staffordshire Moorlands, United Kingdom
 country: United Kingdom
 movement_making: partial
 website: https://strutherswatchmakers.co.uk
@@ -21,9 +21,9 @@ models:
       - amount: 72000
         currency: GBP
     status: current
-last_verified: '2026-10-07'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-10-07'
+updated: '2026-10-13'
 doc_heading: Struthers Watchmakers
 body: |-
   A much more important inclusion for the British side of the map.

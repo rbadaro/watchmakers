@@ -55,9 +55,17 @@ models:
       - amount: 17900
         currency: EUR
     status: current
-last_verified: '2026-10-07'
+  - name: KUDOKE 3 Nocturne
+    production:
+      series_total: 20
+    prices:
+      - text: excl. VAT, limited to 20 pieces
+        amount: 12574
+        currency: EUR
+    status: current
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-10-07'
+updated: '2026-10-13'
 doc_heading: Stefan Kudoke
 body: |-
   Kudoke bridges traditional German finishing and genuinely proprietary movement work.

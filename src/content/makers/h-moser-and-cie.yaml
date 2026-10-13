@@ -38,9 +38,30 @@ models:
       - amount: 49900
         currency: CHF
     status: current
-last_verified: '2026-08-31'
+  - name: Streamliner OFF-GRID
+    production:
+      note: connected ana-digi model, Calibre D10 developed with Sequent; 1,000 pieces per colourway
+    prices:
+      - text: excl. tax
+        amount: 3900
+        currency: CHF
+      - amount: 4900
+        currency: USD
+    status: current
+  - name: Endeavour Flyback Chronograph Dual Time Date
+    production:
+      note: ref. 1730-1200
+    prices:
+      - text: excl. VAT
+        amount: 59000
+        currency: CHF
+      - text: incl. taxes
+        amount: 74500
+        currency: CHF
+    status: current
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-13'
 doc_heading: H. Moser & Cie.
 body: |-
   Moser is much larger than the artisan ateliers, but mechanically far more vertically integrated than many collectors realise.
@@ -48,3 +69,21 @@ body: |-
   Its group includes Precision Engineering, providing unusual control over hairspring and regulating-component capability.
 
   Notable movements include modular escapement systems, perpetual calendar, minute repeater, tourbillon and sophisticated automatic calibres.
+
+  Launched in September 2026 under the Moser Exploration LAB, the Streamliner OFF-GRID is a connected ana-digi model (Calibre D10 developed with Sequent), made in 1,000 pieces per colourway; its order window closed on 5 October 2026.
+awards:
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Chronograph category)
+    models:
+      - Endeavour Flyback Chronograph Dual Time Date
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Mechanical Exception category)
+    models:
+      - Endeavour Minute Repeater Cylindrical Tourbillon Skeleton Cosmic Rain
+  - year: 2026
+    name: Grand Prix d'Horlogerie de Genève
+    result: nominated (Sports category)
+    models:
+      - Streamliner Pump

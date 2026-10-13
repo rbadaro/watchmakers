@@ -49,9 +49,9 @@ models:
         amount: 180000
         currency: CHF
     status: sold_out
-last_verified: '2026-10-07'
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-10-07'
+updated: '2026-10-13'
 doc_heading: Sylvain Pinaud
 body: |-
   Pinaud's Origine is one of the cleanest modern examples of genuine independent manufacture.
@@ -60,6 +60,8 @@ body: |-
 
   Strengths: movement construction, hand finishing, very contemporary architecture and high component-making content.
   My view: much more important mechanically than his brand recognition currently suggests.
+
+  The Origine is fully allocated through its planned run ending in 2027 and is being sunset, with an evolution of the Origine teased (per Hodinkee, Aug 2026).
 awards:
   - year: 2026
     name: Grand Prix d'Horlogerie de Genève

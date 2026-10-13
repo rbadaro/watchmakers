@@ -22,10 +22,10 @@ models:
     prices:
       - amount: 89391
         currency: CHF
-    status: current
-last_verified: '2026-08-31'
+    status: sold_out
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-08-31'
+updated: '2026-10-13'
 doc_heading: Xhevdet Rexhepi
 body: |-
   Xhevdet should not simply be treated as 'Rexhep's brother'.

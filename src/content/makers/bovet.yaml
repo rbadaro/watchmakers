@@ -12,7 +12,7 @@ movement_making: full_inhouse
 website: https://bovet.com/
 instagram: bovet1822
 price:
-  text: 'Mostly on request (est. CHF 24,500 to CHF 200,000+): Récital 29 steel CHF 24,500 indicated price; Récital 23 18k red gold EUR 70,000 (diamond bezel) to EUR 120,000; Virtuoso VIII Chapter Two DLC-SLN CHF 200,000'
+  text: 'Mostly on request (est. CHF 24,500 to CHF 200,000+): Récital 29 steel CHF 24,500 indicated price; Récital 23 18k red gold EUR 70,000 (diamond bezel) to EUR 120,000; Virtuoso VIII Chapter Two DLC-SLN CHF 200,000; Récital 31 titanium CHF 102,000, 18K red gold CHF 122,000'
 models:
   - name: Mostly on request (est
     prices:
@@ -39,9 +39,20 @@ models:
       - amount: 200000
         currency: CHF
     status: current
-last_verified: '2026-10-07'
+  - name: Récital 31
+    production:
+      note: perpetual calendar, retrograde date, spherical moonphase
+    prices:
+      - text: titanium
+        amount: 102000
+        currency: CHF
+      - text: 18K red gold
+        amount: 122000
+        currency: CHF
+    status: current
+last_verified: '2026-10-13'
 added: '2026-08-29'
-updated: '2026-10-07'
+updated: '2026-10-13'
 doc_heading: Bovet
 body: |-
   Much larger and more theatrical than the makers that dominate this report, but technically a real integrated manufacture.
